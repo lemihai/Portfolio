@@ -14,7 +14,7 @@
 .work{
     
     height: 1000px;
-    background-image: url("/website/images/ps1.jpg");
+    background-image: url("/images/ps1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -57,7 +57,7 @@
     width: 95%;
     background-color: rgb(127, 78, 173);
     border-radius: 10px;
-    background-image: url("/website/images/ps1.jpg");
+    background-image: url("/images/ps1.jpg");
     background-position: center;
     background-size: cover;
 }
