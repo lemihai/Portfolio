@@ -51,9 +51,22 @@ h1{
 .social{
     margin-left: 20px;
     margin-right: 20px;
-    width: 120px;
+    width: 130px;
+    height: 40px;
     display: flex;
     justify-content: space-evenly;
+    align-items:center;
+    transition: 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.social:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.123);
 }
 
 .copyright{
