@@ -1,0 +1,24 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.fixed{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: fixed;
+}
+
+.scrollable{
+    width:70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fill{
+    width: 30%;
+}
