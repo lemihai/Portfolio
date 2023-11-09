@@ -53,7 +53,7 @@
 } 
 
 .card-content{
-    height: 97%;
+    height: 97.5%;
     width: 95%;
     background-color: rgb(127, 78, 173);
     border-radius: 10px;
@@ -80,5 +80,5 @@
 }
 
 #card-unf-right-right{
-    opacity: 0.6;
+    opacity: 0.64;
 }
