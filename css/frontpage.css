@@ -49,8 +49,14 @@
     border-radius: 10px; 
     margin-left: 25px;
     margin-right: 25px;
+    transition: 0.3s;
     /* instead of adding shadows to this, change the shadown in JS based on which element is in the middle  */
 } 
+
+.card:hover{
+    width: 210px;
+    height: 110%;
+}
 
 .card-content{
     height: 97.5%;
@@ -71,6 +77,11 @@
 #cardINfocus{
     height: 110%;
     width: 220px;
+}
+
+#cardINfocues:hover{
+    height: 115%;
+    width: 225px;
 }
 
 #card-unf-left{
