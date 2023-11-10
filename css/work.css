@@ -5,10 +5,15 @@
 
 .fixed{
     width:30%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    position: -webkit-sticky;
+    justify-content: center;
     position: fixed;
+}
+
+.section-wrap{
+    margin-left: 20%;
 }
 
 .scrollable{
