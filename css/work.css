@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.fixed{
+    width:30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+}
+
+.section-wrap{
+    margin-left: 20%;
+}
+
+.scrollable{
+    width:70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fill{
+    width: 30%;
+}
