@@ -3,136 +3,23 @@
 <head>
     <meta charset="utf-8">
     <title>Mihai Butnariu UX</title>
-    <style>
-
-        
-#ps1{
-    background-image: url("/images/ps1.jpg");
-}
-
-#ps2{
-    background-image: url("/images/ps1.jpg");
-}
-
-#grad{
-    background-image: url("/images/ps1.jpg");
-}
-        .work{
-            height: 1000px;
-            background-image: url("/images/ps1.jpg");
-            background-position: center;
-            background-size: cover;
-        }
-
-        .fader{
-            background: rgb(255,255,255);
-            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,1) 100%);
-            height: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        #carousel{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 55%;
-            width: 100%;
-            overflow: hidden;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .card{ 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: rgba(191, 166, 214, 0.301);
-            backdrop-filter: blur(10px);
-            height: 80%;
-            width: 200px;
-            border-radius: 10px; 
-            margin-left: 25px;
-            margin-right: 25px;
-            transition: 1s;
-            /* instead of adding shadows to this, change the shadown in JS based on which element is in the middle  */
-        } 
-
-        .a{
-            background-color: rgb(212, 130, 7);
-            transform: perspective(800px) rotateY(50deg); /* Apply perspective and rotation */
-            transition: transform 1s ease-in-out;
-            height: 90%;
-            opacity:0.7;
-            animation-delay: 250ms;
-        }
-
-        .b{
-            background-color: rgb(7, 212, 109);
-            height: 50%;
-            transition: transform 1s ease-in-out;
-            animation-delay: 250ms;
-        }
-
-        .c{
-            background-color: rgb(7, 154, 212);
-            transform: perspective(800px) rotateY(-50deg); /* Apply perspective and rotation */
-            transition: transform 1s ease-in-out;
-            height: 90%;
-            margin-right: -5%;
-            opacity:0.9;
-            animation-delay: 250ms;
-        }
-
-    </style>
+    <link href="testb.css" rel="stylesheet">
+    <script src="testb.js"></script>
 </head>
 <body >
+
     <div class="work" id="img">      <!--  work section  -->
         <div class="fader">      <!--  fading work section  -->
-            <div id="carousel">      <!--  vertical div that covers the cards  -->
-                <div class="card a" id="one"> <!--  projects card  -->
-                </div>
-                <div class="card b" id="two">
-                </div>
-                <div class="card c" id="three">
-                </div>
+            <div class="carousel">
+                <div class="card ps1 left-left" id="a">first</div>
+                <div class="card ps2 left" id="b">second</div>
+                <div class="card grad middle" id="c">third</div>
+                <div class="card p3 right" id="d">forth</div>
+                <div class="card utd right-right" id="e">fifth</div>
             </div>
         </div>
-        <button onclick="left()">left</button>
-        <button onclick="right()">right</button>
+        <button onclick="checkStyle()" id="btn">shuffle</button>
     </div>
-<script>
-    const cards = document.querySelectorAll('.card');
-
-    cards.forEach(element => {
-        console.log(cards.id);
-    });
-    
-    const specialDiv = document.getElementById('card');
-
-    // Add click event listener to the special div
-    specialDiv.addEventListener('click', function() {
-    // Handle the click event on the special div
-    alert('Special Div Clicked!');
-    });
-
-
-    
-    function left(){
-        a.classList.add("a");
-        b.classList.add("b");
-    }
-
-    function right(){
-
-        a.classList.add("a");
-        b.classList.add("b");
-    }
-
-
-
-</script>
-
 </body>
 </html>
+
