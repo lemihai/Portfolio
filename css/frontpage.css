@@ -46,11 +46,11 @@
     background-color: rgba(191, 166, 214, 0.301);
     backdrop-filter: blur(10px);
     height: 80%;
-    width: 200px;
+    width: 250px;
     border-radius: 10px; 
     margin-left: 25px;
     margin-right: 25px;
-    transition: 0.3s;
+    transition: 1s;
     /* instead of adding shadows to this, change the shadown in JS based on which element is in the middle  */
 } 
 
@@ -79,6 +79,26 @@
     background-size: cover;
 }
 
+ps1{
+    background-color: rgb(212, 130, 7);
+}
+
+.ps2{
+    background-color: rgb(7, 35, 177);
+}
+
+.grad{
+    background-color: rgb(212, 7, 7);
+}
+
+.p3{
+    background-color: rgb(24, 212, 7);
+}
+
+.utd{
+    background-color: rgb(212, 7, 150);
+}
+
 #ps1{
     background-image: url("/images/ps1.jpg");
 }
@@ -105,28 +125,40 @@
     height: 100%;
 }
 
-#cardINfocus{
-    height: 110%;
-    width: 220px;
+.left-left{
+    transform: perspective(800px) rotateY(50deg);
+    height: 80%;
+    order: 0;
+    right: 0;
+    transition-duration: 3s;
 }
 
-#cardINfocues:hover{
-    height: 115%;
-    width: 225px;
+.left{
+    transform: perspective(800px) rotateY(30deg);
+    height: 70%;
+    order: 1;
+    transition-duration: 3s;
 }
 
-#card-unf-left{
-    opacity: 0.8;
+.middle{
+    height: 100%;
+    order: 2;
+    margin-left: 20%;
+    margin-right: 20%;
+    transition-duration: 3s;
 }
 
-#card-unf-right{
-    opacity: 0.8;
+.right{
+    transform: perspective(800px) rotateY(-30deg);
+    height: 70%;
+    order: 3;
+    transition-duration: 3s;
 }
 
-#card-unf-left-left{
-    opacity: 0.6;
-}
-
-#card-unf-right-right{
-    opacity: 0.64;
+.right-right{
+    transform: perspective(800px) rotateY(-50deg);
+    height: 80%;
+    order: 4;
+    left: 0;
+    transition-duration: 3s;
 }

@@ -1,4 +1,5 @@
 
+//List classes with for each
 document.addEventListener("DOMContentLoaded", function(){
     var cards = document.querySelectorAll(".card");
 
@@ -10,80 +11,112 @@ document.addEventListener("DOMContentLoaded", function(){
     
 });
 
-console.log("hey");
+//List classes with for loop
+document.addEventListener("DOMContentLoaded", function(){
+    var cards = document.querySelectorAll(".card");
 
-document.addEventListener("DOMContentLoaded", function() {
+    for (var i = 0; i < cards.length; i++) {
+        var dv = cards[i];
+        var name = dv.className;
 
-    var divs = document.getElementsByClassName("card");
-
-
-    for (var i = 0; i < divs.length; i++) {
-        var currentDiv = divs[i];
-        var divClass = currentDiv.className;
-        var divContent = currentDiv.textContent || currentDiv.innerText;
-        console.log("Class: " + divClass + ", Content: " + divContent);
+        console.log("class: " + name);
     }
 });
 
-var a = new Array();
 
-function checkStyle(){
+function left() {
     var cards = document.querySelectorAll('.card');
-    a = document.getElementsByClassName("card");
-    for (var i = 0; i < a.length; i++) {
-        var currentDiv = a[i];
-        var divClass = currentDiv.className;
-        var divContent = currentDiv.textContent || currentDiv.innerText;
-        console.log("CL: " + divClass);
+    var firstCard = cards[0];
+    var firstOrder = parseInt(getComputedStyle(firstCard).order);
+
+    for (var i = 0; i < cards.length - 1; i++) {
+        var currentCard = cards[i];
+        var nextCard = cards[i + 1];
+        var nextOrder = parseInt(getComputedStyle(nextCard).order);
+
+        currentCard.style.order = nextOrder;
     }
 
-//INTRODUCE THE BELOW CODE INTO THE FOR TO SOLVE THE DISORDER
+    // Move the last card to the first position
+    cards[cards.length - 1].style.order = firstOrder;
 
+    // Update the classes based on the new order
     cards.forEach(function (box) {
         var order = getComputedStyle(box).order;
-        if (parseInt(order) === 1){
-            box.classList.remove(box.classList.item(2));
-            box.classList.add('left-left');
-            
-        }
-        if (parseInt(order) === 2){
-            box.classList.remove(box.classList.item(2));
-            box.classList.add('left');
-
-        }
-        if (parseInt(order) === 3){
-            box.classList.remove(box.classList.item(2));
-            box.classList.add('middle');
-
-        }
-        if (parseInt(order) === 4){
-            box.classList.remove(box.classList.item(2));
-            box.classList.add('right');
-
-        }
-        if (parseInt(order) === 5){
-            box.classList.remove(box.classList.item(2));
-            box.classList.add('right-right');
-        }
+        // ... (your existing code to update classes)
         console.log("Box " + box.id + " has flex order: " + order);
-        
-        cards.forEach(function (box){
-            var order = getComputedStyle(box).order;
-            if (parseInt(order) === 1){
-            box.style.order = 2;}
-            if (parseInt(order) === 2){
-                box.style.order = 3;}
-                if (parseInt(order) === 3){
-                    box.style.order = 4;}
-                    if (parseInt(order) === 4){
-                        box.style.order = 5;}
-                        if (parseInt(order) === 5){
-                            box.style.order = 1;}
-        });
     });
+
+    for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        var order = parseInt(getComputedStyle(card).order);
+
+        if (order === 0) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('left');
+            console.log("here");
+        } else if (order === 1) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('middle');
+        } else if (order === 2) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('right');
+        } else if (order === 3) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('right-right');
+        } else if (order === 4) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('left-left');
+        }
+    }
 }
 
 
-function shuffle(){
-    var diva 
+function right() {
+    var cards = document.querySelectorAll('.card');
+    var lastCard = cards[cards.length - 1];
+    var lastOrder = parseInt(getComputedStyle(lastCard).order);
+
+    for (var i = cards.length - 1; i > 0; i--) {
+        var currentCard = cards[i];
+        var prevCard = cards[i - 1];
+        var prevOrder = parseInt(getComputedStyle(prevCard).order);
+
+        currentCard.style.order = prevOrder;
+    }
+
+    // Move the first card to the last position
+    cards[0].style.order = lastOrder;
+
+    // Update the classes based on the new order
+    cards.forEach(function (box) {
+        var order = getComputedStyle(box).order;
+        // ... (your existing code to update classes)
+        console.log("Box " + box.id + " has flex order: " + order);
+    });
+    
+    
+    for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        var order = parseInt(getComputedStyle(card).order);
+
+        if (order === 0) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('right-right');
+            console.log("here");
+        } else if (order === 1) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('left-left');
+        } else if (order === 2) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('left');
+        } else if (order === 3) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('middle');
+        } else if (order === 4) {
+            card.classList.remove(card.classList.item(2));
+            card.classList.add('right');
+        }
+    }
+
 }

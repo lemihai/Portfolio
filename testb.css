@@ -64,43 +64,31 @@
 .left-left{
     transform: perspective(800px) rotateY(50deg);
     height: 80%;
+    order: 0;
 }
 
 .left{
     transform: perspective(800px) rotateY(30deg);
     height: 80%;
+    order: 1;
 }
 
 .middle{
     height: 100%;
+    order: 2;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .right{
     transform: perspective(800px) rotateY(-30deg);
     height: 80%;
+    order: 3;
 }
 
 .right-right{
     transform: perspective(800px) rotateY(-50deg);
     height: 80%;
-}
-
-#a{
-    order: 1;
-}
-
-#b{
-    order: 2;
-}
-
-#c{
-    order: 3;
-}
-
-#d{
     order: 4;
 }
 
-#e{
-    order: 5;
-}
