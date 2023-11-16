@@ -12,11 +12,10 @@
 }
 
 .work{
-    
     height: 1000px;
-    background-image: url("/images/ps1.jpg");
     background-position: center;
     background-size: cover;
+    transition: .6s;
 }
 
 .fader{
@@ -33,9 +32,8 @@
     justify-content: center;
     align-items: center;
     height: 55%;
-    width: 100%;
+    width: 110%;
     overflow: hidden;
-    transition: transform 0.5s ease-in-out;
 }
 
 .card{ 
@@ -46,11 +44,9 @@
     background-color: rgba(191, 166, 214, 0.301);
     backdrop-filter: blur(10px);
     height: 80%;
-    width: 250px;
+    width: 200px;
     border-radius: 10px; 
-    margin-left: 25px;
-    margin-right: 25px;
-    transition: 1s;
+    transition: .3s;
     /* instead of adding shadows to this, change the shadown in JS based on which element is in the middle  */
 } 
 
@@ -59,6 +55,7 @@
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     cursor: grab;
+    transition: .3s;
 }
 
 .card:focus{
@@ -66,6 +63,7 @@
     background-color: lightcoral;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
+    transition: .3s;
 }
 
 
@@ -74,12 +72,11 @@
     width: 95%;
     background-color: rgb(127, 78, 173);
     border-radius: 10px;
-    
     background-position: center;
     background-size: cover;
 }
 
-ps1{
+.ps1{
     background-color: rgb(212, 130, 7);
 }
 
@@ -104,19 +101,19 @@ ps1{
 }
 
 #ps2{
-    background-image: url("/images/ps1.jpg");
+    background-image: url("/images/ps2.jpg");
 }
 
 #p3{
-    background-image: url("/images/ps1.jpg");
+    background-image: url("/images/p3.jpg");
 }
 
 #grad{
-    background-image: url("/images/ps1.jpg");
+    background-image: url("/images/grad.jpg");
 }
 
 #utd{
-    background-image: url("/images/ps1.jpg");
+    background-image: url("/images/utd.jpg");
 }
 
 .link{
@@ -130,29 +127,36 @@ ps1{
     height: 80%;
     order: 0;
     right: 0;
-    transition-duration: 3s;
+    margin-left: 3%;
+    margin-right: 3%;
+    transition: .3s;
 }
 
 .left{
     transform: perspective(800px) rotateY(30deg);
     height: 70%;
     order: 1;
-    transition-duration: 3s;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: .3s;
 }
 
 .middle{
-    height: 100%;
+    height: 90%;
     order: 2;
-    margin-left: 20%;
-    margin-right: 20%;
-    transition-duration: 3s;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 300px;
+    transition: .3s;
 }
 
 .right{
     transform: perspective(800px) rotateY(-30deg);
     height: 70%;
     order: 3;
-    transition-duration: 3s;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: .3s;
 }
 
 .right-right{
@@ -160,5 +164,70 @@ ps1{
     height: 80%;
     order: 4;
     left: 0;
-    transition-duration: 3s;
+    margin-left: 3%;
+    margin-right: 3%;
+    transition: .3s;
+}
+
+.button-wrapper{
+    position: fixed;
+    bottom: 8%;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    transition: 0.3s;
+    
+}
+
+.visible{
+    opacity: 1;
+    transform: translate(0px, -50px);
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: linear-gradient(310deg, rgba(41,208,224,0.5) 0%, rgba(0,122,115,0.5) 25%, rgba(0,157,137,0.5) 50%, rgba(0,144,171,0.5) 75%, rgba(0,132,135,0.5) 100%);
+    background: linear-gradient(310deg, rgba(41, 209, 224, 0.068));
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.308);
+    backdrop-filter: blur(10px);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-width: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(240, 248, 255, 0);
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.12);
+    background-color: rgba(18, 177, 156, 0.322);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.404);
+    backdrop-filter: blur(10px);
+}
+
+.ctrlCar{
+    height: 40px;
+    width: 40px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 20%;
+}
+
+a{
+    transition: 0.3s;
 }
