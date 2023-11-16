@@ -1,3 +1,23 @@
+
+document.addEventListener('scroll', function () {
+    var btnbox = document.querySelector('.button-wrapper');
+    var scrollPosition = window.scrollY;
+  
+    if (scrollPosition > 1100 && scrollPosition <= 1600) {
+      btnbox.classList.add('visible');
+    } else {
+      btnbox.classList.remove('visible');
+    }
+  });
+
+function updateBackground(){
+    var middle = document.querySelector('.middle');
+    var background = document.querySelector('.work')
+
+    console.log(middle);
+    background.id=middle.id;
+}
+
 function left() {
   var cards = document.querySelectorAll('.card');
   var firstCard = cards[0];
@@ -28,7 +48,6 @@ function left() {
       if (order === 0) {
           card.classList.remove(card.classList.item(2));
           card.classList.add('left');
-          console.log("here");
       } else if (order === 1) {
           card.classList.remove(card.classList.item(2));
           card.classList.add('middle');
@@ -43,6 +62,9 @@ function left() {
           card.classList.add('left-left');
       }
   }
+
+  updateBackground();
+
 }
 
 
@@ -77,7 +99,6 @@ function right() {
       if (order === 0) {
           card.classList.remove(card.classList.item(2));
           card.classList.add('right-right');
-          console.log("here");
       } else if (order === 1) {
           card.classList.remove(card.classList.item(2));
           card.classList.add('left-left');
@@ -93,4 +114,8 @@ function right() {
       }
   }
 
+  updateBackground();
+
 }
+
+

@@ -16,49 +16,53 @@
             <h1>CREATIVE</h1>
         </div>
     </div>
+    <h2> MY WORK</h2>
     <div class="work" id="img">      <!--  work section  -->
         <div class="fader">      <!--  fading work section  -->
             <div id="carousel">      <!--  vertical div that covers the cards  -->
-                <div class="card ps1 left-left" style="order: 0"> <!--  projects card  -->
+                <div class="card ps1 left-left" style="order: 0" id="ps1"> <!--  projects card  -->
                     <div class="card-content" id="ps1">
-                        <!-- <a href="/pages/ps1.html">
+                        <a href="/pages/ps1.html">
                             <span class="link"></span>
-                          </a> -->
+                          </a>
                     </div>
                 </div>
-                <div class="card ps2 left" style="order: 1">
+                <div class="card ps2 left" style="order: 1" id="ps2">
                     <div class="card-content" id="ps2">
-                        <!-- <a href="/pages/ps2.html">
+                        <a href="/pages/ps2.html">
                             <span class="link"></span>
-                          </a> -->
+                          </a>
                     </div>
                 </div>
-                <div class="card grad middle" style="order: 2">
+                <div class="card grad middle" style="order: 2" id="grad">
                     <div class="card-content" id="grad">
-                        <!-- <a href="/pages/grad.html">
+                        <a href="/pages/grad.html">
                             <span class="link"></span>
-                          </a> -->
+                          </a>
                     </div>
                 </div>
-                <div class="card p3 right" style="order: 3">
+                <div class="card p3 right" style="order: 3" id="utd">
                     <div class="card-content" id="utd">
-                        <!-- <a href="/pages/p3.html">
+                        <a href="/pages/p3.html">
                             <span class="link"></span>
-                          </a> -->
+                          </a>
                     </div>
                 </div>
-                <div class="card utd right-right" style="order: 4">
+                <div class="card utd right-right" style="order: 4" id="p3">
                     <div class="card-content" id="p3">
-                        <!-- <a href="/pages/utd.html">
+                        <a href="/pages/utd.html">
                             <span class="link"></span>
-                          </a> -->
+                          </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <button onclick="left()" id="btn">shuffle</button>
-    <button onclick="right()" id="btn">shuffle</button>
+    <div class="button-wrapper">
+        <button onclick="left()" id="btn"><img src="/images/icons/left.png" class="ctrlCar"></button>
+        <button onclick="right()" id="btn"><img src="/images/icons/right.png" class="ctrlCar"></button>
+    </div>
+    
     <div class="foot">      <!--  footer  -->
         <div class="wrapper-f">       <!--  footer wrapper to add other social media links  -->
             <a class="social a" href="https://www.instagram.com/le_mihai/?hl=en">
@@ -74,7 +78,7 @@
         <p class="copyright">©2023 MIHAI BUTNARIU</p>
     </div>
     <nav class="nav">
-        <a class="navbtn" href="index.html">HOME</a>       <!--  navbar  --> 
+        <a class="navbtn" href="index.html">WORK</a>       <!--  navbar  --> 
         <a class="navbtn" href="index.html">HOME</a>
         <a class="navbtn" href="index.html">HOME</a>  
         <a class="navbtn" href="index.html">HOME</a>   
