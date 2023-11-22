@@ -129,7 +129,7 @@
     right: 0;
     margin-left: 3%;
     margin-right: 3%;
-    transition: .3s;
+
 }
 
 .left{
@@ -138,7 +138,7 @@
     order: 1;
     margin-left: 5%;
     margin-right: 5%;
-    transition: .3s;
+
 }
 
 .middle{
@@ -147,7 +147,7 @@
     margin-left: 10%;
     margin-right: 10%;
     width: 300px;
-    transition: .3s;
+
 }
 
 .right{
@@ -156,7 +156,7 @@
     order: 3;
     margin-left: 5%;
     margin-right: 5%;
-    transition: .3s;
+
 }
 
 .right-right{
@@ -166,7 +166,7 @@
     left: 0;
     margin-left: 3%;
     margin-right: 3%;
-    transition: .3s;
+    
 }
 
 .button-wrapper{
