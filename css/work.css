@@ -1,5 +1,5 @@
 .banner{
-    height: 700px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -27,8 +27,16 @@
     background-image: url("/images/utd.jpg");
 }
 
+h1{
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 20%;
+    font-size: 50px;
+}
+
 h2{
     font-size: 22px;
+    display:flex;
+    justify-content: center;
 }
 
 h3{
@@ -38,14 +46,14 @@ h3{
 
 p{
     margin: 0px;
-    font-size: 16px;  
+    font-size: 18px;  
 }
 
 .about{
     display: grid;
     height: 300px;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
     grid-template-columns: 30% 20% 20% 30%;
     grid-template-rows: 30% 30%;
 }
@@ -53,6 +61,7 @@ p{
 .abt-cnt{
     display: flex;
     flex-direction: column;
+    padding-left: 30%;
 }
 
 .a{
@@ -85,12 +94,21 @@ p{
     display: flex;
     justify-content: center;
     position: sticky;
+    top: 20%;
     width: 20%;
     height: 600px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    transform: translate(-90%);
+    border-radius: 0px 20px 20px 0px;
 }
 
-.section-wrap{
+.fixed:hover{
+    transform: translate(0%);
+}
+
+
+.fixed-wrap{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,16 +117,52 @@ p{
 .scrollable{
     width: 60%;
     height: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.space{
-    width: 20%
+.content-block{
+    
 }
+
+.space{
+    width: 30%
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.insights{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.insight{
+    width: 30%;
+    display: flex;
+    flex-direction: column;;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.insight-title{
+    font-size: 22px;
+}
+
+.insight-text{
+    font-size: 18px;
+}
+
 
 
 
