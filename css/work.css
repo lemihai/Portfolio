@@ -35,6 +35,8 @@ h1{
 
 h2{
     font-size: 22px;
+    display:flex;
+    justify-content: center;
 }
 
 h3{
@@ -121,12 +123,11 @@ p{
 }
 
 .content-block{
-    padding-left: 15%;
-    padding-right: 15%;
+    
 }
 
 .space{
-    width: 20%
+    width: 30%
 }
 
 a{
@@ -139,10 +140,11 @@ a{
     flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
+    justify-content: center;
 }
 
 .insight{
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;;
     align-items: flex-start;
