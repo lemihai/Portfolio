@@ -88,22 +88,23 @@ h1{
 
 .social.a:hover {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.123);
-    background: linear-gradient(310deg, rgba(41,208,224,0.2) 0%, rgba(0,122,115,0.2) 25%, rgba(0,157,137,0.2) 50%, rgba(0,144,171,0.2) 75%, rgba(0,132,135,0.2) 100%);
+    background: linear-gradient(310deg, rgba(41,208,224,0.1) 0%, rgba(0,122,115,0.1) 25%, rgba(0,157,137,0.1) 50%, rgba(0,144,171,0.1) 75%, rgba(0,132,135,0.1) 100%);
 
 }
 
 .social.b:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.123);
-    background: linear-gradient(310deg, rgba(41,208,224,0.2) 0%, rgba(0,122,115,0.2) 25%, rgba(0,157,137,0.2) 50%, rgba(0,144,171,0.2) 75%, rgba(0,132,135,0.2) 100%);
+    background: linear-gradient(310deg, rgba(41,208,224,0.1) 0%, rgba(0,122,115,0.1) 25%, rgba(0,157,137,0.1) 50%, rgba(0,144,171,0.1) 75%, rgba(0,132,135,0.1) 100%);
 
 }
 
 .social.c:hover {
     box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.123);
-    background: linear-gradient(310deg, rgba(41,208,224,0.2) 0%, rgba(0,122,115,0.2) 25%, rgba(0,157,137,0.2) 50%, rgba(0,144,171,0.2) 75%, rgba(0,132,135,0.2) 100%);
+    background: linear-gradient(310deg, rgba(41,208,224,0.1) 0%, rgba(0,122,115,0.1) 25%, rgba(0,157,137,0.1) 50%, rgba(0,144,171,0.1) 75%, rgba(0,132,135,0.1) 100%);
 
 }
 
 .copyright{
     margin-top: 150px;
+    font-size: 12px;
 }
