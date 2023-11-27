@@ -46,7 +46,7 @@
     height: 80%;
     width: 200px;
     border-radius: 10px; 
-    transition: .3s;
+    transition: .1s;
     /* instead of adding shadows to this, change the shadown in JS based on which element is in the middle  */
 } 
 
@@ -229,5 +229,5 @@ h2{
 }
 
 a{
-    transition: 0.3s;
+    transition: 0.1s;
 }
