@@ -57,15 +57,22 @@ h3{
 }
 
 h4{
+    color: black;
     font-size: 260px;
     display:flex;
     justify-content: center;
     margin-bottom: 20%;
+    
 }
 
 .sct-title{
     margin-bottom: 15%;
 }
+
+.sct-titleb{
+    margin-bottom: 5%;
+}
+
 
 p{
     margin: 0px;
@@ -159,22 +166,44 @@ p{
     margin-bottom: 5%;
 }
 
+.content-cl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    height: auto;
+    width: auto;
+    padding: 10% 20% 5% 20%;
+}
+
 .half{
     width: 50vw;
 }
 
-.image-pres{
+.imgb{
     background-image: url("/images/ps2.jpg");
+    height: 40vh;
+    width: 30vw;
+}
+
+.image-pres{
+    background-image: url("/images/ps2/ida.png");
     height: 120vh;
 }
 
-.info{
-    width: 30vw;
-    margin: 10vw;
+.image-presb{
+    display: flex;
+    flex-direction: row;
+    background: var(--main, linear-gradient(270deg, rgba(0, 172, 141, 0.60) 0.05%, rgba(0, 163, 94, 0.60) 99.93%), 
+                linear-gradient(90deg, rgba(0, 200, 128, 0.60) 0.98%, rgba(33, 212, 169, 0.60) 56.55%, rgba(3, 255, 195, 0.60) 99.78%));
+    justify-content: space-around;
+    align-items:center;
+    height: 70vh;
 }
 
-.info-wrap{
-
+.info{
+    padding: 10vw;
+    width: 30vw;
 }
 
 .fixed{
