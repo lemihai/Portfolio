@@ -10,7 +10,7 @@ document.addEventListener('scroll', function () {
     }
   });
 
-function updateBackground(){
+async function updateBackground(){
     var middle = document.querySelector('.middle');
     var background = document.querySelector('.work')
 
@@ -18,7 +18,7 @@ function updateBackground(){
     background.id=middle.id;
 }
 
-function left() {
+async function left() {
   var cards = document.querySelectorAll('.card');
   var firstCard = cards[0];
   var firstOrder = parseInt(getComputedStyle(firstCard).order);
@@ -38,7 +38,7 @@ function left() {
   cards.forEach(function (box) {
       var order = getComputedStyle(box).order;
       // ... (your existing code to update classes)
-      console.log("Box " + box.id + " has flex order: " + order);
+    //   console.log("Box " + box.id + " has flex order: " + order);
   });
 
   for (var i = 0; i < cards.length; i++) {
@@ -63,12 +63,12 @@ function left() {
       }
   }
 
-  updateBackground();
+  await updateBackground();
 
 }
 
 
-function right() {
+async function right() {
   var cards = document.querySelectorAll('.card');
   var lastCard = cards[cards.length - 1];
   var lastOrder = parseInt(getComputedStyle(lastCard).order);
@@ -88,12 +88,13 @@ function right() {
   cards.forEach(function (box) {
       var order = getComputedStyle(box).order;
       // ... (your existing code to update classes)
-      console.log("Box " + box.id + " has flex order: " + order);
+    //   console.log("Box " + box.id + " has flex order: " + order);
   });
   
   
   for (var i = 0; i < cards.length; i++) {
       var card = cards[i];
+      console.log(card)
       var order = parseInt(getComputedStyle(card).order);
 
       if (order === 0) {
@@ -114,7 +115,7 @@ function right() {
       }
   }
 
-  updateBackground();
+  await updateBackground();
 
 }
 

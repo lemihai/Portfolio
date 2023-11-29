@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55%;
+    height: 70%;
     width: 110%;
     overflow: hidden;
 }
@@ -46,7 +46,7 @@
     height: 80%;
     width: 200px;
     border-radius: 10px; 
-    transition: .3s;
+    transition: .1s;
     /* instead of adding shadows to this, change the shadown in JS based on which element is in the middle  */
 } 
 
@@ -120,11 +120,18 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link:hover{
+    transform: scale(1.2);
 }
 
 .left-left{
     transform: perspective(800px) rotateY(50deg);
-    height: 80%;
+    height: 70%;
     order: 0;
     right: 0;
     margin-left: 3%;
@@ -134,7 +141,7 @@
 
 .left{
     transform: perspective(800px) rotateY(30deg);
-    height: 70%;
+    height: 60%;
     order: 1;
     margin-left: 5%;
     margin-right: 5%;
@@ -142,7 +149,7 @@
 }
 
 .middle{
-    height: 90%;
+    height: 70%;
     order: 2;
     margin-left: 10%;
     margin-right: 10%;
@@ -152,7 +159,7 @@
 
 .right{
     transform: perspective(800px) rotateY(-30deg);
-    height: 70%;
+    height: 60%;
     order: 3;
     margin-left: 5%;
     margin-right: 5%;
@@ -161,7 +168,7 @@
 
 .right-right{
     transform: perspective(800px) rotateY(-50deg);
-    height: 80%;
+    height: 70%;
     order: 4;
     left: 0;
     margin-left: 3%;
@@ -220,6 +227,29 @@ button:hover{
     width: 40px;
 }
 
+h3{
+    height: 40%;
+    font-size: 20px;
+    transition: .3s;
+    PADDING: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h3:hover{
+    font-size: 40px;
+    transform: translate(-30%, -10%) perspective(800px) rotateY(10deg);
+    width: 100%;
+    transition: .3s;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
 h2{
     display: flex;
     justify-content: center;
@@ -230,4 +260,26 @@ h2{
 
 a{
     transition: 0.3s;
+}
+
+.tag-wrap{
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tag{
+    font-size: 12px;
+    padding: 2% 5% 2% 5%;
+    width: auto;
+    background-color: rgb(46, 46, 88);
+    border-radius: 5px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3%;
 }
