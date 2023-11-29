@@ -5,92 +5,128 @@
     <title>Mihai Butnariu UX</title>
     <link href="/css/base.css" rel="stylesheet">
     <link href="/css/work.css" rel="stylesheet">
-    <script src="/js/script.js"></script>
+    <script src="/js/scripta.js"></script>
 </head>
 
 <body>
-    <div class="header">
-        <p> title of project</p>
+    <div class="banner" id="utd">
+        <h1>UNDESIGN TEAM</h1>
     </div>
+
+    
+    <div class="fixed fixed-ps2" id="tgl">
+        <div class="fixed-wrap"> 
+            <button class="section-tgl" id="abt" onclick="scrollhere('uts-abt')">About</button>
+            <button class="section-tgl" id="spr1" onclick="scrollhere('utd-insp')">Inspiration</button>
+            <button class="section-tgl" id="spr2" onclick="scrollhere('utd-process')">Process</button>
+            <button class="section-tgl" id="spr3" onclick="scrollhere('utd-pilot')">Pilot</button>
+        </div>
+        <button class="toggle-bar" onclick="toggle()" id="tgl-btn" > <img height= "25px" id ="tgl-src" src="/images/icons/right.png"> </button>
+    </div>
+    
+
+    <div class="about"> 
+        <div class="about-rw">
+            <div class="abt-cnt">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/role.png">
+                    <h3>Role</h3>
+                </div>
+                <hr class="line"><p>Creative Director</p>
+            </div>
+            <div class="abt-cnt">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/Team.png">
+                    <h3>Team</h3>
+                </div>
+                <hr class="line"><p>Team of 4</p>
+            </div>
+            <div class="abt-cnt ">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/Approach.png">
+                    <h3>Approach</h3>
+                </div>
+                <hr class="line"><p>Small Design Team</p>
+            </div>
+            <div class="abt-cnt w">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/Approach.png">
+                    <h3>Time</h3>
+                </div>
+                <hr class="line"><p>6 Months</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--  ------------SECITON BREAK---------------- -->
+   
     <div class="content">
-        <div class="fixed">
-            <h2>Title</h2>
-            <h2>Test</h2>
-            <h2>Research</h2>
-            <h2>Define</h2>
-            <h2>Concept</h2>
-            <h2>Prototype</h2>
-        </div>
-        <div class="scrollable">
-            <div class="cnt block">
-                <p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                    totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                    dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, 
-                    sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro 
-                    quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non 
-                    numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. 
-                    Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut 
-                    aliquid ex ea commodi consequatur? [D]Quis autem vel eum i[r]ure reprehenderit, qui in ea voluptate 
-                    velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla 
-                    pariatur?</p>
-            </div>
-            <div class="cnt block">
-                <p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                    totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                    dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, 
-                    sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro 
-                    quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non 
-                    numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. 
-                    Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut 
-                    aliquid ex ea commodi consequatur? [D]Quis autem vel eum i[r]ure reprehenderit, qui in ea voluptate 
-                    velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla 
-                    pariatur?</p>
-            </div>
-            <div class="cnt block">
-                <p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                    totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                    dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, 
-                    sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro 
-                    quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non 
-                    numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. 
-                    Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut 
-                    aliquid ex ea commodi consequatur? [D]Quis autem vel eum i[r]ure reprehenderit, qui in ea voluptate 
-                    velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla 
-                    pariatur?</p>
-            </div>
-            <div class="cnt block">
-                <p> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                    totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae 
-                    dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, 
-                    sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro 
-                    quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non 
-                    numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. 
-                    Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut 
-                    aliquid ex ea commodi consequatur? [D]Quis autem vel eum i[r]ure reprehenderit, qui in ea voluptate 
-                    velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla 
-                    pariatur?</p>
+        <h4>ABOUT</h4>
+        <div class="Section" id="about">    
+            <div class="content-rw">       
+                
             </div>
         </div>
+
+        <div class="imgc">
+            <div class="utd-fade">
+                <h2>Undesign Team</h2>
+                <p class="w60"> 4 young designers move to The Netherlands to start their journey of becoming UX designers with no prior experience.
+                </p>
+            </div>
+        </div>
+
+        <h4>INSPIRATION</h4>
+
+        <div class="utd-image-pres">
+            <img class="utd-img" src="/images/utd/utda.jpg">
+            <img class="utd-img" src="/images/utd/utdb.jpg">
+            <img class="utd-img" src="/images/utd/utdc.jpg">
+            <img class="utd-img" src="/images/utd/utdd.png">
+        </div>
+
+        <h4>PROCESS</h4>
+
+        <div class="utd-image-pres">
+            <img class="utd-img" src="/images/utd/utdf.jpg">
+            <img class="utd-img" src="/images/utd/utdg.png">
+        </div>
+
+        <img class="imgd">
+
+        <h4>PILOT</h4>
+
+        <div class="wrapper-video-utd">
+            <iframe id="utd-video" type="text/html"
+            src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
+            frameborder="0"></iframe>
+        </div>
+        
     </div>
+
+    
     <div class="foot">      <!--  footer  -->
         <div class="wrapper-f">       <!--  footer wrapper to add other social media links  -->
-            <a class="social" href="https://www.instagram.com/le_mihai/?hl=en">
+            <a class="social a" href="https://www.instagram.com/le_mihai/?hl=en">
                 <img height= "20px" src="/images/icons/instagram.png">
                 instagram</a>
-            <a class="social" href="https://www.linkedin.com/in/mihai-butnariu/">
+            <a class="social b" href="https://www.linkedin.com/in/mihai-butnariu/">
                 <img height= "20px" src="/images/icons/linkedin.png">
                 linkedin</a>
-            <a class="social" href="https://medium.com/@mihai.alex.butnariu">
+            <a class="social c" href="https://medium.com/@mihai.alex.butnariu">
                 <img height= "20px" src="/images/icons/medium.png">
                 medium</a>
         </div>
         <p class="copyright">©2023 MIHAI BUTNARIU</p>
     </div>
+
     <nav class="nav">
-        <a class="navbtn" href="/index.html">HOME</a>       <!--  navbar  --> 
+        <a class="navbtn" href="/index.html">WORK</a>       <!--  navbar  --> 
         <a class="navbtn" href="/index.html">HOME</a>
-        <a class="navbtn" href="/index.html">HOME</a>  
-        <a class="navbtn" href="/index.html">HOME</a>     
+        <a class="navbtn" href="/index.html">CONTACT</a>  
+        <a class="navbtn" href="/index.html">HIRE ME</a>     
     </nav>
 </body>
 </html>

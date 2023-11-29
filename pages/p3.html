@@ -4,29 +4,103 @@
     <meta charset="utf-8">
     <title>Mihai Butnariu UX</title>
     <link href="/css/base.css" rel="stylesheet">
-    <script src="/js/script.js"></script>
+    <link href="/css/work.css" rel="stylesheet">
+    <script src="/js/scripta.js"></script>
 </head>
 
 <body>
-    <div class="header">
-        <p> title of project</p>
+    <div class="banner" id="p3">
+        <h1>ENERGY TRANSITION</h1>
     </div>
-    <div class="content">
+
+    
+    <div class="fixed fixed-ps2" id="tgl">
+        <div class="fixed-wrap"> 
+            <button class="section-tgl" id="abt" onclick="scrollhere('abt')">About</button>
+            <button class="section-tgl" id="spr1" onclick="scrollhere('spr1')">Sprint 1</button>
+            <button class="section-tgl" id="spr2" onclick="scrollhere('spr2')">Sprint 2</button>
+            <button class="section-tgl" id="spr3" onclick="scrollhere('spr3')">Sprint 3</button>
+            <button class="section-tgl" id="fp" onclick="scrollhere('fp')">Final Product</button>
+        </div>
+        <button class="toggle-bar" onclick="toggle()" id="tgl-btn" > <img height= "25px" id ="tgl-src" src="/images/icons/right.png"> </button>
+    </div>
+    
+
+    <div class="about"> 
+        <div class="about-rw">
+            <div class="abt-cnt">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/role.png">
+                    <h3>Role</h3>
+                </div>
+                <hr class="line"><p>UX Designer</p><p>Creative Designer</p>
+            </div>
+            <div class="abt-cnt">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/Team.png">
+                    <h3>Team</h3>
+                </div>
+                <hr class="line"><p>Team of 5</p>
+            </div>
+            <div class="abt-cnt ">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/Approach.png">
+                    <h3>Approach</h3>
+                </div>
+                <hr class="line"><p>Agile</p>
+            </div>
+            <div class="abt-cnt w">
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/Approach.png">
+                    <h3>Time</h3>
+                </div>
+                <hr class="line"><p>4 Months</p>
+            </div>
+            <div class="abt-cnt " >
+                <div class="rw">
+                    <img height= "20px" src="/images/icons/Client.png">
+                    <h3>Client</h3>
+                </div>
+                <hr class="line"><p><a href="https://www.npi.nl/">
+                    NPi</a></p>
+            </div>
+        </div>
+        <p class="p1">The Municipality of Delft needs to transition to gas-free heating before 2050. The government’s immediate goal is to inform its residents about the importance of the transition and give alternatives to gas heating.  As a university project, I worked in an agile setup with other designers to find a solution for the client. The clients of the project were real.
+        </p>
         
     </div>
-    <div class="tblContent">
-        <h2>Title</h2>
-        <h2>Test</h2>
-        <h2>Research</h2>
-        <h2>Define</h2>
-        <h2>Concept</h2>
-        <h2>Prototype</h2>
+    
+
+
+    <!--  ------------SECITON BREAK---------------- -->
+   
+    <div class="content">
+       
+
+
     </div>
+
+    
+    <div class="foot">      <!--  footer  -->
+        <div class="wrapper-f">       <!--  footer wrapper to add other social media links  -->
+            <a class="social a" href="https://www.instagram.com/le_mihai/?hl=en">
+                <img height= "20px" src="/images/icons/instagram.png">
+                instagram</a>
+            <a class="social b" href="https://www.linkedin.com/in/mihai-butnariu/">
+                <img height= "20px" src="/images/icons/linkedin.png">
+                linkedin</a>
+            <a class="social c" href="https://medium.com/@mihai.alex.butnariu">
+                <img height= "20px" src="/images/icons/medium.png">
+                medium</a>
+        </div>
+        <p class="copyright">©2023 MIHAI BUTNARIU</p>
+    </div>
+
     <nav class="nav">
-        <a class="navbtn" href="/index.html">HOME</a>       <!--  navbar  --> 
+        <a class="navbtn" href="/index.html">WORK</a>       <!--  navbar  --> 
         <a class="navbtn" href="/index.html">HOME</a>
-        <a class="navbtn" href="/index.html">HOME</a>  
-        <a class="navbtn" href="/index.html">HOME</a>     
+        <a class="navbtn" href="/index.html">CONTACT</a>  
+        <a class="navbtn" href="/index.html">HIRE ME</a>     
     </nav>
 </body>
 </html>

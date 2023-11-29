@@ -268,13 +268,13 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .tag{
     font-size: 12px;
     padding: 2% 5% 2% 5%;
     width: auto;
-    background-color: rgb(46, 46, 88);
     border-radius: 5px;
     font-weight: normal;
     display: flex;
