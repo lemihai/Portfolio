@@ -4,8 +4,28 @@ document.addEventListener('scroll', function () {
     var spr2 = document.getElementById('spr2');
     var spr3 = document.getElementById('spr3');
     var fp = document.getElementById('fp');
+    
+//--------------- UTD PAGE
+
+    var abtutd = document.getElementById('utd-abt');
+    var insputd = document.getElementById('utd-insp');
+    var prcsutd = document.getElementById('utd-process');
+    var pltutd = document.getElementById('utd-pilot');
     var scrollpos = window.scrollY;
     
+//--------------- Grad PAGE
+
+
+
+//--------------- ps1 PAGE
+
+
+
+//--------------- p3 PAGE
+
+
+
+//--------------- UTD PAGE
     console.log(scrollpos);
 
     if (scrollpos > 1700 && scrollpos < 3400) {
