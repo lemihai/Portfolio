@@ -13,6 +13,19 @@
         <h1>ENERGY TRANSITION</h1>
     </div>
 
+    
+    <div class="fixed fixed-ps2" id="tgl">
+        <div class="fixed-wrap"> 
+            <button class="section-tgl" id="abt" onclick="scrollhere('abt')">About</button>
+            <button class="section-tgl" id="spr1" onclick="scrollhere('spr1')">Sprint 1</button>
+            <button class="section-tgl" id="spr2" onclick="scrollhere('spr2')">Sprint 2</button>
+            <button class="section-tgl" id="spr3" onclick="scrollhere('spr3')">Sprint 3</button>
+            <button class="section-tgl" id="fp" onclick="scrollhere('fp')">Final Product</button>
+        </div>
+        <button class="toggle-bar" onclick="toggle()" id="tgl-btn" > <img height= "25px" id ="tgl-src" src="/images/icons/right.png"> </button>
+    </div>
+    
+
     <div class="about"> 
         <div class="about-rw">
             <div class="abt-cnt w20">
@@ -57,16 +70,9 @@
         
     </div>
     
-    
-    <div class="fixed">
-        <div class="fixed-wrap"> 
-            <h3>About</h3>
-            <h2>Sprint 1</h2>
-            <h2>Sprint 2</h2>
-            <h2>Sprint 3</h2>
-            <h2>Final Design</h2>
-        </div>
-    </div>
+
+
+    <!--  ------------SECITON BREAK---------------- -->
    
     <div class="content">
         <h4>ABOUT</h4>
@@ -90,19 +96,19 @@
         <h4>SPRINT 1</h4>
 
         <div class="Section" id="sprint1">
-            <div class="rw">
+            <div class="rw bck-change">
                 <div class="image-pres half"></div>
                 <div class="info ">
                     <h2 class="sct-title">Ideating</h2>
-                        <p class=""> To kick off the first sprint we needed to have a concept to work on. A concept that would address the problem and 
+                        <p class="white"> To kick off the first sprint we needed to have a concept to work on. A concept that would address the problem and 
                             also inspire the clients. To create one, I organized a creative session for my team that helped us come up with 5 
                             ideas. After showing them to the client, we chose together the most exciting one.
                         </p>
                 </div>
             </div>
-            <div class="content-cl">
+            <div class="content-rw">
                 <h2 class="sct-titleb">What we did</h2>
-                <p> During our first sprint, we focused on creating our first prototype and conducting basic further research to fill in the 
+                <p class="w70" > During our first sprint, we focused on creating our first prototype and conducting basic further research to fill in the 
                     gaps in our knowledge. Each team member contributed to the sprint by either creating testing plans, working on the digital interface 
                     or being involved in the physical prototype. During the first sprint, we changed our initial concept to a smaller map. We realized 
                     that prototyping the entirety of Delft was not a feasible option so we focused on one neighbourhood. We chose the neighbourhood of 
@@ -114,41 +120,151 @@
             <div class="image-presb">
                 <img src="/images/ps2/ps2-spr1a.png" class="imgb">
                 <img src="/images/ps2/concept1SP2.png" class="imgb">
-                <img src="/images/ps2/ps2-spr1b.png" class="imgb">
+                <img src="/images/ps2/idb.png" class="imgb">
             </div>
 
-            <div class="content-cl">
-                <h2 class="sct-titleb">My role</h2>
-                <p> My main role in this project was to create the physical map. During the first sprint, I focused on making a low-fidelity variant 
-                    of the map to see how it would look. I used my iPad, Google Maps and rulers to accurately calculate the area of the model according 
-                    to the real size of the neighbourhood. I carved the houses together with one of my teammates and placed them in their accurate 
-                    position on the miniature model.
-                </p>
+            <div class="contbox">
+                <div class="conta">
+                    <h2 class="sct-titleb">My role</h2>
+                    <p> My main role in this project was to create the physical map. During the first sprint, I focused on making a low-fidelity variant 
+                        of the map to see how it would look. I used my iPad, Google Maps and rulers to accurately calculate the area of the model according 
+                        to the real size of the neighbourhood. I carved the houses together with one of my teammates and placed them in their accurate 
+                        position on the miniature model.
+                    </p>
+                </div>
+                <img src="/images/ps2/mra.JPG" >
             </div>
 
         </div>
 
+        <!--  ------------SECITON BREAK---------------- -->
+
         <h4>SPRINT 2</h4>
+
+        <div class="section">
+            <div class="content-rw">
+                <h2 class="sct-titleb">what we learned</h2>
+                    <p class="w70"> In the 2nd sprint, we built on what we learned previously and we had a clearer direction. Our main objectives were to work on 
+                        the information structure of the digital interface and make a better miniature model.
+                    </p>
+            </div>
+
+            <div class="image-presb">
+                <img src="/images/ps2/sp2a.png" class="imgb">
+                <img src="/images/ps2/sp2b.png" class="imgb">
+            </div>
+            <div class="content-rw">
+                <h2 class="sct-titleb">What we did</h2>
+                    <p class="w70"> The team continued to work on the design of the interface and reworked the information architecture of the app. The rest of 
+                        the members also worked on sending a survey to the residents of Delft and going through the answers. Their answer helped us 
+                        understand what type of information we should give them and how much they know about the energy transition. We also had to switch 
+                        the neighbourhood for our physical prototype to the neighbourhood of Tuitenhof
+                    </p>
+            </div>
+
+            <div class="image-presb">
+                <img src="/images/ps2/sp2e.jpg" class="imgb">
+                <img src="/images/ps2/sp2d.png" class="imgb">
+            </div>
+
+            <div class="contbox">
+                <h2 class="sct-titleb">My role</h2>
+                <p> In the 2nd sprint, I took another approach to creating the physical prototype. I had to remap the miniature city to resemble 
+                    Tuitenhof and made the decision the 3D-print the houses as the university had the equipment necessary. For this task, I researched 
+                    details about the houses to get the models right when designing them. I took into consideration their shapes, sizes, placement 
+                    of doors and many other things. Later, I created 3D models in SketchUp and after the first successful print, we glued it to a 
+                    canvas and lit it up. This was a consuming process but I enjoyed the challenge.
+                </p>
+                <img src="/images/ps2/mrb.JPG" >
+            </div>
+        </div>
+
+        <!--  ------------SECITON BREAK---------------- -->
 
         <h4>SPRINT 3</h4>
 
-        <h4>RESULTS</h4>
+        <div class="section">
+            <div class="content-rw">
+                <h2 class="sct-titleb">what we learned</h2>
+                    <p class="w70"> By the end of the 2nd sprint it became clear that we need to focus on the physical model on the last sprint. Multiple 
+                        printing errors and challenges that we faced when creating the model slowed us down considerably. The goal of the 3rd 
+                        sprint was to finish the deliverables and prepare for the client presentation
+                    </p>
+            </div>
+
+            <div class="image-presb">
+                <img src="/images/ps2/sp3c.png" class="imgb">
+            </div>
+
+            <div class="content-rw">
+                <h2 class="sct-titleb">What we did</h2>
+                    <p class="w70"> On our last sprint, the team worked on introducing the main points of feedback that we got from tests and conversations 
+                        with our tutors into the digital interface and putting all our forces in finishing the physical map. Moreover, we had 
+                        to connect the two elements together and in the last days of the sprint, we introduced lights under the 3d printed houses 
+                        and finished a plan to make it controllable from the interface. We also worked together on finishing the physical interface. 
+                        Moreover, we scaled down our concept to an even smaller area since we did not have enough time to finish the entire 
+                        neighbourhood.
+                    </p>
+            </div>
+            <div class="image-presb">
+                <img src="/images/ps2/sp3a.png" class="imgb">
+                <img src="/images/ps2/sp3b.png" class="imgb">
+            </div>
+            <div class="contbox">
+                <h2 class="sct-titleb">My role</h2>
+                <p > My role in the final sprint was to finish the print of all of the houses, plan the map of the neighbourhood, add lights 
+                    to the prototype and add the final touches. I went through a complex process of modelling the houses and 3d printing them 
+                    on multiple tryouts. In the end, I joined with the team at the final presentation and took my part to pitch the concept 
+                    to the visitors.
+                </p>
+                <img src="/images/ps2/mrc.png" >
+            </div>
+        </div>
+
+        <!--  ------------SECITON BREAK---------------- -->
+
+        <h4>FINAL PRODUCT</h4>
+
+        <div class="section">
+           
+            <div class="wrapper-video">
+                <div class="content-rw" >
+                    <p class="white"> The interface provides the user with step by step guides for transition, information about different types of heating, 
+                        the model controls and a bespoke experience regarding the user's own house. The 3D model is designed based on Delft - Tanthof. 
+                        The user can interact with the model through the interface. After he introduces his address, he can see his house light up on the 
+                        model. Moreover, he can see the different types of heating in the neighbourhood.
+                    </p>
+                </div>
+                <iframe id="proj-video" type="text/html"
+                src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
+                frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <!--  ------------SECITON BREAK---------------- -->
+
+            <!--  ------------SECITON BREAK---------------- -->
+    
+    
 
     </div>
+
+    
     <div class="foot">      <!--  footer  -->
         <div class="wrapper-f">       <!--  footer wrapper to add other social media links  -->
-            <a class="social" href="https://www.instagram.com/le_mihai/?hl=en">
+            <a class="social a" href="https://www.instagram.com/le_mihai/?hl=en">
                 <img height= "20px" src="/images/icons/instagram.png">
                 instagram</a>
-            <a class="social" href="https://www.linkedin.com/in/mihai-butnariu/">
+            <a class="social b" href="https://www.linkedin.com/in/mihai-butnariu/">
                 <img height= "20px" src="/images/icons/linkedin.png">
                 linkedin</a>
-            <a class="social" href="https://medium.com/@mihai.alex.butnariu">
+            <a class="social c" href="https://medium.com/@mihai.alex.butnariu">
                 <img height= "20px" src="/images/icons/medium.png">
                 medium</a>
         </div>
         <p class="copyright">©2023 MIHAI BUTNARIU</p>
     </div>
+
     <nav class="nav">
         <a class="navbtn" href="/index.html">WORK</a>       <!--  navbar  --> 
         <a class="navbtn" href="/index.html">HOME</a>
