@@ -227,7 +227,7 @@ button:hover{
     width: 40px;
 }
 
-h3{
+h1{
     height: 40%;
     font-size: 20px;
     transition: .3s;
@@ -241,7 +241,7 @@ h3{
     border-radius: 10px;
 }
 
-h3:hover{
+h1:hover{
     font-size: 40px;
     transform: translate(-30%, -10%) perspective(800px) rotateY(10deg);
     width: 100%;

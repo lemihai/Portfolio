@@ -29,6 +29,7 @@ nav{
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.308);
     backdrop-filter: blur(10px);
     transition: .3s;
+    z-index: 99;
 }
 
 .navbtn{
