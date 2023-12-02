@@ -33,7 +33,7 @@ document.addEventListener('scroll', function () {
         abt.style.color = 'white';
     } else {
         abt.classList.remove('here');
-        abt.style.color = 'rgba(0, 200, 128, 0.90)';
+        abt.style.color = 'black';
     }
 
     if (scrollpos > 3400 && scrollpos < 7400) {
@@ -41,7 +41,7 @@ document.addEventListener('scroll', function () {
         spr1.style.color = 'white';
     } else {
         spr1.classList.remove('here');
-        spr1.style.color = 'rgba(0, 200, 128, 0.90)';
+        spr1.style.color = 'black';
     }
 
     if (scrollpos > 7400 && scrollpos < 11000) {
@@ -49,7 +49,7 @@ document.addEventListener('scroll', function () {
         spr2.style.color = 'white';
     } else {
         spr2.classList.remove('here');
-        spr2.style.color = 'rgba(0, 200, 128, 0.90)';
+        spr2.style.color = 'black';
     }
 
     if (scrollpos > 11000 && scrollpos < 15400) {
@@ -57,7 +57,7 @@ document.addEventListener('scroll', function () {
         spr3.style.color = 'white';
     } else {
         spr3.classList.remove('here');
-        spr3.style.color = 'rgba(0, 200, 128, 0.90)';
+        spr3.style.color = 'black';
     }
 
     if (scrollpos > 15400 && scrollpos < 17300) {
@@ -65,7 +65,7 @@ document.addEventListener('scroll', function () {
         fp.style.color = 'white';
     } else {
         fp.classList.remove('here');
-        fp.style.color = 'rgba(0, 200, 128, 0.90)';
+        fp.style.color = 'black';
     }
 });
 
