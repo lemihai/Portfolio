@@ -1,4 +1,5 @@
 .pic-selection{
+    margin-top: 3%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,7 +10,8 @@
     width: 600px;
     border: 20px solid rgb(255, 255, 255);
     box-shadow: 6px 6px 20px rgba(0, 0, 0, .3);
-    transform: translateX(400px) rotate(20deg);
+    transform: translateX(500px) rotate(20deg);
+    transition: .3s;
 }
 
 .img-presb{
@@ -17,28 +19,55 @@
     border: 20px solid rgb(255, 255, 255);
     box-shadow: 6px 6px 20px rgba(0, 0, 0, .3);
     transform: rotate(-20deg);
+    transition: .3s;
 }
 
 .img-presc{
     width: 600px;
     border: 20px solid rgb(255, 255, 255);
     box-shadow: 6px 6px 20px rgba(0, 0, 0, .3);
-    transform: translateX(-400px) rotate(5deg);  
+    transform: translateX(-600px) rotate(-10deg);  
+    transition: .3s;
 }
 
-.img-presa:hover{
-    transform: translateX(-100px) 
-}
+.pic-selection:hover .img-presa{
+    transform: translateX(-50px) ;
+    transform: rotate(-5deg);
+    transition: .3s;
+} 
 
-.img-presc:hover{
-    transform: translateX(100px)
-}
+.pic-selection:hover .img-presc{
+    transform: translateX(50px) ;
+    transform: rotate(10deg);
+    transition: .3s;
+} 
+
+.pic-selection:hover .img-presb{
+    scale: 1.2;
+    transform: rotate(15deg); 
+    transition: .3s;
+} 
 
 /* ------------ Skills -------------*/
 
-.skills-wrap{
+.text{
+    font-size: 18px;
+}
+
+h1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text-wrap{
     margin-left: 30%;
     margin-right: 30%;
+    margin-bottom: 7%;
+}
+
+.skills-wrap{
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     flex-direction: column;
 }
@@ -50,5 +79,80 @@
 }
 
 .skills-pic{
-    width: 50%;
+    width: 40%;
+    margin: 5%;
+    border-radius: 15px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+.roles{
+    width: 40%;
+    margin: 5%;
+    font-size: 18px;
+}
+
+.role{
+    font-size: 18px;
+    border-radius: 35px;
+    border: 2px solid rgb(53, 53, 53);
+    margin: 4%;
+    padding-left: 30px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5%;
+    width: 100%;
+}
+
+.skill{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid rgb(53, 53, 53);
+    margin: 1%;
+}
+
+.hire-wrapper{
+    margin: 20%;
+}
+
+.formm{
+    display: flex; 
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);;
+    border-radius: 20px;
+    margin-top: 30%;
+    margin: 20%;
+    padding: 3%;
+    transform: translateY(-70%);
+    background-color: white;
+}
+
+.fminput{
+    border: 0px;
+    border-bottom: 1px solid rgb(31, 31, 31);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    outline: none;
+    transition: .3s;
+}
+
+.fminput:focus{
+    outline: none;
+    transition: .3s;
+}
+
+.submitbtn{
+    border: 0px;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    outline: none;
+    background-color: none;
 }
