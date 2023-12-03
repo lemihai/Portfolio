@@ -1,0 +1,54 @@
+.pic-selection{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-presa{
+    width: 600px;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, .3);
+    transform: translateX(400px) rotate(20deg);
+}
+
+.img-presb{
+    width: 400px;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, .3);
+    transform: rotate(-20deg);
+}
+
+.img-presc{
+    width: 600px;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, .3);
+    transform: translateX(-400px) rotate(5deg);  
+}
+
+.img-presa:hover{
+    transform: translateX(-100px) 
+}
+
+.img-presc:hover{
+    transform: translateX(100px)
+}
+
+/* ------------ Skills -------------*/
+
+.skills-wrap{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.skills-pic{
+    width: 50%;
+}
