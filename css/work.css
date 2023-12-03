@@ -101,14 +101,12 @@ h2{ /* BANNER TEXT */
     justify-content: flex-start;
     width: 60%;
     margin: 0px;
-    color: rgba(0, 200, 128, 0.90);
 }
 
 h3{ /* BANNER TEXT */
     font-size: 22px;
     margin: 0px;
     margin-left: 15px;
-    color: rgba(0, 200, 128, 0.90);
 }
 
 h4{ /* TITLES CONTENT SECTION */
@@ -149,6 +147,7 @@ p{
 
 .sct-title{
     margin-bottom: 15%;
+    color: white;
 }
 
 .sct-titleb{
@@ -278,9 +277,7 @@ p{
     flex-direction: column;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    margin: 20%;
-    margin-bottom: 3%;
-    margin-top: 5%;
+    margin: 5% 30% 5% 30%;
     padding: 3%;
 }
 
@@ -332,14 +329,24 @@ p{
 .imgb{
     height: 40vh;
     background-size: 100% 100%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .7);
+    border-radius: 20px;
 }
 
-.image-pres{
-    background-image: url("/images/ps2/ida.png");
+.ps-img-section{
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-ps2{
+    height: 80vh;
+    border-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
 }
 
 .imgc{
@@ -733,9 +740,7 @@ a{
     background-color: rgb(31, 31, 31);
 }
 
-
-/* ------- IMG'S to switch to images in the code 
-.imgc{
+.img-utd{
     background-image: url("/images//utd/utdb.jpg");
     background-size: auto;
     background-position: center;
@@ -743,14 +748,14 @@ a{
     width: 100%;
 }
 
-.imgd{
+.img-utda{
     background-image: url("/images//utd/utde.jpg");
     background-size: auto;
     background-position: center;
     height: 70vh;
     width: 100%;
     margin-top: 15%;
-}------------- */
+}
 
 /* ------- UTD Specific ------------- */
 
@@ -780,7 +785,8 @@ a{
     height: auto;
     width: 30%;
     margin: 3%;
-    
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .7);
 }
 
 
