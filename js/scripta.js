@@ -6,7 +6,7 @@ document.addEventListener('scroll', function () {
 
 //--------------- UTD PAGE
 
-if (currentPage === 'utd.html'){
+if (currentPage === 'utd'){
     var utdabt = document.getElementById('utd-abt');
     var utdprocess = document.getElementById('utd-process');
     var utdpilot = document.getElementById('utd-pilot');
@@ -38,7 +38,7 @@ if (currentPage === 'utd.html'){
     
 //--------------- GRAD PAGE
 
-if (currentPage === 'grad.html'){
+if (currentPage === 'grad'){
     var gradabout = document.getElementById('grad-about');
     var gradrphase1 = document.getElementById('grad-rphase1');
     var gradrphase2 = document.getElementById('grad-rphase2');
@@ -80,7 +80,7 @@ if (currentPage === 'grad.html'){
     
 //--------------- PS2 PAGE
 
-if (currentPage === 'ps2.html'){
+if (currentPage === 'ps2'){
     var ps2about = document.getElementById('ps2-about');
     var ps2spr1 = document.getElementById('ps2-spr1');
     var ps2spr2 = document.getElementById('ps2-spr2');
@@ -133,7 +133,7 @@ if (currentPage === 'ps2.html'){
 //--------------- ps1 PAGE
 //--------------- p3 PAGE
 
-if (currentPage === 'p3.html'){
+if (currentPage === 'p3'){
     var p3about = document.getElementById('p3-about');
     var p3research = document.getElementById('p3-research');
     var p3define = document.getElementById('p3-define');
@@ -209,7 +209,7 @@ function scrollhere(id) {
     var currentPage = window.location.href.split('/').pop();
     console.log("Button with id '" + id + "' was pressed.");
 
-if (currentPage === 'ps2.html'){
+if (currentPage === 'ps2'){
     if (id === "ps2-about") {
         document.body.scrollTop = 800 ;
         document.documentElement.scrollTop = 800 ;
@@ -238,7 +238,7 @@ if (currentPage === 'ps2.html'){
 
 //--------------- GRAD PAGE ---------------
 
-if (currentPage === 'grad.html'){
+if (currentPage === 'grad'){
     if (id === "grad-about") {
         document.body.scrollTop = 800 ;
         document.documentElement.scrollTop = 800 ;
@@ -262,7 +262,7 @@ if (currentPage === 'grad.html'){
 
 //--------------- P3 PAGE ---------------
 
-if (currentPage === 'p3.html'){
+if (currentPage === 'p3'){
     if (id === "p3-about") {
         document.body.scrollTop = 1000 ;
         document.documentElement.scrollTop = 1000 ;
@@ -296,7 +296,7 @@ if (currentPage === 'p3.html'){
 
 //--------------- UTD PAGE ---------------
 
-if(currentPage === 'utd.html'){
+if(currentPage === 'utd'){
     if (id === "utd-abt") {
         document.body.scrollTop = 1700  ;
         document.documentElement.scrollTop = 1700  ;
