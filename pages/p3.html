@@ -10,19 +10,19 @@
 
 <body>
     <div class="banner" id="p3">
-        <h1>ENERGY TRANSITION</h1>
+        <h1>NPI: APP DESIGN</h1>
     </div>
 
     <!--  ------------NAVIGATION DOCK---------------- -->
     
     <div class="fixed fixed-ps2" id="tgl">
         <div class="fixed-wrap"> 
-            <button class="section-tgl p3-color" id="abt" onclick="scrollhere('abt')">About</button>
-            <button class="section-tgl p3-color" id="spr1" onclick="scrollhere('spr1')">Research</button>
-            <button class="section-tgl p3-color" id="spr2" onclick="scrollhere('spr2')">Define</button>
-            <button class="section-tgl p3-color" id="spr3" onclick="scrollhere('spr3')">Ideating</button>
-            <button class="section-tgl p3-color" id="spr3" onclick="scrollhere('spr3')">Prototype</button>
-            <button class="section-tgl p3-color" id="fp" onclick="scrollhere('fp')">Final Product</button>
+            <button class="section-tgl p3-color" id="p3-about" onclick="scrollhere('p3-about')">About</button>
+            <button class="section-tgl p3-color" id="p3-research" onclick="scrollhere('p3-research')">Research</button>
+            <button class="section-tgl p3-color" id="p3-define" onclick="scrollhere('p3-define')">Define</button>
+            <button class="section-tgl p3-color" id="p3-ideating" onclick="scrollhere('p3-ideating')">Ideating</button>
+            <button class="section-tgl p3-color" id="p3-prototype" onclick="scrollhere('p3-prototype')">Prototype</button>
+            <button class="section-tgl p3-color" id="p3-fp" onclick="scrollhere('p3-fp')">Final Product</button>
         </div>
         <button class="toggle-bar" onclick="toggle()" id="tgl-btn" > <img height= "25px" id ="tgl-src" src="/images/icons/right.png"> </button>
     </div>
@@ -99,7 +99,7 @@
                 </p>
             </div>
             <div class="content-rw">       
-                <h2 class="p3-color">Solution</h2>
+                <h2 class="p3-color" hred>Final Product</h2>
                 <p class="w60"> 
                     I redesigned the service to become an application where users can use gamification to try out new concepts on digital models 
                     of muscles or joints. I added achievements, friend requests and a feed where users can check out the latest research, ask 
@@ -111,7 +111,7 @@
         <!--  ------------SECITON BREAK---------------- -->
 
         <div class="title-section">
-            <h4>RESEARCH</h4>  
+            <h4 class="p3-color">RESEARCH</h4>  
             <div class="methods-wrap">
                 <div class="method-tag">Interviews</div>
                 <div class="method-tag">Desk Research</div>
@@ -151,7 +151,7 @@
         <!--  ------------SECITON BREAK---------------- -->
 
         <div class="title-section">
-            <h4>DEFINE</h4>  
+            <h4 class="p3-color">DEFINE</h4>  
             <div class="methods-wrap">
                 <div class="method-tag">Persona</div>
                 <div class="method-tag">Clusters</div>
@@ -192,7 +192,7 @@
 
 
         <div class="title-section">
-            <h4>IDEATING</h4>  
+            <h4 class="p3-color">IDEATING</h4>  
             <div class="methods-wrap">
                 <div class="method-tag">User needs</div>
                 <div class="method-tag">HMW</div>
@@ -223,7 +223,7 @@
         <!--  ------------SECITON BREAK---------------- -->
 
         <div class="title-section">
-            <h4>PROTOTYPING & TEST</h4>  
+            <h4 class="p3-color smaller-heading">PROTOTYPING & TEST</h4>  
             <div class="methods-wrap">
                 <div class="method-tag">Figma</div>
                 <div class="method-tag">Testing</div>
@@ -265,7 +265,7 @@
         <!--  ------------SECITON BREAK---------------- -->
 
         <div class="title-section">
-            <h4>FINAL PRODUCT</h4>  
+            <h4 class="p3-color">FINAL PRODUCT</h4>  
         </div>
 
         
@@ -301,10 +301,17 @@
     </div>
 
     <nav class="nav p3-bck-color">
-        <a class="navbtn" href="index.html">HOME</a>       <!--  navbar  --> 
-        <a class="navbtn">WORK</a>
-        <a class="navbtn" href="skills.html">ABOUT</a>  
-        <a class="navbtn" href="hireme.html">HIRE ME</a>   
+        <a class="navbtn" href="/index.html">HOME</a>       <!--  navbar  --> 
+        <div class="navbtn drop">WORK
+            <div class="work-content">
+                <a class="drop-project" href="/pages/ps2.html">Making Delft Gas-Free</a>
+                <a class="drop-project" href="/pages/grad.html">The impact of AI on Empathy</a>
+                <a class="drop-project" href="/pages/p3.html">NPI: App Design</a>
+                <a class="drop-project" href="/pages/utd.html">UNDESIGN Team</a>
+            </div>
+        </div>
+        <a class="navbtn" href="/skills.html">ABOUT</a>  
+        <a class="navbtn" href="/hireme.html">HIRE ME</a> 
     </nav>
 </body>
 </html>

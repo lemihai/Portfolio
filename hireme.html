@@ -11,10 +11,12 @@
 <body >
 
     <div class="hire-wrapper">
+        <h2 class="cnt color">GET IN CONTACT</h2>
         <form class="formm" action="mailto:mihai.alex.butnariu@gmail.com" method="post" enctype="text/plain" placeholder="Name">
+            
             <input type="text" name="name" placeholder="Name" class="fminput">
             <input type="text" name="mail" placeholder="Email" class="fminput">
-            <input type="text" name="comment" size="50" placeholder="Your message" class="fminput">
+            <textarea id="subject" name="subject" placeholder="Your message" class="fminput y-msg"></textarea>
             <input type="submit" value="Send" class="submitbtn">
         </form>
     </div>
@@ -34,10 +36,17 @@
         <p class="copyright">©2023 MIHAI BUTNARIU</p>
     </div>
     <nav class="nav">
-        <a class="navbtn" href="index.html">HOME</a>       <!--  navbar  --> 
-        <a class="navbtn">WORK</a>
-        <a class="navbtn" href="skills.html">ABOUT</a>  
-        <a class="navbtn" href="hireme.html">HIRE ME</a>   
+        <a class="navbtn" href="/index.html">HOME</a>       <!--  navbar  --> 
+        <div class="navbtn drop">WORK
+            <div class="work-content">
+                <a class="drop-project" href="/pages/ps2.html">Making Delft Gas-Free</a>
+                <a class="drop-project" href="/pages/grad.html">The impact of AI on Empathy</a>
+                <a class="drop-project" href="/pages/p3.html">NPI: App Design</a>
+                <a class="drop-project" href="/pages/utd.html">UNDESIGN Team</a>
+            </div>
+        </div>
+        <a class="navbtn" href="/skills.html">ABOUT</a>  
+        <a class="navbtn" href="/hireme.html">HIRE ME</a>   
     </nav>
 </body>
 </html>
