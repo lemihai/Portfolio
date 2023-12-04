@@ -11,9 +11,13 @@
 <body >
     <div class="top">       <!--  FRONT page text  -->
         <div class="wrap-top">
-            <h1>UX DESIGNER</h1>
-            <h1>DESIGN RESEARCHER</h1>
-            <h1>CREATIVE</h1>
+            <img src="images/aboutpics/me (14).jpg" class="top-imga">
+            <div class="wrap-column-top">
+                <h7 class="h7">UX DESIGNER</h7>
+                <h7 class="h7">DESIGN RESEARCHER</h7>
+                <h7 class="h7">CREATIVE</h7>
+            </div>
+            <img src="images/aboutpics/me (7).jpg" class="top-imgb">
         </div>
     </div>
     <h2> MY WORK</h2>
@@ -21,10 +25,13 @@
         <div class="fader">      <!--  fading work section  -->
             <div id="carousel">      <!--  vertical div that covers the cards  -->
                 <div class="card ps1 left-left" style="order: 0" id="ps1"> <!--  projects card  -->
-                    <div class="card-content" id="ps1">
-                        <a href="/pages/ps1.html">
+                    <div class="card-content coming-soon" id="ps1">
+                        <div class="coming-soon-text">
+                            COMING SOON
+                        </div>
+                        <!--<a href="/pages/ps1.html">
                             <span class="link">
-                                <h3>HH1: SHELL & KRIJVANGER ARCHITECTS 
+                                <h1 class="h1ps1">HH1: SHELL & KRIJVANGER ARCHITECTS 
                                     <div class="tag-wrap">
                                         <div class="tag uni-proj">
                                             UNI PROJECT
@@ -33,16 +40,16 @@
                                             UX
                                         </div>
                                     </div>
-                                </h3>
+                                </h1>
                             </span>
-                          </a>
+                          </a>-->
                     </div>
                 </div>
                 <div class="card ps2 left" style="order: 1" id="ps2">
                     <div class="card-content" id="ps2">
                         <a href="/pages/ps2.html">
                             <span class="link">
-                                <h3>MAKING DELFT GAS-FREE 
+                                <h1 class="h1ps2">MAKING DELFT GAS-FREE 
                                     <div class="tag-wrap">
                                         <div class="tag uni-proj">
                                             UNI PROJECT
@@ -54,7 +61,7 @@
                                             UX
                                         </div>
                                     </div>
-                                </h3>
+                                </h1>
                             </span>
                           </a>
                     </div>
@@ -63,7 +70,7 @@
                     <div class="card-content" id="grad">
                         <a href="/pages/grad.html">
                             <span class="link">
-                                <h3>THE IMPACT OF AI IN EMPATHY 
+                                <h1 class="h1grad">THE IMPACT OF AI ON EMPATHY 
                                     <div class="tag-wrap">
                                         <div class="tag internship">
                                             INTERNSHIP
@@ -72,7 +79,7 @@
                                             RESEARCH
                                         </div>
                                     </div>
-                                </h3>
+                                </h1>
                             </span>
                           </a>
                     </div>
@@ -81,7 +88,7 @@
                     <div class="card-content" id="utd">
                         <a href="/pages/utd.html">
                             <span class="link">
-                                <h3>UNDESIGN TEAM
+                                <h1 class="h1utd">UNDESIGN TEAM
                                     <div class="tag-wrap">
                                         <div class="tag pers-proj">
                                             PERSONAL PROJECT
@@ -90,7 +97,7 @@
                                             COMIC BOOK
                                         </div>
                                     </div>
-                                </h3>
+                                </h1>
                             </span>
                           </a>
                     </div>
@@ -99,7 +106,7 @@
                     <div class="card-content" id="p3">
                         <a href="/pages/p3.html">
                             <span class="link">
-                                <h3>NPI : APP DESIGN
+                                <h1 class="h1p3">NPI : APP DESIGN
                                     <div class="tag-wrap ">
                                         <div class="tag uni-proj">
                                             UNI PROJECT
@@ -108,9 +115,9 @@
                                             UX
                                         </div>
                                     </div>
-                                </h3>
+                                </h1>
                             </span>
-                          </a>
+                        </a> 
                     </div>
                 </div>
             </div>
@@ -136,10 +143,17 @@
         <p class="copyright">©2023 MIHAI BUTNARIU</p>
     </div>
     <nav class="nav">
-        <a class="navbtn" href="index.html">WORK</a>       <!--  navbar  --> 
-        <a class="navbtn" href="index.html">HOME</a>
-        <a class="navbtn" href="index.html">CONTACT</a>  
-        <a class="navbtn" href="index.html">HIRE ME</a>   
+        <a class="navbtn" href="index.html">HOME</a>       <!--  navbar  --> 
+        <div class="navbtn drop">WORK
+            <div class="work-content">
+                <a class="drop-project" href="/pages/ps2.html">Making Delft Gas-Free</a>
+                <a class="drop-project" href="/pages/grad.html">The impact of AI on Empathy</a>
+                <a class="drop-project" href="/pages/p3.html">NPI: App Design</a>
+                <a class="drop-project" href="/pages/utd.html">UNDESIGN Team</a>
+            </div>
+        </div>
+        <a class="navbtn" href="skills.html">ABOUT</a>  
+        <a class="navbtn" href="hireme.html">HIRE ME</a> 
     </nav>
 </body>
 </html>

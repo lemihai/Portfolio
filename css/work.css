@@ -1,3 +1,5 @@
+/* ------- The top picture of the work page -------------- */
+
 .banner{
     height: 120vh;
     display: flex;
@@ -7,12 +9,58 @@
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-nav{
+/* ------- Navigation change for each project ------------- */
+
+.grad-color{
+    color: rgb(34, 195, 141);
+    color: linear-gradient(270deg, rgba(0, 172, 141, 0.60) 0.05%, rgba(0, 163, 94, 0.60) 99.93%), 
+                linear-gradient(90deg, rgba(0, 200, 128, 0.60) 0.98%, rgba(33, 212, 169, 0.60) 56.55%, rgba(3, 255, 195, 0.60) 99.78%);
+}
+
+.grad-bck-color{
     background: rgb(91,195,34);
     background: var(--main, linear-gradient(270deg, rgba(0, 172, 141, 0.60) 0.05%, rgba(0, 163, 94, 0.60) 99.93%), 
                 linear-gradient(90deg, rgba(0, 200, 128, 0.60) 0.98%, rgba(33, 212, 169, 0.60) 56.55%, rgba(3, 255, 195, 0.60) 99.78%));
-    transition: .3s;
 }
+
+.p3-color{
+    color: rgb(177,69,222);
+    color: linear-gradient(90deg, rgba(177,69,222,0.8) 0%, rgba(141,126,231,0.7) 36%, rgba(155,72,190,0.7) 74%,
+             rgba(204,52,201,0.7) 100%);
+}
+
+.p3-bck-color{
+    background: rgb(177,69,222);
+    background: linear-gradient(90deg, rgba(177,69,222,0.8127626050420168) 0%, rgba(141,126,231,0.7567401960784313) 36%, rgba(155,72,190,0.742734593837535) 74%, rgba(204,52,201,0.7231267507002801) 100%);
+}
+
+.ps2-color{
+
+}
+
+.ps2-bck-color{
+
+}
+
+.utd-color{
+
+}
+
+.utd-bck-color{
+
+}
+
+.ps1-color{
+
+}
+
+.ps1-bck-color{
+
+}
+
+/* ------- Style sheets ---------*/
+
+/* ------- Colors for each of the project  --------------- */
 
 #ps1{
     background-image: url("/images/ps1.jpg");
@@ -39,89 +87,94 @@ nav{
     background-size: 100%;
 }
 
+/* ------------ Text classes -------------*/
 
-h1{
-    color: rgba(255, 255, 255, 0.3);
+h1{ /* BANNER TEXT */
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 20%;
     font-size: 60px;
 }
 
-h2{
-    font-size: 40px;
+h2{ /* BANNER TEXT */
+    font-size: 30px;
     display:flex;
     justify-content: flex-start;
     width: 60%;
     margin: 0px;
-    color: rgba(0, 200, 128, 0.90)
 }
 
-h3{
+h3{ /* BANNER TEXT */
     font-size: 22px;
     margin: 0px;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    margin-left: 10%;
-    color: rgba(0, 200, 128, 0.90);
+    margin-left: 15px;
 }
 
-h4{
+h4{ /* TITLES CONTENT SECTION */
     color: black;
     font-size: 260px;
-    display:flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subtitle{     /* SUBTITLES CONTENT SECTION */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title-section{ /* whole title section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 20%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+
+p{
+    margin: 0px;
+    font-size: 18px;  
+}
+
+.p1{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
 }
 
 .sct-title{
     margin-bottom: 15%;
+    color: white;
 }
 
 .sct-titleb{
     margin-bottom: 5%;
 }
 
-
-p{
-    margin: 0px;
-    font-size: 22px;  
+.cl1{
+    border-color: brown;
 }
 
-.p1{
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 7%;
-}
-
-.line{
-    border: 1px solid rgb(22, 22, 22);
-    align-self: stretch;
-    border-radius: 5px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.rw{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+/* ------------ About Dock -------------*/
 
 .about{
     display: flex; 
     flex-direction: column;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);;
     border-radius: 20px;
-    margin: 15%;
-    margin-bottom: 3%;
-    padding: 5%;
+    margin: 2% 23% 2% 23%;
+    padding: 2%;
+    transform: translateY(-70%);
+    background-color: white;
 }
 
 .about-rw{
     display: flex;
     justify-content: space-around;
-    align-items: top;
-    height: auto;
-    width: auto;
+    align-items: flex-start;
 }
 
 .about-cl{
@@ -139,31 +192,65 @@ p{
     width: 15%; 
 }
 
+#about{
+    margin-bottom: 10%;
+}
+
+.line{
+    border: 1px solid rgb(22, 22, 22);
+    align-self: stretch;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.rw{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* ------------ Widths -------------*/
+
 .w60{
     width: 60%;
+}
+
+.w20-utd{
+    width: 20%;
+    justify-self: flex-start;
 }
 
 .w70{
     width: 70%;
 }
 
+.w80{
+    width: 80%;
+}
+
 .w50{
     width: 50%;
+}
+
+.w30{
+    width: 30%;
 }
 
 .w20{
     width: 20%;
 }
 
+.w15{
+    width: 15%;
+}
+
 .w10{
     width: 10%;
 }
 
-.subtitle{
-    width: 60%;
-    transform: translateY(-40vh);
-}
 
+
+/* ------- content ------------- */
 
 .content{ 
     width: 100%;
@@ -174,10 +261,10 @@ p{
 .content-rw{
     display: flex;
     flex-direction: row;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .content-cl{
@@ -187,17 +274,15 @@ p{
     align-items: top;
     height: auto;
     width: auto;
-    padding: 10% 20% 5% 20%;
+    padding: 5% 30% 5% 30%;
 }
 
 .contbox{
     display: flex; 
     flex-direction: column;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    margin: 20%;
-    margin-bottom: 3%;
-    margin-top: 5%;
+    margin: 5% 30% 5% 30%;
     padding: 3%;
 }
 
@@ -209,17 +294,105 @@ p{
     width: 50vw;
 }
 
+.methods-wrap{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.method-tag{
+    background-color: rgb(31, 31, 31);
+    padding: 5px;
+    border-radius: 10px;
+    width: 140px;
+    height: 25px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.method-tag-big{
+    background-color: rgb(31, 31, 31);
+    padding: 5px;
+    border-radius: 10px;
+    width: 170px;
+    height: 25px;
+    margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------- Images ------------- */
+
 .imgb{
     height: 40vh;
     background-size: 100% 100%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .7);
+    border-radius: 20px;
 }
 
-.image-pres{
-    background-image: url("/images/ps2/ida.png");
+.ps-img-section{
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-ps2{
+    height: 80vh;
+    border-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+}
+
+.imgc{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
+}
+
+.imgd{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.imge{
+    width: 17%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+.imgf{
+    width: 80vw;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.imgg{
+    width: 100%;
+}
+
+
+.image-presc{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(31, 31, 31);
+    justify-content: space-around;
+    align-items:center;
+    height: 70vh;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .white{
@@ -235,10 +408,179 @@ p{
     height: 70vh;
 }
 
+.image-presd{
+    background-color: rgb(31, 31, 31);
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.image-prese{
+    background-color: rgb(31, 31, 31);
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-bottom: 10%;
+}
+
+
+.img-grada{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+    transform: perspective(1000px) rotateX(-10deg) rotateY(5deg);
+    margin-bottom: 20%;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.img-gradb{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+    transform: perspective(800px) rotateX(-1deg) rotateY(1deg);
+    transition: 0.3s;
+}
+.img-gradc{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+    transform: perspective(1000px) rotateX(10deg) rotateY(-5deg);
+    margin-top: 25%;
+    transition: 0.3s;
+}
+
+.img-grade{
+    filter: grayscale(100%);
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.img-gradf{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+    transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+    transition: 0.3s;
+    height: 90vh;
+}
+.img-gradg{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+    transform: perspective(1000px) rotateX(-5deg) rotateY(-5deg);
+    transition: 0.3s;
+    height: 90vh;
+}
+
+.img-grada:hover{
+    scale: 1.1;
+    transform: translateX(60px);
+    transition: 0.3s;
+}
+
+.img-gradb:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+.img-gradc:hover{
+    scale: 1.1;
+    transform: translateX(-60px);
+    transition: 0.3s;
+}
+
+.image-cl{
+    display:flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.image-cla{
+    display:flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
 .info{
     padding: 10vw;
     width: 30vw;
 }
+
+.img-p3{
+    background-size: 100%;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+    margin: 2%;
+    transition: .1s;
+}
+
+.p3-insight-a{
+    background-image: url("/images/p3/P3 restantza - Frame 12 (1).jpg");
+}
+
+.p3-insight-b{
+    background-image: url("/images/p3/P3\ restantza\ -\ Frame\ 13.jpg");
+    width: 20vw;
+    height: 26vh;
+}
+
+.p3-insight-c{
+    background-image: url("/images/p3/P3\ restantza\ -\ Frame\ 17.jpg");
+    width: 20vw;
+    height: 35vh;
+}
+
+.p3-insight-d{
+    background-image: url("/images/p3/P3\ restantza\ -\ Frame\ 10.jpg");
+    width: 20vw;
+    height: 30vh;
+}
+
+.p3-insight-a:hover{
+    background-image: url("/images/p3/P3\ restantza\ -\ Frame\ 20.jpg");
+    height: 58vh;
+}
+
+.p3-insight-b:hover{
+    background-image: url("/images/p3/P3\ restantza\ -\ Frame\ 21.jpg");
+    height: 58vh;
+}
+
+.p3-insight-c:hover{
+    background-image: url("/images/p3/P3\ restantza\ -\ Frame\ 25.jpg");
+    height: 58vh;
+}
+
+.p3-insight-d:hover{
+    background-image: url("/images/p3/P3\ restantza\ -\ Frame\ 18.jpg");
+    height: 58vh;
+}
+
+.p3-insights{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* ------- Fixed page navigation dock ------------- */
 
 .fixed{
     position: fixed;
@@ -246,7 +588,7 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    top: 50%;
+    top: 20%;
     bottom: 50%;
     width: 14%;
     height: 600px;
@@ -255,11 +597,11 @@ p{
     transform: translate(-90%);
     border-radius: 0px 20px 20px 0px;
     background-color: rgb(255, 255, 255);
+    z-index: 99;
 }
 
 .fixed-ps2{
     height: 500px;
-    top: 20%;
 }
 
 .here{
@@ -277,7 +619,7 @@ p{
     padding-left: 8%;
     margin-bottom: 10%;
     margin-top: 10%;
-    width: 130%;
+    width: 100%;
     display: flex;
     align-items: center;
     transition: 1s;
@@ -286,15 +628,14 @@ p{
     background-color: white;
     border: none;
     height: 40px;
-    font-size: 22px;
-    color: rgba(0, 200, 128, 0.90);
+    font-size: 18px;
     font-weight: bold;
 }
 
 .section-tgl:hover{
-    background-color: rgb(214, 255, 241);
+    background-color: white;
     transition: .3s;
-    font-size: 30px;
+    scale: 1.3;
 }
 
 .toggle-bar{
@@ -354,24 +695,28 @@ a{
     color: black;
 }
 
+/* ------- Insights ------------- */
+
 .insights{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    align-items: flex-start;
     justify-content: center;
+    gap: 5%;
+    margin: 5% 0% 10% 0%;
 }
 
 .insight{
-    width: 30%;
+    width: 15%;
+    height: 25vh;
     display: flex;
     flex-direction: column;;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 3%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-    margin: 5%;
+    padding: 30px;
 }
 
 .insight-title{
@@ -400,7 +745,7 @@ a{
     background-color: rgb(31, 31, 31);
 }
 
-.imgc{
+.img-utd{
     background-image: url("/images//utd/utdb.jpg");
     background-size: auto;
     background-position: center;
@@ -408,24 +753,28 @@ a{
     width: 100%;
 }
 
-.imgd{
+.img-utda{
     background-image: url("/images//utd/utde.jpg");
     background-size: auto;
     background-position: center;
     height: 70vh;
     width: 100%;
-    margin-top: 15%;
+
 }
+
+/* ------- UTD Specific ------------- */
 
 .utd-fade{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
     height: 100%;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    padding-left: 20%;
+
 }
 
 .utd-image-pres{
@@ -443,9 +792,12 @@ a{
     height: auto;
     width: 30%;
     margin: 3%;
-    
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .7);
 }
 
+
+/* ----------- video ------------- */
 
 .wrapper-video-utd{
     display: flex;
@@ -460,4 +812,11 @@ a{
 #utd-video{
     height: 90vh;
     width: 100%; 
+}
+
+
+/* ----------- Grad-specific ------------- */
+
+.smaller-heading{
+    font-size: 200px;
 }

@@ -16,10 +16,9 @@
     
     <div class="fixed fixed-ps2" id="tgl">
         <div class="fixed-wrap"> 
-            <button class="section-tgl" id="abt" onclick="scrollhere('uts-abt')">About</button>
-            <button class="section-tgl" id="spr1" onclick="scrollhere('utd-insp')">Inspiration</button>
-            <button class="section-tgl" id="spr2" onclick="scrollhere('utd-process')">Process</button>
-            <button class="section-tgl" id="spr3" onclick="scrollhere('utd-pilot')">Pilot</button>
+            <button class="section-tgl" id="utd-abt" onclick="scrollhere('utd-abt')">About</button>
+            <button class="section-tgl" id="utd-process" onclick="scrollhere('utd-process')">Process</button>
+            <button class="section-tgl" id="utd-pilot" onclick="scrollhere('utd-pilot')">Pilot</button>
         </div>
         <button class="toggle-bar" onclick="toggle()" id="tgl-btn" > <img height= "25px" id ="tgl-src" src="/images/icons/right.png"> </button>
     </div>
@@ -63,23 +62,30 @@
     <!--  ------------SECITON BREAK---------------- -->
    
     <div class="content">
-        <h4>ABOUT</h4>
-        <div class="Section" id="about">    
-            <div class="content-rw">       
-                
-            </div>
+
+        <div class="title-section">
+            <h4 class="utd-color">ABOUT</h4>  
         </div>
 
-        <div class="imgc">
+        <div class="img-utd">
             <div class="utd-fade">
                 <h2>Undesign Team</h2>
-                <p class="w60"> 4 young designers move to The Netherlands to start their journey of becoming UX designers with no prior experience.
+                <p class="w20-utd"> 4 young designers move to The Netherlands to start their journey of becoming UX designers with no prior experience.
                 </p>
             </div>
         </div>
 
-        <h4>INSPIRATION</h4>
-
+        <div class="content-rw">       
+            <h2 class="utd-color">Team</h2>
+            <p class="w60"> 
+                There were two teams so far. Learning from the first experience, I changed the setup of the 2nd team and looked to add more illustration
+                 duties. As the first team disbanded and all members started their graduation projects, the 2nd team was formed with new energy and looking 
+                 forward for an improved version of the pilot.
+            </p>
+        </div>
+        <div class="title-section">
+            <h4 class="utd-color">PROCESS</h4>  
+        </div>
         <div class="utd-image-pres">
             <img class="utd-img" src="/images/utd/utda.jpg">
             <img class="utd-img" src="/images/utd/utdb.jpg">
@@ -87,20 +93,33 @@
             <img class="utd-img" src="/images/utd/utdd.png">
         </div>
 
-        <h4>PROCESS</h4>
+        <div class="content-rw">       
+            <h2 class="utd-color">Goal</h2>
+            <p class="w60"> 
+                I am looking to increase empathy through storytelling and express artistically through this piece. The experience of moving to another 
+                country, making new friendships, meeting new people and facing a new culture shaped me in many ways and I want to express those feelings 
+                that I do not know how to put in words through a comic book.
+            </p>
+        </div>
+
+        
+
+        <img class="img-utda">
 
         <div class="utd-image-pres">
             <img class="utd-img" src="/images/utd/utdf.jpg">
             <img class="utd-img" src="/images/utd/utdg.png">
         </div>
 
-        <img class="imgd">
 
-        <h4>PILOT</h4>
+
+        <div class="title-section">
+            <h4 class="utd-color">PILOT</h4>  
+        </div>
 
         <div class="wrapper-video-utd">
             <iframe id="utd-video" type="text/html"
-            src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
+            src="https://youtu.be/TjOxoq6aZ3Q"
             frameborder="0"></iframe>
         </div>
         
@@ -123,10 +142,17 @@
     </div>
 
     <nav class="nav">
-        <a class="navbtn" href="/index.html">WORK</a>       <!--  navbar  --> 
-        <a class="navbtn" href="/index.html">HOME</a>
-        <a class="navbtn" href="/index.html">CONTACT</a>  
-        <a class="navbtn" href="/index.html">HIRE ME</a>     
+        <a class="navbtn" href="/index.html">HOME</a>       <!--  navbar  --> 
+        <div class="navbtn drop">WORK
+            <div class="work-content">
+                <a class="drop-project" href="/pages/ps2.html">Making Delft Gas-Free</a>
+                <a class="drop-project" href="/pages/grad.html">The impact of AI on Empathy</a>
+                <a class="drop-project" href="/pages/p3.html">NPI: App Design</a>
+                <a class="drop-project" href="/pages/utd.html">UNDESIGN Team</a>
+            </div>
+        </div>
+        <a class="navbtn" href="/skills.html">ABOUT</a>  
+        <a class="navbtn" href="/hireme.html">HIRE ME</a>   
     </nav>
 </body>
 </html>
