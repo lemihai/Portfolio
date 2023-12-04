@@ -592,6 +592,7 @@ p{
     bottom: 50%;
     width: 14%;
     height: 600px;
+    width: 300px;
     box-shadow: 10px 10px 20px rgba(1, 32, 17, 0.1);
     transition: 0.2s;
     transform: translate(-90%);
@@ -619,8 +620,9 @@ p{
     padding-left: 8%;
     margin-bottom: 10%;
     margin-top: 10%;
-    width: 100%;
+    width: 160px;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     transition: 1s;
     border-radius: 5px;
