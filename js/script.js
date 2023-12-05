@@ -3,7 +3,7 @@ document.addEventListener('scroll', function () {
     var btnbox = document.querySelector('.button-wrapper');
     var scrollPosition = window.scrollY;
   
-    if (scrollPosition > 1100 && scrollPosition <= 1600) {
+    if (scrollPosition > 800 && scrollPosition <= 1300) {
       btnbox.classList.add('visible');
     } else {
       btnbox.classList.remove('visible');
