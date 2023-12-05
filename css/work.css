@@ -111,9 +111,10 @@ h3{ /* BANNER TEXT */
 
 h4{ /* TITLES CONTENT SECTION */
     color: black;
-    font-size: 260px;
+    font-size: 200px;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .subtitle{     /* SUBTITLES CONTENT SECTION */

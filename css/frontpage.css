@@ -269,7 +269,7 @@ h1{
     align-items: center;
 }
 .coming-soon-text{
-    font-size: 38px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -310,7 +310,7 @@ h1{
 }
 
 .h1p3{
-    color: black;
+
 }
 
 .h1p3:hover{
@@ -337,7 +337,7 @@ h2{
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    margin-top: 20%;
+    margin:0px;
 }
 
 a{
