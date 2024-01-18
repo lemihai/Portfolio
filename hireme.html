@@ -6,7 +6,6 @@
     <link href="css/base.css" rel="stylesheet" />
     <link href="css/about&hireme.css" rel="stylesheet" />
     <script src="/js/script.js"></script>
-    <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js"></script>
   </head>
 
   <body>
@@ -29,26 +28,6 @@
           class="fminput y-msg"
         ></textarea>
         <input type="submit" value="Send" class="submitbtn" />
-
-        <script>
-          const form = document.querySelector('form[name="contact"]');
-          form.addEventListener("submit", (event) => {
-            event.preventDefault();
-
-            const formData = new FormData(form);
-            const axios = axios; // Replace this line with "const axios = require('axios')" if using Node.js
-
-            axios
-              .post("https://your-endpoint.com/contact", formData)
-              .then((response) => {
-                console.log("Contact form submitted successfully.");
-                form.reset();
-              })
-              .catch((error) => {
-                console.error("Error submitting contact form:", error);
-              });
-          });
-        </script>
       </form>
     </div>
 
