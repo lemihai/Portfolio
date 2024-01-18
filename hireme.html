@@ -12,13 +12,19 @@
     <div class="hire-wrapper">
       <h2 class="cnt color">GET IN CONTACT</h2>
       <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
         data-netlify="true"
         name="contact"
         class="formm"
-        method="post"
         enctype="text/plain"
         placeholder="Name"
       >
+        <input
+          type="hidden"
+          name="access_key"
+          value="137c15be-14d2-4c32-a39d-7086e0df6fb5"
+        />
         <input type="text" name="name" placeholder="Name" class="fminput" />
         <input type="email" name="email" placeholder="Email" class="fminput" />
         <textarea
