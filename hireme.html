@@ -12,10 +12,9 @@
     <div class="hire-wrapper">
       <h2 class="cnt color">GET IN CONTACT</h2>
       <form
-        netlify
+        data-netlify="true"
         name="contact"
         class="formm"
-        onSubmit="submit"
         method="post"
         enctype="text/plain"
         placeholder="Name"
@@ -29,6 +28,26 @@
           class="fminput y-msg"
         ></textarea>
         <input type="submit" value="Send" class="submitbtn" />
+
+        <script>
+          const form = document.querySelector('form[name="contact"]');
+          form.addEventListener("submit", (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(form);
+            const axios = require("axios");
+
+            axios
+              .post("https://your-endpoint.com/contact", formData)
+              .then((response) => {
+                console.log("Contact form submitted successfully.");
+                form.reset();
+              })
+              .catch((error) => {
+                console.error("Error submitting contact form:", error);
+              });
+          });
+        </script>
       </form>
     </div>
 
