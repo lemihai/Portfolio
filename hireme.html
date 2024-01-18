@@ -6,6 +6,7 @@
     <link href="css/base.css" rel="stylesheet" />
     <link href="css/about&hireme.css" rel="stylesheet" />
     <script src="/js/script.js"></script>
+    <script src="https://unpkg.com/axios@0.26.0/dist/axios.min.js"></script>
   </head>
 
   <body>
@@ -35,7 +36,7 @@
             event.preventDefault();
 
             const formData = new FormData(form);
-            const axios = require("axios");
+            const axios = axios; // Replace this line with "const axios = require('axios')" if using Node.js
 
             axios
               .post("https://your-endpoint.com/contact", formData)
