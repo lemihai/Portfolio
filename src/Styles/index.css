@@ -1,0 +1,118 @@
+/* Design systems 
+
+--- 01 Typography
+
+
+
+--- 02 Colors
+
+
+--- 03 Spacing
+
+1 rem = 16px
+
+--- 04 Layout
+
+--- 05 Components
+
+
+
+basic -- Global reset 
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Background gradient */
+
+.background-gradient {
+  background: linear-gradient(
+    348deg,
+    #239678,
+    #44e8bd,
+    #44b4e8,
+    #4baa7d,
+    #00ffdf
+  );
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 40s ease infinite;
+  -moz-animation: AnimationName 40s ease infinite;
+  animation: AnimationName 40s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* Sections */
+
+nav {
+  width: 100vw;
+  height: 3rem;
+  background-color: #ff00004d;
+}
+
+footer {
+  width: 100vw;
+  height: 10rem;
+  background-color: #e100ff4d;
+
+  display: flex;
+  justify-content: center;
+}
