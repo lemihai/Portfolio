@@ -1,26 +1,58 @@
-/* Design systems 
+/* 
 
---- 01 Typography
+--- 01 Typography System ---
 
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
+- font weights: 
 
---- 02 Colors
+Default: 400 
 
-
---- 03 Spacing
-
-1 rem = 16px
-
---- 04 Layout
-
---- 05 Components
+- line height: 1
 
 
 
-basic -- Global reset 
+--- 02 Color System ---
 
+primary: 
+
+tints: 
+
+shades:
+
+accents:
+
+greys:
+
+--- 03 Shadows ---
+
+--- 04 Border-radius ---
+
+--- 05 Whitespace ---
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+Section: 
+
+--- 06 Layout ---
+
+-nav
+-hero
+-carousel
+-more work button
+-what do I offer (cards / bubbles)
+-some ideas about me
+-footer (contact)
+
+---Floating button that will switch to coding. 
 
 */
+
+/* Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -29,11 +61,20 @@ basic -- Global reset
 }
 
 html {
-  font-size: 16px;
+  font-size: 62.5%;
 }
 
 body {
-  margin: 0;
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 code {
@@ -93,20 +134,42 @@ code {
   }
 }
 
-.body {
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 /* Sections */
+
+/* NAV */
 
 nav {
   width: 100vw;
-  height: 3rem;
-  background-color: #ff00004d;
+  height: 6.4rem;
+  padding: 0rem 12.8rem;
+
+  /* display properties for the navigation bar*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* font-sizes of the navigation bar */
+  font-size: 1.6rem;
+  font-weight: 600;
 }
+
+nav div a:link,
+:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  /* style of the button */
+  margin-left: 3.2rem;
+  padding: 1.6rem;
+  color: #ffffff;
+}
+
+nav div a:hover {
+  /* experiment with hover */
+  box-shadow: 0px 0px 2rem 0.2rem #ffffff;
+}
+
+/* FOOTER */
 
 footer {
   width: 100vw;
