@@ -174,8 +174,23 @@ nav div a:hover {
 footer {
   width: 100vw;
   height: 10rem;
-  background-color: #e100ff4d;
+  /* background-color: #e100ff4d; */
+
+  padding: 0rem 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a:link,
+a:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
 
   display: flex;
-  justify-content: center;
+  align-items: center;
+}
+
+footer a svg {
+  margin-right: 1rem;
 }
