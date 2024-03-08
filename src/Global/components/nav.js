@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as Svg } from "../Images/icons/Logo.svg";
+import { ReactComponent as Svg } from "../../Images/icons/Logo.svg";
 
 export default function Nav() {
   return (

@@ -1,6 +1,6 @@
-import { ReactComponent as InstaSvg } from "../Images/icons/instagram.svg";
-import { ReactComponent as LinkedInSvg } from "../Images/icons/linkedin.svg";
-import { ReactComponent as MediumSvg } from "../Images/icons/medium.svg";
+import { ReactComponent as InstaSvg } from "../../Images/icons/instagram.svg";
+import { ReactComponent as LinkedInSvg } from "../../Images/icons/linkedin.svg";
+import { ReactComponent as MediumSvg } from "../../Images/icons/medium.svg";
 
 export default function Footer() {
   return (
