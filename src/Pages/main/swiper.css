@@ -1,17 +1,22 @@
 .swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0rem;
+}
+
+.swiper-wrapper {
+  align-items: center;
 }
 
 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  height: 40rem;
+  padding: 0rem 2rem 0rem 2rem;
 }
 
-.swiper-slide img {
-  display: block;
+.swiper-slide div {
   width: 100%;
 }

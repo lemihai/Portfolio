@@ -70,8 +70,7 @@
 .project-wrap {
   display: block;
   height: 40rem;
-  width: 40rem;
-  background-color: aqua;
+  width: 100%;
 }
 
 /* .is-prev {
@@ -83,3 +82,9 @@
   transform: perspective(800px) rotateY(-20deg);
   transition: all 1s;
 } */
+
+.ps2 {
+  background-image: url("../../Images/grad.jpg");
+  background-size: cover;
+  z-index: 3;
+}

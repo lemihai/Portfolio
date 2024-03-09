@@ -45,7 +45,7 @@ export default function CarouselB() {
       >
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap">
+            <div className="project-wrap ps2">
               <p className="project ">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
@@ -53,7 +53,7 @@ export default function CarouselB() {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap">
+            <div className="project-wrap ps2">
               <p className="project ">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
@@ -61,7 +61,7 @@ export default function CarouselB() {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap">
+            <div className="project-wrap ps2">
               <p className="project ">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
@@ -69,7 +69,7 @@ export default function CarouselB() {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap">
+            <div className="project-wrap ps2">
               <p className="project ">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
@@ -77,7 +77,7 @@ export default function CarouselB() {
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap">
+            <div className="project-wrap ps2">
               <p className="project ">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
