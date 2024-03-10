@@ -1,6 +1,6 @@
-import { ReactComponent as InstaSvg } from "../../Images/icons/instagram.svg";
-import { ReactComponent as LinkedInSvg } from "../../Images/icons/linkedin.svg";
-import { ReactComponent as MediumSvg } from "../../Images/icons/medium.svg";
+import insta from "../../Images/icons/instagram.png";
+import linkedin from "../../Images/icons/linkedin.png";
+import medium from "../../Images/icons/medium.png";
 
 export default function Footer() {
   return (
@@ -9,15 +9,15 @@ export default function Footer() {
     // the link should open in a new tab
     <footer>
       <a href="https://www.instagram.com/le_mihai/?hl=en">
-        <InstaSvg />
+        <img src={insta} className="footer-icon" alt="instagram logo" />
         Instagram
       </a>
-      <a href="https://www.linkedin.com/in/mihai-butnariu/">
-        <LinkedInSvg />
+      <a href="https://www.instagram.com/le_mihai/?hl=en">
+        <img src={linkedin} className="footer-icon" alt="instagram logo" />
         Linkedin
       </a>
       <a href="https://medium.com/@mihai.alex.butnariu">
-        <MediumSvg />
+        <img src={medium} className="footer-icon" alt="Medium logo" />
         Medium
       </a>
     </footer>

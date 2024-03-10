@@ -1,5 +1,4 @@
 import { Tilt } from "react-tilt";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -26,7 +25,7 @@ const defaultOptions = {
 
 export default function CarouselB() {
   return (
-    <>
+    <div className="carousel-wrapper">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -44,9 +43,19 @@ export default function CarouselB() {
         className="mySwiper"
       >
         <SwiperSlide>
+          <Tilt style={{ transform: `translateZ(0)` }} options={defaultOptions}>
+            <div className="project-wrap ps2">
+              <p className="project-title">PS2</p>
+              <p className="project-description">
+                Creating a miniature city for the energy transition of Delft
+              </p>
+            </div>{" "}
+          </Tilt>{" "}
+        </SwiperSlide>
+        <SwiperSlide>
           <Tilt options={defaultOptions}>
             <div className="project-wrap ps2">
-              <p className="project ">PS2</p>
+              <p className="project-title">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
           </Tilt>{" "}
@@ -54,7 +63,7 @@ export default function CarouselB() {
         <SwiperSlide>
           <Tilt options={defaultOptions}>
             <div className="project-wrap ps2">
-              <p className="project ">PS2</p>
+              <p className="project-title">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
           </Tilt>{" "}
@@ -62,7 +71,7 @@ export default function CarouselB() {
         <SwiperSlide>
           <Tilt options={defaultOptions}>
             <div className="project-wrap ps2">
-              <p className="project ">PS2</p>
+              <p className="project-title">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
           </Tilt>{" "}
@@ -70,20 +79,12 @@ export default function CarouselB() {
         <SwiperSlide>
           <Tilt options={defaultOptions}>
             <div className="project-wrap ps2">
-              <p className="project ">PS2</p>
-              <p className="project-description">university project</p>
-            </div>{" "}
-          </Tilt>{" "}
-        </SwiperSlide>
-        <SwiperSlide>
-          <Tilt options={defaultOptions}>
-            <div className="project-wrap ps2">
-              <p className="project ">PS2</p>
+              <p className="project-title">PS2</p>
               <p className="project-description">university project</p>
             </div>{" "}
           </Tilt>{" "}
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

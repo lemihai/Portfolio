@@ -8,15 +8,41 @@
   align-items: center;
 }
 
+.carousel-wrapper {
+  height: 100vh;
+}
+
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50rem;
   height: 40rem;
-  padding: 0rem 2rem 0rem 2rem;
 }
 
 .swiper-slide div {
   width: 100%;
+}
+
+.project-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 3.6rem;
+  height: 40rem;
+  width: 100%;
+  color: #fff;
+}
+
+.project-title {
+  font-size: 6.2rem;
+  font-weight: 700;
+  font-size: 6.2rem;
+}
+
+.ps2 {
+  background-image: url("../../Images/grad.jpg");
+  background-size: cover;
+  z-index: 3;
 }
