@@ -4,7 +4,7 @@
 
 .hero-wrapper {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 
   display: flex;
   flex-direction: row;
@@ -31,5 +31,63 @@
 }
 
 /* **************** */
-/* PROJECTS SECTION */
+/* CAROUSEL SECTION */
+/* **************** */
+
+.carousel-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+  margin: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 40rem;
+  padding: 3.6rem;
+}
+
+.swiper-slide div {
+  width: 100%;
+}
+
+.project-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 3.6rem;
+  height: 40rem;
+  width: 100%;
+  color: #fff;
+}
+
+.project-title {
+  font-size: 6.2rem;
+  font-weight: 700;
+  font-size: 6.2rem;
+}
+
+.ps2 {
+  background-image: url("../../Images/grad.jpg");
+  background-size: cover;
+  z-index: 3;
+}
+
+/* **************** */
+/* ABOUT ME SECTION */
 /* **************** */

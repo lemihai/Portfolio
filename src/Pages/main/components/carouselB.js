@@ -6,10 +6,13 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
+import "../main.css";
 import "../swiper.css";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
+
+// Default options for Tilt.js
 
 const defaultOptions = {
   reverse: false, // reverse the tilt direction
@@ -26,11 +29,13 @@ const defaultOptions = {
 export default function CarouselB() {
   return (
     <div className="carousel-wrapper">
+      {/* the swiper and it's options//coult potentially move them as a const */}
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
+        initialSlide={2}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -42,6 +47,7 @@ export default function CarouselB() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
+        {/* swiper slide of the swiper carousel */}
         <SwiperSlide>
           <Tilt style={{ transform: `translateZ(0)` }} options={defaultOptions}>
             <div className="project-wrap ps2">

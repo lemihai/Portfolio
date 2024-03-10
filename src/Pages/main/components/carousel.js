@@ -4,7 +4,6 @@ import { Tilt } from "react-tilt";
 
 import "@splidejs/react-splide/css";
 
-import "../main.css";
 //TILT SETUP
 
 const defaultOptions = {

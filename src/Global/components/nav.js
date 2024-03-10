@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as Svg } from "../../Images/icons/Logo.svg";
+import logo from "../../Images/icons/Logo.png";
 
 export default function Nav() {
   return (
     <nav>
-      <div className="logo">
-        <img src="../../Images/icons/Logo.png" alt="logo" />
-      </div>
+      <img className="logo" src={logo} alt="logo" />
       <div>
         <Link to="/">home</Link>
         <Link to="/pages/work">work</Link>

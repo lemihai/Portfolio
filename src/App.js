@@ -25,8 +25,6 @@ import About from "./Pages/about/about";
 import "./gradient.scss";
 
 export default function App() {
-  // CIRCLE FOLLOWING MOUSE
-  // NOT WORKING
   return (
     <div className="body background-gradient">
       <GooFilter />
@@ -52,7 +50,6 @@ export default function App() {
           </Routes>
         </BrowserRouter>
         <Hero />
-        {/* <Carousel /> */}
         <CarouselB />
         <Footer />
       </main>

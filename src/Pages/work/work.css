@@ -1,0 +1,25 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  padding: 6vw 12.8rem 0vw 12.8rem;
+  height: 100%;
+  color: #fff;
+}
+
+.work-header {
+  /* ***** The 12.8 rem header doesn't look bad and I might use it actually. jsut not here */
+  /* font-size: 12.8rem; */
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.work-title {
+  font-size: 4rem;
+}
+
+.work-text {
+  font-size: 3.2rem;
+}
