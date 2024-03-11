@@ -1,10 +1,8 @@
-import React, { useEffect, useRef } from "react";
 // IMPORT ROUTER
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
   BrowserRouter,
 } from "react-router-dom";
 
@@ -13,7 +11,6 @@ import {
 import Nav from "./Global/components/nav";
 import Footer from "./Global/components/footer";
 import Hero from "./Pages/main/components/hero";
-import Carousel from "./Pages/main/components/carousel";
 import CarouselB from "./Pages/main/components/carouselB";
 
 // PAGES import

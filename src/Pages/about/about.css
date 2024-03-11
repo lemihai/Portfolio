@@ -1,0 +1,10 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 12.8rem;
+}
+
+.about-image {
+  height: 30vh;
+  width: auto;
+}

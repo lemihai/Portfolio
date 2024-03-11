@@ -7,6 +7,8 @@
   color: #fff;
 }
 
+/* WORK HEADER */
+
 .work-header {
   /* ***** The 12.8 rem header doesn't look bad and I might use it actually. jsut not here */
   /* font-size: 12.8rem; */
@@ -22,4 +24,62 @@
 
 .work-text {
   font-size: 3.2rem;
+}
+
+.work-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.work-controls-wrap {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Work button */
+
+.work-button {
+  font-size: 2.4rem;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.work-botton:hover,
+.work-button:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* WORK WROJECT CSS */
+
+.work-projects-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.work-project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12rem;
+}
+
+.work-project-image {
+  width: 10rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-project-title {
+  font-size: 2.4rem;
+}
+
+.work-project-text {
+  font-size: 1.6rem;
 }

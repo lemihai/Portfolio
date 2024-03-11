@@ -1,3 +1,4 @@
+import example from "../../Images/grad.jpg";
 import "./work.css";
 
 export default function Work() {
@@ -11,20 +12,36 @@ export default function Work() {
       </div>
       <div className="work-wrap">
         <div className="work-controls-wrap">
-          <button className="work-button">design</button>
-          <button className="work-button">programming</button>
-          <button className="work-button">research</button>
-          <button className="work-button">Personal</button>
+          <ButtonFilterProject text="Design" />
+          <ButtonFilterProject text="Programming" />
+          <ButtonFilterProject text="Research" />
         </div>
         <div className="work-projects-wrap">
-          <div className="work-project">test</div>
-          <div className="work-project">test</div>
-          <div className="work-project">test</div>
-          <div className="work-project">test</div>
-          <div className="work-project">test</div>
-          <div className="work-project">test</div>
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
         </div>
       </div>
     </main>
   );
+}
+
+function Project() {
+  return (
+    <div className="work-project">
+      <img
+        className="work-project-image"
+        src={example}
+        alt="project title image5"
+      ></img>
+      <h2 className="work-project-title">Title</h2>
+      <p className="work-project-text">Example</p>
+    </div>
+  );
+}
+
+function ButtonFilterProject({ text }) {
+  return <button className="work-button">{text}</button>;
 }

@@ -49,7 +49,7 @@ export default function CarouselB() {
       >
         {/* swiper slide of the swiper carousel */}
         <SwiperSlide>
-          <Tilt style={{ transform: `translateZ(0)` }} options={defaultOptions}>
+          <Tilt options={defaultOptions}>
             <div className="project-wrap ps2">
               <p className="project-title">PS2</p>
               <p className="project-description">
