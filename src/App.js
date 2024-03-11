@@ -35,7 +35,7 @@ export default function App() {
           <div className="interactive"></div>
         </div>
       </div>
-      <main>
+      <main className="main-page">
         <BrowserRouter>
           <Nav />
 

@@ -71,6 +71,7 @@ body {
 }
 
 .body {
+  position: relative;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -88,10 +89,10 @@ code {
   background: linear-gradient(
     348deg,
     #239678,
-    #44e8bd,
-    #44b4e8,
+    #1d8065,
+    #0a7880,
     #4baa7d,
-    #00ffdf
+    #117241
   );
   background-size: 1000% 1000%;
 
