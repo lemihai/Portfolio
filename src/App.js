@@ -10,13 +10,12 @@ import {
 
 import Nav from "./Global/components/nav";
 import Footer from "./Global/components/footer";
-import Hero from "./Pages/main/components/hero";
-import CarouselB from "./Pages/main/components/carouselB";
 
 // PAGES import
 import Work from "./Pages/work/work";
 import Contact from "./Pages/contact/contact";
 import About from "./Pages/about/about";
+import Main from "./Pages/main/main";
 
 // STYLES
 import "./gradient.scss";
@@ -40,15 +39,13 @@ export default function App() {
           <Nav />
 
           <Routes>
-            {/* <Route path="" element={<Home />} /> */}
+            <Route path="/pages/main" element={<Main />} />
             <Route path="/pages/work" element={<Work />} />
             <Route path="/pages/about" element={<About />} />
             <Route path="/pages/contact" element={<Contact />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
-        <Hero />
-        <CarouselB />
-        <Footer />
       </main>
     </div>
   );

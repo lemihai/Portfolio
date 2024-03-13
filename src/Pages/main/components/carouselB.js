@@ -36,6 +36,7 @@ export default function CarouselB() {
         centeredSlides={true}
         slidesPerView={"auto"}
         initialSlide={2}
+        scale={1}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,

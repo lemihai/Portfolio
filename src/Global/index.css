@@ -68,6 +68,7 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
+  color: #dfdfdf;
 }
 
 .body {
@@ -147,8 +148,8 @@ main {
 
 nav {
   width: 100vw;
-  height: 6.4rem;
-  padding: 2rem 8.4rem;
+  height: auto;
+  padding: 1rem 8.4rem;
 
   /* display properties for the navigation bar*/
   display: flex;
@@ -167,25 +168,38 @@ nav {
   width: 2.4rem;
 }
 
-nav div a:link,
-:visited {
-  text-decoration: none;
-  text-transform: uppercase;
-
-  /* style of the button */
-  margin-left: 3.2rem;
-  padding: 1.6rem;
-  color: #ffffff;
-  border-radius: 1rem;
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
 }
 
-nav div a:hover {
-  /* experiment with hover */
-  box-shadow: 0px 0px 2rem 0.2rem #ffffff;
+.nav-btn:link,
+.nav-btn:visited {
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #08572f00;
+  border: none;
+  transition: 0.3s all ease;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+  scale: 1.1;
+  background-color: #0c573e;
+  transition: 0.3s all ease;
 }
 
 /* FOOTER */
-
 footer {
   width: 100vw;
   height: 30vh;
