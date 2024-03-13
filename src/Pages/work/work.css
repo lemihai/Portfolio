@@ -34,33 +34,51 @@
 
 .work-controls-wrap {
   display: flex;
-  gap: 2rem;
+  gap: 8rem;
 }
 
 /* Work button */
 
-.work-button {
-  font-size: 2.4rem;
-  padding: 1.6rem 3.2rem;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.1);
+.work-button,
+.work-button:visited {
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 1.2rem 3.2rem;
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
-  cursor: pointer;
-  border-radius: 1rem;
-  transition: all 0.3s ease;
+  background-color: #167958;
+  border: none;
+  transition: 0.3s all ease;
 }
 
-.work-botton:hover,
-.work-button:focus {
-  background-color: rgba(255, 255, 255, 0.2);
+.work-button:hover,
+.work-button:active {
+  scale: 1.1;
+  background-color: #0c573e;
+  transition: 0.3s all ease;
 }
 
 /* WORK PROJECT CSS */
-
 .work-projects-wrap {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+}
+
+.work-projects-wrap a:link,
+.work-projects-wrap a:visited {
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.work-projects-wrap a:hover,
+.work-projects-wrap a:active {
+  background-color: #0c573e;
+  padding: 1.6rem;
 }
 
 .work-project {
@@ -85,3 +103,21 @@
   grid-column: 2;
   font-size: 1.6rem;
 }
+
+/* ********** PS 2 PAGE ********** */
+
+.project-ps2 {
+  height: 100vh;
+}
+
+.project-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  background-position: center center;
+}
+
+/* ********** PS 2 PAGE ********** */
+/* ********** PS 2 PAGE ********** */
+/* ********** PS 2 PAGE ********** */
+/* ********** PS 2 PAGE ********** */

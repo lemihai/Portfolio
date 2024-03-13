@@ -2,6 +2,17 @@ import example from "../../Images/grad.jpg";
 import "./work.css";
 import projectList from "../../Content/data.json";
 import { Link, Routes, Route } from "react-router-dom";
+import { Tilt } from "react-tilt";
+
+// Pages import for routing
+
+import Ps2 from "./ps2";
+import Grad from "./grad";
+import GradDesign from "./grad-design";
+
+const defaultOptions = {
+  easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
+};
 
 export default function Work() {
   return (
@@ -20,11 +31,7 @@ export default function Work() {
         </div>
         {/* <BrowserRouter> */}
         <ProjectList />
-        <Routes>
-          <Route path="ps2" element={<Project key={1} />}></Route>
-          <Route path="grad" element={<Project key={2} />}></Route>
-          <Route path="grad-design" element={<Project key={3} />}></Route>
-        </Routes>
+
         {/* </BrowserRouter> */}
       </div>
     </main>
@@ -61,5 +68,9 @@ function Project({ name, description, pagelink }) {
 }
 
 function ButtonFilterProject({ text }) {
-  return <button className="work-button">{text}</button>;
+  return (
+    <Tilt options={defaultOptions}>
+      <button className="work-button">{text}</button>
+    </Tilt>
+  );
 }

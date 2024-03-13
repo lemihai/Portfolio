@@ -5,7 +5,9 @@ import logo from "../../Images/icons/Logo.png";
 export default function Nav() {
   return (
     <nav>
-      <img className="logo" src={logo} alt="logo" />
+      <Link to="/pages/main">
+        <img className="logo" src={logo} alt="logo" />
+      </Link>
       <div className="nav-flex">
         <div className="nav-link">
           <Tilt>

@@ -1,9 +1,11 @@
 import hero from "../../../Images/hero/me.png";
 import "../main.css";
+import { useParallax } from "react-scroll-parallax";
 
 export default function Hero() {
+  const { ref } = useParallax({ speed: -10 });
   return (
-    <section className="hero-wrapper">
+    <section className="hero-wrapper" ref={ref}>
       <div className="hero-text">
         <h1>Designer</h1>
         <h1>Developer</h1>
