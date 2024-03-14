@@ -110,11 +110,30 @@
   height: 100vh;
 }
 
-.project-image {
+.project-header-wrap {
+  display: flex;
+  /* flex-direction: column; */
   width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image {
   height: 100vh;
   object-fit: cover;
   background-position: center center;
+  padding-right: 15vw;
+}
+
+.project-header {
+  position: absolute;
+  transform: translate(0rem, 20rem);
+  font-size: 8.2rem;
+  width: 40%;
+  right: 10rem;
+  background-color: #0c573e;
+  padding: 4rem;
+  margin-top: 55vh;
 }
 
 /* ********** PS 2 PAGE ********** */

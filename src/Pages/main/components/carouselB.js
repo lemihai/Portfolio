@@ -29,6 +29,8 @@ const defaultOptions = {
 export default function CarouselB() {
   return (
     <div className="carousel-wrapper">
+      <h1 className="carousel-intro-header">Check out my best projects</h1>
+
       {/* the swiper and it's options//coult potentially move them as a const */}
       <Swiper
         effect={"coverflow"}
@@ -51,44 +53,63 @@ export default function CarouselB() {
         {/* swiper slide of the swiper carousel */}
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap ps2">
-              <p className="project-title">PS2</p>
-              <p className="project-description">
-                Creating a miniature city for the energy transition of Delft
-              </p>
-            </div>{" "}
+            <div className="project-cards-wrap">
+              <div className="project-wrap card-bottoma mrc"></div>{" "}
+              <div className="project-wrap card-bottomb ps3d"></div>{" "}
+              <div className="project-wrap card-front ps2">
+                <p className="project-title">PS2</p>
+                <p className="project-description">university project</p>
+              </div>{" "}
+            </div>
           </Tilt>{" "}
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap ps2">
-              <p className="project-title">PS2</p>
-              <p className="project-description">university project</p>
-            </div>{" "}
+            <div className="project-cards-wrap">
+              <div className="project-wrap card-bottoma mrc"></div>{" "}
+              <div className="project-wrap card-bottomb ps3d"></div>{" "}
+              <div className="project-wrap card-front ps2">
+                <p className="project-title">PS2</p>
+                <p className="project-description">university project</p>
+              </div>{" "}
+            </div>
           </Tilt>{" "}
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap ps2">
-              <p className="project-title">PS2</p>
-              <p className="project-description">university project</p>
-            </div>{" "}
+            <div className="project-cards-wrap">
+              <div className="project-wrap card-bottoma mrc"></div>{" "}
+              <div className="project-wrap card-bottomb ps3d"></div>{" "}
+              <div className="project-wrap card-front grad">
+                <p className="project-title">
+                  The impact of AI in the process of empathy
+                </p>
+              </div>{" "}
+            </div>
           </Tilt>{" "}
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap ps2">
-              <p className="project-title">PS2</p>
-              <p className="project-description">university project</p>
-            </div>{" "}
+            <div className="project-cards-wrap">
+              <div className="project-wrap card-bottoma mrc"></div>{" "}
+              <div className="project-wrap card-bottomb ps3d"></div>{" "}
+              <div className="project-wrap card-front ps2">
+                <p className="project-title">PS2</p>
+                <p className="project-description">university project</p>
+              </div>{" "}
+            </div>
           </Tilt>{" "}
         </SwiperSlide>
         <SwiperSlide>
           <Tilt options={defaultOptions}>
-            <div className="project-wrap ps2">
-              <p className="project-title">PS2</p>
-              <p className="project-description">university project</p>
-            </div>{" "}
+            <div className="project-cards-wrap">
+              <div className="project-wrap card-bottoma mrc"></div>{" "}
+              <div className="project-wrap card-bottomb ps3d"></div>{" "}
+              <div className="project-wrap card-front ps2">
+                <p className="project-title">PS2</p>
+                <p className="project-description">university project</p>
+              </div>{" "}
+            </div>
           </Tilt>{" "}
         </SwiperSlide>
       </Swiper>

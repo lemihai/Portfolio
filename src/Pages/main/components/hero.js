@@ -3,7 +3,7 @@ import "../main.css";
 import { useParallax } from "react-scroll-parallax";
 
 export default function Hero() {
-  const { ref } = useParallax({ speed: -10 });
+  const { ref } = useParallax({ speed: -20 });
   return (
     <section className="hero-wrapper" ref={ref}>
       <div className="hero-text">

@@ -91,3 +91,5 @@ function GooFilter() {
     </svg>
   );
 }
+
+function ToggleMode() {}

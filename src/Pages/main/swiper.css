@@ -1,6 +1,6 @@
 .swiper {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   margin: 0rem;
 }
 
@@ -13,6 +13,8 @@
   overflow: hidden;
 }
 
+/* ******* SWIPER SLIDE ******* */
+
 .swiper-slide {
   display: flex;
   justify-content: center;
@@ -21,29 +23,102 @@
   height: 40rem;
 }
 
+/* The tilt div */
+
 .swiper-slide div {
   width: 100%;
+
+  /* Tilt parallax effect */
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+
+.project-cards-wrap {
+  position: relative;
 }
 
 .project-wrap {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 1.6rem;
   padding: 3.6rem;
   height: 40rem;
   width: 100%;
   color: #fff;
+
+  /* Tilt parallax effect */
+
+  transform-style: preserve-3d;
+  transform: translateZ(20px);
 }
 
 .project-title {
   font-size: 6.2rem;
   font-weight: 700;
-  font-size: 6.2rem;
+
+  /* Tilt parallax effect */
+  transform: translateZ(20px);
 }
 
+.project-description {
+  font-size: 2.2rem;
+
+  /* Tilt parallax effect */
+  transform: translateZ(20px);
+}
+
+.card-bottoma {
+  /* z-index: 0; */
+  position: absolute;
+  /* transform: rotate(10deg) !important; */
+}
+
+.card-bottomb {
+  /* z-index: 0; */
+  position: absolute;
+  /* transform: rotate(-10deg) !important; */
+}
+
+.project-cards-wrap:hover > .card-bottoma {
+  transform: rotate(10deg) !important;
+  scale: 1.05;
+}
+
+.project-cards-wrap:hover > .card-bottomb {
+  transform: rotate(-10deg) !important;
+  scale: 1.05;
+}
+
+.card-front {
+  z-index: 1;
+}
+
+/* ******* PROJECTS SLIDE ******* */
+/* *****-- PS2 SLIDE --****** */
+
 .ps2 {
+  background-image: url("../../Images/ps2.jpg");
+  background-size: cover;
+  /* z-index: 3; */
+}
+
+.ps3d {
+  background-image: url("../../Images/sp3d.png");
+  background-size: cover;
+  /* z-index: 3; */
+}
+.mrc {
+  background-image: url("../../Images/mrc.png");
+  background-size: cover;
+  /* z-index: 3; */
+}
+
+/* *****-- Grad SLIDE --****** */
+
+.grad {
   background-image: url("../../Images/grad.jpg");
   background-size: cover;
-  z-index: 3;
+  /* z-index: 3; */
 }
