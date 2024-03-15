@@ -7,7 +7,7 @@ export default function Grad() {
   const parallaxImageTop = useParallax({ speed: 20 });
 
   return (
-    <div className="project-ps2">
+    <div className="project">
       <header className="project-header-wrap">
         <Parallax translateX={["600px", "-1300px"]} easing="easeInQuad">
           <img

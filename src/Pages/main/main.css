@@ -2,6 +2,10 @@
   overflow: hidden;
 }
 
+.link-none {
+  text-decoration: none;
+}
+
 /* **************** */
 /* HERO SECTION */
 /* **************** */

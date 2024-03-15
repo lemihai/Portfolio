@@ -11,6 +11,7 @@ import "../swiper.css";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 // Default options for Tilt.js
 
@@ -52,65 +53,83 @@ export default function CarouselB() {
       >
         {/* swiper slide of the swiper carousel */}
         <SwiperSlide>
-          <Tilt options={defaultOptions}>
-            <div className="project-cards-wrap">
-              <div className="project-wrap card-bottoma mrc"></div>{" "}
-              <div className="project-wrap card-bottomb ps3d"></div>{" "}
-              <div className="project-wrap card-front ps2">
-                <p className="project-title">PS2</p>
-                <p className="project-description">university project</p>
-              </div>{" "}
-            </div>
-          </Tilt>{" "}
+          <Link className="link-none" to="/pages/work/grad">
+            <Tilt options={defaultOptions}>
+              <div className="project-cards-wrap">
+                <div className="project-wrap card-bottoma mrc"></div>{" "}
+                <div className="project-wrap card-bottomb ps3d"></div>{" "}
+                <div className="project-wrap card-front ps2">
+                  <p className="project-title">
+                    The impact of AI in the process of empathy
+                  </p>
+                  <p className="project-description">university project</p>
+                </div>{" "}
+              </div>
+            </Tilt>{" "}
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Tilt options={defaultOptions}>
-            <div className="project-cards-wrap">
-              <div className="project-wrap card-bottoma mrc"></div>{" "}
-              <div className="project-wrap card-bottomb ps3d"></div>{" "}
-              <div className="project-wrap card-front ps2">
-                <p className="project-title">PS2</p>
-                <p className="project-description">university project</p>
-              </div>{" "}
-            </div>
-          </Tilt>{" "}
+          <Link className="link-none" to="/pages/work/grad">
+            <Tilt options={defaultOptions}>
+              <div className="project-cards-wrap">
+                <div className="project-wrap card-bottoma mrc"></div>{" "}
+                <div className="project-wrap card-bottomb ps3d"></div>{" "}
+                <div className="project-wrap card-front ps2">
+                  <p className="project-title">
+                    The impact of AI in the process of empathy
+                  </p>
+                  <p className="project-description">university project</p>
+                </div>{" "}
+              </div>
+            </Tilt>{" "}
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Tilt options={defaultOptions}>
-            <div className="project-cards-wrap">
-              <div className="project-wrap card-bottoma mrc"></div>{" "}
-              <div className="project-wrap card-bottomb ps3d"></div>{" "}
-              <div className="project-wrap card-front grad">
-                <p className="project-title">
-                  The impact of AI in the process of empathy
-                </p>
-              </div>{" "}
-            </div>
-          </Tilt>{" "}
+          <Link className="link-none" to="/pages/work/grad">
+            <Tilt options={defaultOptions}>
+              <div className="project-cards-wrap">
+                <div className="project-wrap card-bottoma mrc"></div>{" "}
+                <div className="project-wrap card-bottomb ps3d"></div>{" "}
+                <div className="project-wrap card-front grad">
+                  <p className="project-title">
+                    The impact of AI in the process of empathy
+                  </p>
+                </div>{" "}
+              </div>
+            </Tilt>{" "}
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Tilt options={defaultOptions}>
-            <div className="project-cards-wrap">
-              <div className="project-wrap card-bottoma mrc"></div>{" "}
-              <div className="project-wrap card-bottomb ps3d"></div>{" "}
-              <div className="project-wrap card-front ps2">
-                <p className="project-title">PS2</p>
-                <p className="project-description">university project</p>
-              </div>{" "}
-            </div>
-          </Tilt>{" "}
+          <Link className="link-none" to="/pages/work/grad">
+            <Tilt options={defaultOptions}>
+              <div className="project-cards-wrap">
+                <div className="project-wrap card-bottoma mrc"></div>{" "}
+                <div className="project-wrap card-bottomb ps3d"></div>{" "}
+                <div className="project-wrap card-front ps2">
+                  <p className="project-title">
+                    The impact of AI in the process of empathy
+                  </p>
+                  <p className="project-description">university project</p>
+                </div>{" "}
+              </div>
+            </Tilt>{" "}
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Tilt options={defaultOptions}>
-            <div className="project-cards-wrap">
-              <div className="project-wrap card-bottoma mrc"></div>{" "}
-              <div className="project-wrap card-bottomb ps3d"></div>{" "}
-              <div className="project-wrap card-front ps2">
-                <p className="project-title">PS2</p>
-                <p className="project-description">university project</p>
-              </div>{" "}
-            </div>
-          </Tilt>{" "}
+          <Link className="link-none" to="/pages/work/grad">
+            <Tilt options={defaultOptions}>
+              <div className="project-cards-wrap">
+                <div className="project-wrap card-bottoma mrc"></div>{" "}
+                <div className="project-wrap card-bottomb ps3d"></div>{" "}
+                <div className="project-wrap card-front ps2">
+                  <p className="project-title">
+                    The impact of AI in the process of empathy
+                  </p>
+                  <p className="project-description">university project</p>
+                </div>{" "}
+              </div>
+            </Tilt>{" "}
+          </Link>
         </SwiperSlide>
       </Swiper>
     </div>
