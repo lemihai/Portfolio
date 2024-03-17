@@ -119,6 +119,10 @@
   align-items: center;
 }
 
+.project-header-wrap > div {
+  transition: 0.3s all ease;
+}
+
 .project-image {
   height: 100vh;
   object-fit: cover;
@@ -135,6 +139,7 @@
   background-color: #0c573e;
   padding: 4rem;
   margin-top: 55vh;
+  transition: 0.3s all ease;
 }
 
 /* ********** PS 2 PAGE ********** */

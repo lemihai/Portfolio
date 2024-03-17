@@ -63,6 +63,7 @@ Section:
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  transition: 0.3s all ease;
 }
 
 body {
