@@ -17,7 +17,7 @@ export default function Grad() {
             ref={parallaxImageTop.ref}
           />
         </Parallax>
-        <h1 className="project-header" ref={parallaxHeaderText.ref}>
+        <h1 className="project-header " ref={parallaxHeaderText.ref}>
           The impact of AI in the process of empathy
         </h1>
       </header>

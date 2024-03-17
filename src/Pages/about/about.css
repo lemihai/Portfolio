@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   padding: 0rem 12.8rem;
+  gap: 12.8rem;
 }
 
 .about-wrap {
@@ -69,13 +70,14 @@
 .skills-wrap {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 8rem;
 }
 
 .roles-header {
   display: flex;
-  justify-content: space-around;
-  margin: 8rem 0rem;
+  gap: 12.8rem;
+  margin: 0rem 0rem 12.8rem 0rem;
 }
 
 .role {

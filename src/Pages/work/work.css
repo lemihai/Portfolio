@@ -80,6 +80,7 @@
 .work-projects-wrap a:active {
   background-color: #0c573e;
   padding: 1.6rem;
+  scale: 1.04;
 }
 
 .work-project {
