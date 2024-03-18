@@ -20,15 +20,15 @@ export default function Work() {
       <div className="work-header">
         <h1 className="work-title">Check out my work</h1>
         <p className="work-text">
-          I have projects in programming, design and research
+          I have design, reseach and programming projects
         </p>
       </div>
       <div className="work-wrap">
-        <div className="work-controls-wrap">
+        {/* <div className="work-controls-wrap">
           <ButtonFilterProject text="Design" />
           <ButtonFilterProject text="Programming" />
           <ButtonFilterProject text="Research" />
-        </div>
+        </div> */}
         {/* <BrowserRouter> */}
         <ProjectList />
 
@@ -39,14 +39,19 @@ export default function Work() {
 }
 
 function ProjectList() {
-  const projectsLS = projectList.map((project) => (
-    <Project
-      key={project.id}
-      name={project.project_name}
-      description={project.description}
-      pagelink={project.pagelink}
-    />
-  ));
+  const projectsLS = projectList.map((project) =>
+    // conditionally render if it's a project type
+    project.type === "proj" ? (
+      <Project
+        key={project.id}
+        name={project.project_name}
+        description={project.description}
+        pagelink={project.pagelink}
+      />
+    ) : (
+      ""
+    )
+  );
 
   return <div className="work-projects-wrap">{projectsLS}</div>;
 }

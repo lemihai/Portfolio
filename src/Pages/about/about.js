@@ -72,32 +72,51 @@ export default function About() {
           ></img>
         </div>
       </header>
-      <div className="skills-wrap">
+      <div className="skills-wrap" ref={parallaxB.ref}>
         <h2 className="roles-title">Roles</h2>
         <div className="roles-header">
-          <h2 className="role">UX Designer</h2>
+          <h2 className="role">UX/UI Designer</h2>
+          <h2 className="role">UX Researcher</h2>
           <h2 className="role">Developer</h2>
-          <h2 className="role">Researcher</h2>
         </div>
 
         <div className="skills-header">
-          <h3 className="skills-title">Skill list</h3>
+          <h3 className="skills-title">Skills</h3>
           <div className="skills-section">
             <div className="skill">Wireframing</div>
             <div className="skill">Prototyping</div>
+            <div className="skill">UX Research</div>
+            <div className="skill">Product Design</div>
+            <div className="skill">Service Design</div>
+            <div className="skill">Drawing&Sketching</div>
+            <div className="skill">Problem Solving</div>
+            <div className="skill">Creativity</div>
+            <div className="skill">Storytelling</div>
+            <div className="skill">Planning</div>
             <div className="skill">User Testing</div>
           </div>
           <h3 className="skills-title">Software</h3>
           <div className="skills-section">
+            <div className="skill">Figma</div>
+            <div className="skill">Adobe Creative Suite</div>
+            <div className="skill">Illustrator</div>
+            <div className="skill">Premiere Pro</div>
+            <div className="skill">Sketch</div>
+            <div className="skill">SketchUP</div>
+            <div className="skill">Webflow</div>
+            <div className="skill">Procreate</div>
+            <div className="skill">Miro</div>
+            <div className="skill">Atlas.Ti</div>
+            <div className="skill">Scrumwise</div>
+          </div>
+          <h3 className="skills-title">Developing</h3>
+          <div className="skills-section">
             <div className="skill">HTML/CSS</div>
+            <div className="skill">SCSS</div>
             <div className="skill">Javascript</div>
             <div className="skill">React</div>
             <div className="skill">Node.js</div>
             <div className="skill">Express.js</div>
-            <div className="skill">MongoDB</div>
-            <div className="skill">Figma</div>
-            <div className="skill">Adobe XD</div>
-            <div className="skill">Photoshop</div>
           </div>
         </div>
       </div>

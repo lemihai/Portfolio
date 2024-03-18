@@ -1,32 +1,199 @@
 [
   {
     "id": 1,
-    "project_name": "PS2",
-    "description": "An amazing data visualization project",
-    "pagelink": "ps2"
+    "type": "proj",
+    "project_name": "The impact of AI in the process of empathy",
+    "description": "Exploring the implications of GPT-3.5 and Midjourney in UX research",
+    "pagelink": "grad",
+    "project-content": {
+      "About": {
+        "title": "About",
+        "text": "The Philosophy and Professional Practice research group analyses new technologies and the design practices and society trends that emerge from them. This reveals underlying values, interests, assumptions and world views. By reflecting on the use of technology in professional practice and daily life, the research group creates awareness of the impact of technology on people, professions and society as a whole, including the associated ethical dilemmas."
+      },
+      "Challenge": {
+        "title": "Challenge",
+        "text": "Design a tool that will help researchers when using AI tools in their projects while keeping the quality of their results"
+      },
+      "Solution": {
+        "title": "Solution",
+        "text": "To tackle ths challenge I conducted a two phased research with the first part being focused on an explorative approach on the usage of AI in research. The 2nd phase was focused on an experiment that explored levels of empathy in UX researchers that used AI tools compared to traditional methods. I also created a concept AI tool that focuses on personas. "
+      },
+      "Desk research": {
+        "title": "Desk research",
+        "text": "The first step in my research project was to explore the existing literature on the subject. To organize the pool of articles, podcasts, research papers, I created a system where I would select the most interesting materials and summarize them and  use them as references or inspiration. I chose to conduct desk research because it’s important to explore the existing literature before starting a complex project. First of all to identify leads, then to understand what was already in the field."
+      },
+      "Focus": {
+        "title": "Focus",
+        "text": "While conducting the desk research I came to the conclusion that my topic was not explored almoust at all. While tens of research papers were posted everyday focused on AI technology in multiple fields, there was very little information talking about both empathy and AI in the same place. i defined my goal as:",
+        "focus": "Explore and identify the specific use cases in which young UX researchers are using Ai tools and define their reasons, goals, approaches. Then, compare how much empathy they have with their target group when using AI compared to traditional research methods"
+      },
+      "RQ": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      }
+    }
   },
   {
     "id": 2,
-    "project_name": "Grad",
-    "description": "An amazing data visualization project",
-    "pagelink": "grad"
+    "type": "proj",
+    "project_name": "Making Delft Gas-free",
+    "description": "Communicating the energy transition to the people of Delft",
+    "pagelink": "PS2",
+    "project-content": {
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      }
+    }
   },
   {
-    "id": 3,
-    "project_name": "Graddesign",
-    "description": "An amazing data visualization project",
-    "pagelink": "grad-design"
+    "id": 2,
+    "type": "proj",
+    "project_name": "Making Delft Gas-free",
+    "description": "Communicating the energy transition to the people of Delft",
+    "pagelink": "PS2",
+    "project-content": {
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      }
+    }
   },
   {
-    "id": 4,
-    "project_name": "PS2",
-    "description": "An amazing data visualization project",
-    "pagelink": ""
-  },
-  {
-    "id": 5,
-    "project_name": "PS2",
-    "description": "An amazing data visualization project",
-    "pagelink": ""
+    "id": 2,
+    "type": "proj",
+    "project_name": "Making Delft Gas-free",
+    "description": "Communicating the energy transition to the people of Delft",
+    "pagelink": "PS2",
+    "project-content": {
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      }
+    }
   }
 ]

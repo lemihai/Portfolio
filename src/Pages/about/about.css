@@ -64,7 +64,7 @@
 
 /* ROLES */
 .roles-title {
-  font-size: 8.2rem;
+  font-size: 6.2rem;
 }
 
 .skills-wrap {
@@ -76,6 +76,7 @@
 
 .roles-header {
   display: flex;
+  justify-content: space-between;
   gap: 12.8rem;
   margin: 0rem 0rem 12.8rem 0rem;
 }
@@ -88,8 +89,9 @@
 
 .skills-header {
   display: grid;
-  gap: 20rem;
+  gap: 14rem;
   grid-template-columns: 1fr 5fr;
+  padding: 10vw;
 }
 
 .skills-section {
@@ -98,9 +100,10 @@
 }
 
 .skills-title {
-  font-size: 8.2rem;
+  font-size: 6.2rem;
 }
+
 .skill {
-  font-size: 4.8rem;
+  font-size: 4rem;
   padding: 2rem;
 }
