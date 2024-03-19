@@ -29,23 +29,25 @@
       },
       "RQ": {
         "title": "",
-        "text": ""
+        "text": "After the desk research gave me a couple of directions and ideas about the project, I created two research questions that tackle two aspects of my goal",
+        "rq1": "What are the active AI tools such as LLMs or Generative engines are used in the process of developing empathy with target groups for UX students?",
+        "rq2": "What is the level of understanding of the context of a target group when conducting AI-assisted research compared to a traditional research method in the context of Human-centered design?"
       },
-      "": {
-        "title": "",
-        "text": ""
+      "Interviews": {
+        "title": "Interviews",
+        "text": "For the 2nd research method, I chose the semi-structured interview to gain an understanding of how the participants are using the AI tools and their opinions and take on those tools. The technique gives me the freedom also to ask follow-up questions and have a free conversation by deviating from the main protocol in case I find something interesting in the interview. I will also look for missing pieces in the practice like where AI can be used further and where it's not already used. Also, by listening to the needs of the researchers and getting more insights about their desires, wants and pain points, I can find out what can AI solve in the empathizing process."
       },
-      "": {
-        "title": "",
-        "text": ""
+      "Surveys": {
+        "title": "Surveys",
+        "text": "In this research, surveys will help me map out the use of artificial intelligence in the field of gaining empathy or research. The surveys are going to be sent to the target group and try to collect quantitative data on AI uses "
       },
-      "": {
-        "title": "",
-        "text": ""
+      "AiUse": {
+        "title": "AiUse",
+        "text": "The research technique of uses of AI is an edited version of content analysis for how participants have been using the tools at their disposal. Here, I am reading through the outputs of the AI tools used by the participants gathered in RM2 and RM3 and analyzing the data. At the end of each of the research methods, I asked people if they were willing to share information with me and whoever felt comfortable doing so, they did. Some people shared GPT conversations, some people shared images generated, poems, heatmaps, entire analysis processes, and multiple other things. "
       },
-      "": {
-        "title": "",
-        "text": ""
+      "Experiment": {
+        "title": "Experiment",
+        "text": "Research method 5, the experiment, is an experiment in which I simulate a research process conducted with and without AI. With a more scientific approach, I am comparing the behaviours and level of empathy of researchers who have used AI and researchers who have used a real target group for the same research method (a controlled interview). "
       }
     }
   },
