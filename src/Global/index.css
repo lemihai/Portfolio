@@ -164,12 +164,15 @@ nav {
   font-size: 1.6rem;
   font-weight: 600;
   z-index: 100;
-  color: #fff;
+  /* color: #fff; */
+  /* This line of code makes the whole anvbar exclusion */
+  mix-blend-mode: exclusion;
 }
 
 .logo {
   height: 2.4rem;
   width: 2.4rem;
+  mix-blend-mode: normal;
 }
 
 nav a:link,
@@ -191,6 +194,9 @@ nav a:active {
   gap: 4rem;
 }
 
+.nav-btn {
+}
+
 .nav-btn:link,
 .nav-btn:visited {
   text-decoration: none;
@@ -206,7 +212,6 @@ nav a:active {
   background-color: #08572f00;
   border: none;
   transition: 0.3s all ease;
-  mix-blend-mode: difference;
 }
 
 .nav-btn:hover,

@@ -2,7 +2,7 @@ import "./work.css";
 import project from "../../Content/data.json";
 
 // IMPORT IMAGES
-import gradimage from "../../Images/grad.png";
+import gradimage from "../../Images/gradresearch.png";
 import gradimagea from "../../Images/grad/gra-ph1a (2).jpg";
 
 // import { Parallax, useParallax } from "react-scroll-parallax";
@@ -36,6 +36,7 @@ export default function Grad() {
           solution={solution}
         />
         {/*  */}
+        <h1 className="project-heading-section">Achievements</h1>
         <ProjectShowcase />
         {/* Desk research Section */}
         <ProjectText content={deskresearch} />
@@ -90,32 +91,29 @@ function ProjectDetails({
 
   return (
     <header className="project-details">
-      <div className="project-header-wrap">
-        <p className="project-header-text">Role</p>
-        <div className="project-header-line"></div>
-        <p className="project-header-text">{role}</p>
+      <div className="project-details-wrap-top">
+        <div className="project-details-wrap">
+          <p className="project-details-title">Role</p>{" "}
+          <p className="project-details-text">{role}</p>
+        </div>
+        <div className="project-details-wrap">
+          <p className="project-details-title">Duration</p>{" "}
+          <p className="project-details-text">{duration}</p>
+        </div>
+        <div className="project-details-wrap">
+          <p className="project-details-title">Client</p>{" "}
+          <p className="project-details-text">{client}</p>
+        </div>
+        <div className="project-details-wrap">
+          <p className="project-details-title">Approach</p>{" "}
+          <p className="project-details-text">{approach}</p>
+        </div>
       </div>
-      <div className="project-header-wrap">
-        <p className="project-header-text">Duration</p>
-        <div className="project-header-line"></div>
-        <p className="project-header-text">{duration}</p>
+      <div className="project-header-challenge-wrap">
+        <p className="project-details-challenge-text margin-right">{about}</p>
+        <p className="project-details-challenge">{challenge}</p>
+        <p className="project-details-challenge-text margin-left">{solution}</p>
       </div>
-      <div className="project-header-wrap">
-        <p className="project-header-text">Client</p>
-        <div className="project-header-line"></div>
-        <p className="project-header-text">{client}</p>
-      </div>
-      <div className="project-header-wrap">
-        <p className="project-header-text">Approach</p>
-        <div className="project-header-line"></div>
-        <p className="project-header-text">{approach}</p>
-      </div>
-      <h3 className="project-deatils-title">What is this project about?</h3>
-      <p className="project-deatils-text">{about}</p>
-      <h3 className="project-deatils-title">What was the challenge</h3>
-      <p className="project-deatils-text">{challenge}</p>
-      <h3 className="project-deatils-title">How did we solve it?</h3>
-      <p className="project-deatils-text">{solution}</p>
     </header>
   );
 }
@@ -124,16 +122,62 @@ function ProjectShowcase() {
   return (
     <header className="project-showcase">
       {/* add pictures */}
-      <p className="project-showcase-text">One app concept</p>
-      <p className="project-showcase-text">34 participants</p>
-      <p className="project-showcase-text">6 research leads</p>
-      <p className="project-showcase-text">8 blog posts</p>
-      <p className="project-showcase-text">Research </p>
-      <p className="project-showcase-text">1 experiment</p>
-      <p className="project-showcase-text">500+ data cards</p>
-      <p className="project-showcase-text">20+ insigths</p>
-      <p className="project-showcase-text">20+ insigths</p>
-      <p className="project-showcase-text">20+ insigths</p>
+      {/* MAKE THE STRONG ELEMENT MOVE IN THE PARRALAX FASTER THAN THE REST
+      TO GIVE A FEELING OF 3D */}
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight strong-different-color-a">
+          ONE{" "}
+        </strong>{" "}
+        app concept
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight strong-different-color">
+          34{" "}
+        </strong>
+        participants
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight strong-different-color-c">
+          6
+        </strong>{" "}
+        new research leads
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight strong-different-color">
+          8{" "}
+        </strong>{" "}
+        blog posts
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight strong-different-color">
+          First{" "}
+        </strong>{" "}
+        of it's kind research{" "}
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight strong-different-color-b">
+          20+{" "}
+        </strong>{" "}
+        data graphics
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight strong-different-color-b">
+          500+{" "}
+        </strong>{" "}
+        data cards
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight">9 </strong>{" "}
+        interviews
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight">900+ </strong>{" "}
+        minutes of recorded material
+      </p>
+      <p className="project-showcase-text">
+        <strong className="project-showcase-text-highlight">10+ </strong>{" "}
+        insigths
+      </p>
     </header>
   );
 }

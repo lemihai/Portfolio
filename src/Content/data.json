@@ -8,15 +8,15 @@
     "project-content": {
       "About": {
         "title": "About",
-        "text": "The Philosophy and Professional Practice research group analyses new technologies and the design practices and society trends that emerge from them. This reveals underlying values, interests, assumptions and world views. By reflecting on the use of technology in professional practice and daily life, the research group creates awareness of the impact of technology on people, professions and society as a whole, including the associated ethical dilemmas."
+        "text": "With the new development of the AI tools, more and more young researchers are starting to use them in various parts of their process. But they do not have the experience to know what is right and what is not in a process thus leaving them vulnerable to the biases of such tools.  "
       },
       "Challenge": {
         "title": "Challenge",
-        "text": "Design a tool that will help researchers when using AI tools in their projects while keeping the quality of their results"
+        "text": "Map out the first impacts that AI tools such as GPT 3.5 and Midjourney have on the process of empathy development in UX designers"
       },
       "Solution": {
         "title": "Solution",
-        "text": "To tackle ths challenge I conducted a two phased research with the first part being focused on an explorative approach on the usage of AI in research. The 2nd phase was focused on an experiment that explored levels of empathy in UX researchers that used AI tools compared to traditional methods. I also created a concept AI tool that focuses on personas. "
+        "text": "To tackle ths challenge I conducted a two phased research with the first part being focused on an explorative approach on the usage of AI in research. The 2nd phase was focused on an experiment that explored levels of empathy in UX researchers that used AI tools compared to traditional methods."
       },
       "Desk research": {
         "title": "Desk research",
@@ -42,7 +42,7 @@
         "text": "In this research, surveys will help me map out the use of artificial intelligence in the field of gaining empathy or research. The surveys are going to be sent to the target group and try to collect quantitative data on AI uses "
       },
       "AiUse": {
-        "title": "AiUse",
+        "title": "Ai Use",
         "text": "The research technique of uses of AI is an edited version of content analysis for how participants have been using the tools at their disposal. Here, I am reading through the outputs of the AI tools used by the participants gathered in RM2 and RM3 and analyzing the data. At the end of each of the research methods, I asked people if they were willing to share information with me and whoever felt comfortable doing so, they did. Some people shared GPT conversations, some people shared images generated, poems, heatmaps, entire analysis processes, and multiple other things. "
       },
       "Experiment": {
@@ -122,9 +122,9 @@
   {
     "id": 2,
     "type": "proj",
-    "project_name": "Making Delft Gas-free",
-    "description": "Communicating the energy transition to the people of Delft",
-    "pagelink": "PS2",
+    "project_name": "Graduation Project",
+    "description": "Designing a tool for researchers to communicate with their target group",
+    "pagelink": "grad-design",
     "project-content": {
       "": {
         "title": "",
@@ -171,9 +171,9 @@
   {
     "id": 2,
     "type": "proj",
-    "project_name": "Making Delft Gas-free",
-    "description": "Communicating the energy transition to the people of Delft",
-    "pagelink": "PS2",
+    "project_name": "HCI",
+    "description": "Creating a portable DJ set concept using arduino",
+    "pagelink": "HCI",
     "project-content": {
       "": {
         "title": "",
