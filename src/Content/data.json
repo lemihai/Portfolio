@@ -48,6 +48,25 @@
       "Experiment": {
         "title": "Experiment",
         "text": "Research method 5, the experiment, is an experiment in which I simulate a research process conducted with and without AI. With a more scientific approach, I am comparing the behaviours and level of empathy of researchers who have used AI and researchers who have used a real target group for the same research method (a controlled interview). "
+      },
+      "Analysis": {
+        "title": "Analysis",
+        "text-a": "For the data analysis of the 1st phase of research, I coded the interviews of the RM2 (semi-structured interviews) and proceeded to analyze the co-occurrence of the codes and their frequency of appearance. Moreover, I proceeded to create data cards for each of the interviews. For RM3 (survey) I analyzed the results and validated them with the coding results of RM2. Moreover, I also drew a conclusion based on the answers of the participants. For RM4 (Uses of AI Analysis) I read the GPt conversations and I looked through the questions they were asking and the answers. I proceeded to validate the RM2 results with RM4.",
+        "text-b": "I chose the method of coding interviews and analyzing the codes because this gave me a higher chance to identify patterns than if I did data cards, as the already created data cards are high in number and clustering and trying to identify patterns would have taken too much time.",
+        "text-phase2": "For the data analysis of the 2nd technique, I created data cards from the CTRL group, the interview made by the researcher, and concluded how many of the questions from the protocol have been answered. Moreover, I analyzed the interviews and watched the recordings to gather data on body language and the data gathered from participants. These observations were noted in a separate section from the data cards from the interviews. On the other hand, I read the GPT conversations and took out data cards from them to answer the questions from the protocol and further follow-up questions. "
+      },
+      "Insights": {
+        "title": "",
+        "text": ""
+      },
+      "Conclusion": {
+        "title": "",
+        "text": "",
+        "text-bias": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
       }
     }
   },
