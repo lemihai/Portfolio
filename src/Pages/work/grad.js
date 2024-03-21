@@ -118,6 +118,9 @@ export default function Grad() {
           text={textPhase2}
           methoda={methoda2}
         />
+        <h3 className="quote">
+          “A machine can make you feel. But can never understand how you feel”
+        </h3>
         {/* Ending section */}
       </article>
     </div>
@@ -326,6 +329,34 @@ function SectionHeader(props) {
         Methodology: <strong>{props.methoda} </strong>
         <strong>{props.methodb}</strong> <strong>{props.methodc}</strong>
       </p>
+    </div>
+  );
+}
+
+function ExperimentParallax(props) {
+  return (
+    <div className="Experiment-parallax">
+      <img
+        src={props.imagea}
+        alt="graduation mockup"
+        className="parallax-image imagea"
+      ></img>
+      <img
+        src={props.imageb}
+        alt="graduation mockup"
+        className="parallax-image imageb"
+      ></img>
+      <p className="parallax-text">{props.content}</p>
+      <img
+        src={props.imagec}
+        alt="graduation mockup"
+        className="parallax-image imagec"
+      ></img>
+      <img
+        src={props.imaged}
+        alt="graduation mockup"
+        className="parallax-image imaged"
+      ></img>
     </div>
   );
 }

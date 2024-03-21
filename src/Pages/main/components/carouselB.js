@@ -88,8 +88,8 @@ export default function CarouselB() {
           <Link className="link-none" to="/pages/work/grad">
             <Tilt options={defaultOptions}>
               <div className="project-cards-wrap">
-                <div className="project-wrap card-bottoma mrc"></div>{" "}
-                <div className="project-wrap card-bottomb ps3d"></div>{" "}
+                <div className="project-wrap card-bottoma grad-main-picb"></div>{" "}
+                <div className="project-wrap card-bottomb grad-main-pica"></div>{" "}
                 <div className="project-wrap card-front grad">
                   <p className="project-title">
                     The impact of AI in the process of empathy

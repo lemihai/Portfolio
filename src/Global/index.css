@@ -86,58 +86,6 @@ code {
     monospace;
 }
 
-/* Background gradient */
-
-.background-gradient {
-  background: linear-gradient(
-    348deg,
-    #0b6b52,
-    #105744,
-    #0a7880,
-    #1b5238,
-    #0d5732
-  );
-  background-size: 1000% 1000%;
-
-  -webkit-animation: AnimationName 40s ease infinite;
-  -moz-animation: AnimationName 40s ease infinite;
-  animation: AnimationName 40s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 13%;
-  }
-  50% {
-    background-position: 100% 88%;
-  }
-  100% {
-    background-position: 0% 13%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 13%;
-  }
-  50% {
-    background-position: 100% 88%;
-  }
-  100% {
-    background-position: 0% 13%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 13%;
-  }
-  50% {
-    background-position: 100% 88%;
-  }
-  100% {
-    background-position: 0% 13%;
-  }
-}
-
 /* Sections */
 
 /* MAIN */

@@ -358,10 +358,36 @@ picture takes half of the page and the text the other half*/
   align-items: center;
   padding: 0vh 10vw 0vh 10vw;
   gap: 10vw;
+  position: relative;
 }
 
+/* Top and bottom lines for the div */
+
+/* .project-page-split::after {
+  content: "";
+  height: 2px;
+  width: 80vw;
+  background-color: #707070;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+}
+
+.project-page-split::before {
+  content: "";
+  height: 2px;
+  width: 80vw;
+  background-color: #707070;
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  margin-top: 5vh;
+} */
+
 .split-small {
-  height: 40vh;
+  height: 60vh;
+  padding: 10vh 10vw 10vh 10vw;
 }
 
 .right {
@@ -550,6 +576,14 @@ picture takes half of the page and the text the other half*/
 
 .section-header-text > strong {
   color: #e95092;
+}
+
+.quote {
+  color: #202020;
+  font-size: 12.2rem;
+  line-height: normal;
+  text-align: center;
+  padding: 14rem;
 }
 
 /* ********** PS 2 PAGE ********** */

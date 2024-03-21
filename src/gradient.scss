@@ -2,10 +2,12 @@
   --color-bg1: #0c7955;
   --color-bg2: rgb(12, 133, 153);
   --color1: 32, 144, 132;
-  --color2: 11, 79, 108;
-  --color3: 116, 184, 22;
-  --color4: 55, 178, 77;
-  --color5: 8, 127, 91;
+  --colora: #003d1f;
+  --colorb: #002914;
+  --colorc: #003a27;
+  --colord: #00532e;
+  --colore: #003f2a;
+
   --color-interactive: 12, 133, 153;
   --circle-size: 150vh;
   --blending: hard-light;
@@ -87,7 +89,7 @@
     position: absolute;
     background: radial-gradient(
         circle at center,
-        rgba(var(--color1), 0.8) 0,
+        var(--colora) 0,
         rgba(var(--color1), 0) 50%
       )
       no-repeat;
@@ -108,8 +110,8 @@
     position: absolute;
     background: radial-gradient(
         circle at center,
-        rgba(var(--color2), 0.8) 0,
-        rgba(var(--color2), 0) 50%
+        var(--colorb) 0,
+        rgba(var(--color1), 0) 50%
       )
       no-repeat;
     mix-blend-mode: var(--blending);
@@ -129,8 +131,8 @@
     position: absolute;
     background: radial-gradient(
         circle at center,
-        rgba(var(--color3), 0.8) 0,
-        rgba(var(--color3), 0) 50%
+        var(--colorc) 0,
+        rgba(var(--color1), 0) 50%
       )
       no-repeat;
     mix-blend-mode: var(--blending);
@@ -150,8 +152,8 @@
     position: absolute;
     background: radial-gradient(
         circle at center,
-        rgba(var(--color4), 0.8) 0,
-        rgba(var(--color4), 0) 50%
+        var(--colord) 0,
+        rgba(var(--color1), 0) 50%
       )
       no-repeat;
     mix-blend-mode: var(--blending);
@@ -171,8 +173,8 @@
     position: absolute;
     background: radial-gradient(
         circle at center,
-        rgba(var(--color5), 0.8) 0,
-        rgba(var(--color5), 0) 50%
+        var(--colore) 0,
+        rgba(var(--color1), 0) 50%
       )
       no-repeat;
     mix-blend-mode: var(--blending);
@@ -204,5 +206,57 @@
     left: -50%;
 
     opacity: 0.7;
+  }
+}
+
+// Gradient background
+
+.background-gradient {
+  background: linear-gradient(
+    348deg,
+    #0b6b52,
+    #105744,
+    #0a7880,
+    #1b5238,
+    #0d5732
+  );
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 40s ease infinite;
+  -moz-animation: AnimationName 40s ease infinite;
+  animation: AnimationName 40s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+  100% {
+    background-position: 0% 13%;
   }
 }

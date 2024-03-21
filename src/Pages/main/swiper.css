@@ -122,3 +122,13 @@
   background-size: cover;
   /* z-index: 3; */
 }
+
+.grad-main-pica {
+  background-image: url("../../Images/grad/gra-ph1a\ \(5\).jpg");
+  background-size: cover;
+}
+
+.grad-main-picb {
+  background-image: url("../../Images/grad/grad-experimenta.png");
+  background-size: cover;
+}
