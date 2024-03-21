@@ -68,9 +68,9 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  line-height: 1;
   font-weight: 400;
   color: #dfdfdf;
+  line-height: 1.5;
 }
 
 .body {

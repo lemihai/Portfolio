@@ -24,7 +24,7 @@
       },
       "Focus": {
         "title": "Focus",
-        "text": "While conducting the desk research I came to the conclusion that my topic was not explored almoust at all. While tens of research papers were posted everyday focused on AI technology in multiple fields, there was very little information talking about both empathy and AI in the same place. i defined my goal as:",
+        "text": "While conducting the desk research I came to the conclusion that my topic was not explored almoust at all. While tens of research papers were posted everyday focused on AI technology in multiple fields, there was very little information talking about both empathy and AI in the same place. Thus my goal for the desk research :",
         "focus": "Explore and identify the specific use cases in which young UX researchers are using Ai tools and define their reasons, goals, approaches. Then, compare how much empathy they have with their target group when using AI compared to traditional research methods"
       },
       "RQ": {
@@ -32,6 +32,14 @@
         "text": "After the desk research gave me a couple of directions and ideas about the project, I created two research questions that tackle two aspects of my goal",
         "rq1": "What are the active AI tools such as LLMs or Generative engines are used in the process of developing empathy with target groups for UX students?",
         "rq2": "What is the level of understanding of the context of a target group when conducting AI-assisted research compared to a traditional research method in the context of Human-centered design?"
+      },
+      "Phase 1": {
+        "title": "Phase 1",
+        "text": "The phase 1 of the research is about the ways in which researchers are using AI tools in their process. I am looking for interesting leads, novel use cases, their successful and not so  successful experiences with these new technologies",
+        "methoda": "Interviews",
+        "methodb": "Surveys",
+        "methodc": "Content Analysis",
+        "targetgroup": "The target group consists mostly of UX design students of the UXD course that I am also part of. The focus is placed on each of the 3 years of the programme and in some cases, professional UX Designers have been included in the study and even teachers. As the research group is focused on raising awareness inside of the course, the target group fits the context of my project."
       },
       "Interviews": {
         "title": "Interviews",
@@ -44,6 +52,10 @@
       "AiUse": {
         "title": "Ai Use",
         "text": "The research technique of uses of AI is an edited version of content analysis for how participants have been using the tools at their disposal. Here, I am reading through the outputs of the AI tools used by the participants gathered in RM2 and RM3 and analyzing the data. At the end of each of the research methods, I asked people if they were willing to share information with me and whoever felt comfortable doing so, they did. Some people shared GPT conversations, some people shared images generated, poems, heatmaps, entire analysis processes, and multiple other things. "
+      },
+      "Phase 2": {
+        "title": "",
+        "text": ""
       },
       "Experiment": {
         "title": "Experiment",

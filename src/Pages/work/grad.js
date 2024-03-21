@@ -3,7 +3,13 @@ import project from "../../Content/data.json";
 
 // IMPORT IMAGES
 import gradimage from "../../Images/gradresearch.png";
-import gradimagea from "../../Images/grad/gra-ph1a (2).jpg";
+import gradinterviewa from "../../Images/grad/gra-ph1a (2).jpg";
+import gradinterviewb from "../../Images/grad/gra-ph1a (3).jpg";
+import gradinterviewc from "../../Images/grad/gra-ph1a (5).jpg";
+import gradinterviewd from "../../Images/grad/gra-ph1a (7).jpg";
+import gradresearch from "../../Images/grad/grad-deskresearch.png";
+import gradresearchques from "../../Images/grad/grad-researchquestions.png";
+import gradexperimenta from "../../Images/grad/grad-experimenta.png";
 
 // import { Parallax, useParallax } from "react-scroll-parallax";
 
@@ -16,9 +22,16 @@ export default function Grad() {
   const deskresearch = project[0]["project-content"]["Desk research"]["text"];
   const focustext = project[0]["project-content"]["Focus"]["text"];
   const focus = project[0]["project-content"]["Focus"]["focus"];
-  const rqtext = project[0]["project-content"]["Focus"]["focus"];
-  const rq1 = project[0]["project-content"]["RQ"]["rq1"];
-  const rq2 = project[0]["project-content"]["RQ"]["rq2"];
+  const rqtext = project[0]["project-content"]["RQ"]["text"];
+  const targetg = project[0]["project-content"]["Phase 1"]["targetgroup"];
+
+  // Phase 1 content
+  const title = project[0]["project-content"]["Phase 1"]["title"];
+  const text = project[0]["project-content"]["Phase 1"]["text"];
+  const methoda = project[0]["project-content"]["Phase 1"]["methoda"];
+  const methodb = project[0]["project-content"]["Phase 1"]["methodb"];
+  const methodc = project[0]["project-content"]["Phase 1"]["methodc"];
+
   const interviews = project[0]["project-content"]["Interviews"]["text"];
 
   return (
@@ -39,25 +52,30 @@ export default function Grad() {
         <h1 className="project-heading-section">Achievements</h1>
         <ProjectShowcase />
         {/* Desk research Section */}
-        <ProjectText content={deskresearch} />
-        <HalfPage
-          layout="right"
-          content={focustext}
-          image={gradimagea}
-          alt="Graduation  mockup"
-        />
+        <TextImage content={deskresearch} image={gradresearch} />
+        <ProjectTextVariationA contentA={focustext} contentB={focus} />
         {/* RQ Section */}
-        <ProjectText content={focus} />
         <ProjectText content={rqtext} />
-        <ProjectText content={rq1} />
-        <ProjectText content={rq2} />
-        {/* interviews section */}
+        <img
+          src={gradresearchques}
+          className="project-researchQuestions-image"
+          alt="research questions of graduation project"
+        />
+        <ProjectText content={targetg} />
+        {/* Phase 2 section */}
+        <SectionHeader
+          title={title}
+          text={text}
+          methoda={methoda}
+          methodb={methodb}
+          methodc={methodc}
+        />
         <ParallaxImages
           content={interviews}
-          imagea={gradimagea}
-          imageb={gradimagea}
-          imagec={gradimagea}
-          imaged={gradimagea}
+          imagea={gradinterviewa}
+          imageb={gradinterviewb}
+          imagec={gradinterviewc}
+          imaged={gradinterviewd}
         />
       </article>
     </div>
@@ -190,6 +208,15 @@ function ProjectText({ content }) {
   );
 }
 
+function ProjectTextVariationA({ contentA, contentB }) {
+  return (
+    <div className="project-text-wrap">
+      <p className="project-text-a">{contentA}</p>
+      <p className="project-text-aBis">{contentB}</p>
+    </div>
+  );
+}
+
 function HalfPage({ layout, content, image, alt }) {
   return (
     <div className="project-page-split">
@@ -201,6 +228,19 @@ function HalfPage({ layout, content, image, alt }) {
         alt={alt}
       />
       <p className="project-page-split-text">{content}</p>
+    </div>
+  );
+}
+
+function TextImage({ content, image }) {
+  return (
+    <div className="project-textimage-wrap">
+      <img
+        src={image}
+        alt="graduation mockup"
+        className="project-textimage-image"
+      ></img>
+      <p className="project-textimage-a">{content}</p>
     </div>
   );
 }
@@ -229,6 +269,19 @@ function ParallaxImages(props) {
         alt="graduation mockup"
         className="parallax-image imaged"
       ></img>
+    </div>
+  );
+}
+
+function SectionHeader(props) {
+  return (
+    <div className="section-header">
+      <p className="section-header-text margin-right">{props.text}</p>
+      <h3 className="section-header-title">{props.title}</h3>
+      <p className="section-header-text margin-left ">
+        Mthodology of this section: <strong>{props.methoda}, </strong>
+        <strong>{props.methodb}, </strong> <strong>{props.methodc}</strong>
+      </p>
     </div>
   );
 }
