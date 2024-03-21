@@ -352,13 +352,20 @@ picture takes half of the page and the text the other half*/
 
 .project-page-split {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0vh 10vw 0vh 10vw;
+  gap: 10vw;
+}
+
+.split-small {
+  height: 40vh;
 }
 
 .right {
-  order: 2;
+  order: 0;
 }
 
 .left {
@@ -366,13 +373,12 @@ picture takes half of the page and the text the other half*/
 }
 
 .project-page-image {
-  width: 50%;
+  width: 40vw;
 }
 
 .project-page-split-text {
-  width: 50%;
-  padding: 20rem;
-  font-size: 2rem;
+  width: 50vw;
+  font-size: 2.2rem;
   color: #202020;
 }
 
@@ -461,7 +467,7 @@ picture takes half of the page and the text the other half*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr;
-  padding: 0vh 10vw 0rem 10vw;
+  padding: 10vh 10vw 5vh 10vw;
   gap: 2rem;
 }
 
@@ -493,8 +499,10 @@ picture takes half of the page and the text the other half*/
 .parallax-text {
   font-size: 2.2rem;
   grid-column: 2/6;
+  font-weight: 300;
   grid-row: 3/4;
   z-index: 3;
+  color: #e0e0e0;
   mix-blend-mode: exclusion;
 }
 

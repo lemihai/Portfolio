@@ -10,6 +10,8 @@ import gradinterviewd from "../../Images/grad/gra-ph1a (7).jpg";
 import gradresearch from "../../Images/grad/grad-deskresearch.png";
 import gradresearchques from "../../Images/grad/grad-researchquestions.png";
 import gradexperimenta from "../../Images/grad/grad-experimenta.png";
+import gradsurvey from "../../Images/grad/survey.png";
+import usesofAI from "../../Images/grad/usesofai.png";
 
 // import { Parallax, useParallax } from "react-scroll-parallax";
 
@@ -26,13 +28,37 @@ export default function Grad() {
   const targetg = project[0]["project-content"]["Phase 1"]["targetgroup"];
 
   // Phase 1 content
-  const title = project[0]["project-content"]["Phase 1"]["title"];
-  const text = project[0]["project-content"]["Phase 1"]["text"];
+  const titlePhase1 = project[0]["project-content"]["Phase 1"]["title"];
+  const textPhase1 = project[0]["project-content"]["Phase 1"]["text"];
   const methoda = project[0]["project-content"]["Phase 1"]["methoda"];
   const methodb = project[0]["project-content"]["Phase 1"]["methodb"];
   const methodc = project[0]["project-content"]["Phase 1"]["methodc"];
 
+  const phase1intro = project[0]["project-content"]["Phase 1"]["intro"];
+
+  const surveys = project[0]["project-content"]["Surveys"]["text"];
   const interviews = project[0]["project-content"]["Interviews"]["text"];
+  const aiuse = project[0]["project-content"]["AiUse"]["text"];
+  const surveysTitle = project[0]["project-content"]["Surveys"]["title"];
+  const interviewsTitle = project[0]["project-content"]["Interviews"]["title"];
+  const aiuseTitle = project[0]["project-content"]["AiUse"]["title"];
+
+  const phase1conclusion =
+    project[0]["project-content"]["Phase 1"]["conclusion"];
+
+  //Phase 2 content
+  const titlePhase2 = project[0]["project-content"]["Phase 2"]["title"];
+  const textPhase2 = project[0]["project-content"]["Phase 2"]["text"];
+  const methoda2 = project[0]["project-content"]["Phase 2"]["methoda"];
+
+  const phase2intro = project[0]["project-content"]["Phase 2"]["intro"];
+  const experiment = project[0]["project-content"]["Experiment"]["text"];
+  const experimentTitle = project[0]["project-content"]["Experiment"]["title"];
+
+  const phase2conclusion =
+    project[0]["project-content"]["Phase 2"]["conclusion"];
+
+  //Conclusion
 
   return (
     <div className="project">
@@ -62,13 +88,20 @@ export default function Grad() {
           alt="research questions of graduation project"
         />
         <ProjectText content={targetg} />
-        {/* Phase 2 section */}
+        {/* Phase 1 section */}
         <SectionHeader
-          title={title}
-          text={text}
+          title={titlePhase1}
+          text={textPhase1}
           methoda={methoda}
           methodb={methodb}
           methodc={methodc}
+        />
+        <ProjectText content={phase1intro} />
+        <HalfPage
+          layout="right"
+          small="yes"
+          content={surveys}
+          image={gradsurvey}
         />
         <ParallaxImages
           content={interviews}
@@ -77,6 +110,15 @@ export default function Grad() {
           imagec={gradinterviewc}
           imaged={gradinterviewd}
         />
+        <HalfPage layout="left" content={aiuse} image={usesofAI} />
+        <ProjectText content={phase1conclusion} />
+        {/* Phase 2 section */}
+        <SectionHeader
+          title={titlePhase2}
+          text={textPhase2}
+          methoda={methoda2}
+        />
+        {/* Ending section */}
       </article>
     </div>
   );
@@ -217,9 +259,11 @@ function ProjectTextVariationA({ contentA, contentB }) {
   );
 }
 
-function HalfPage({ layout, content, image, alt }) {
+function HalfPage({ layout, content, image, alt, small }) {
   return (
-    <div className="project-page-split">
+    <div
+      className={`project-page-split ${small === "yes" ? "split-small" : ""}`}
+    >
       <img
         src={image}
         className={`project-page-image ${
@@ -279,8 +323,8 @@ function SectionHeader(props) {
       <p className="section-header-text margin-right">{props.text}</p>
       <h3 className="section-header-title">{props.title}</h3>
       <p className="section-header-text margin-left ">
-        Mthodology of this section: <strong>{props.methoda}, </strong>
-        <strong>{props.methodb}, </strong> <strong>{props.methodc}</strong>
+        Methodology: <strong>{props.methoda} </strong>
+        <strong>{props.methodb}</strong> <strong>{props.methodc}</strong>
       </p>
     </div>
   );
