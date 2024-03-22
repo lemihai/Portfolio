@@ -13,6 +13,16 @@ import gradexperimenta from "../../Images/grad/grad-experimenta.png";
 import gradsurvey from "../../Images/grad/survey.png";
 import usesofAI from "../../Images/grad/usesofai.png";
 
+// EXP Parallax
+
+import gradExpa from "../../Images/grad/grad-expa.png";
+import gradExpb from "../../Images/grad/grad-expb.png";
+import gradExpc from "../../Images/grad/grad-expc.png";
+import gradExpd from "../../Images/grad/grad-expd.png";
+import gradExpe from "../../Images/grad/grad-expe.png";
+import gradExpf from "../../Images/grad/grad-expf.png";
+import gradExpg from "../../Images/grad/grad-expg.png";
+
 // import { Parallax, useParallax } from "react-scroll-parallax";
 
 export default function Grad() {
@@ -58,6 +68,12 @@ export default function Grad() {
   const phase2conclusion =
     project[0]["project-content"]["Phase 2"]["conclusion"];
 
+  const insight1 = project[0]["project-content"]["Insights"]["insight1"];
+  const insight2 = project[0]["project-content"]["Insights"]["insight2"];
+  const insight3 = project[0]["project-content"]["Insights"]["insight3"];
+  const insight4 = project[0]["project-content"]["Insights"]["insight4"];
+  const insight5 = project[0]["project-content"]["Insights"]["insight5"];
+  const insight6 = project[0]["project-content"]["Insights"]["insight6"];
   //Conclusion
 
   return (
@@ -121,6 +137,29 @@ export default function Grad() {
         <h3 className="quote">
           “A machine can make you feel. But can never understand how you feel”
         </h3>
+        <ProjectText content={phase2intro} />
+
+        <ExperimentParallax
+          content={experiment}
+          imagea={gradExpa}
+          imageb={gradExpb}
+          imagec={gradExpc}
+          imaged={gradExpd}
+          imagee={gradExpe}
+          imagef={gradExpf}
+          imageg={gradExpg}
+        />
+
+        <ProjectText content={phase2conclusion} />
+
+        <Insights
+          insight1={insight1}
+          insight2={insight2}
+          insight3={insight3}
+          insight4={insight4}
+          insight5={insight5}
+          insight6={insight6}
+        />
         {/* Ending section */}
       </article>
     </div>
@@ -335,28 +374,51 @@ function SectionHeader(props) {
 
 function ExperimentParallax(props) {
   return (
-    <div className="Experiment-parallax">
+    <div className="experiment-parallax">
       <img
         src={props.imagea}
         alt="graduation mockup"
-        className="parallax-image imagea"
+        className="experiment-parallax-image imagea"
       ></img>
       <img
         src={props.imageb}
         alt="graduation mockup"
-        className="parallax-image imageb"
+        className="experiment-parallax-image imageb"
       ></img>
-      <p className="parallax-text">{props.content}</p>
       <img
         src={props.imagec}
         alt="graduation mockup"
-        className="parallax-image imagec"
+        className="experiment-parallax-image imagec"
       ></img>
+      <p className="experiment-parallax-text">{props.content}</p>
       <img
         src={props.imaged}
         alt="graduation mockup"
-        className="parallax-image imaged"
+        className="experiment-parallax-image imaged"
       ></img>
+      <img
+        src={props.imagee}
+        alt="graduation mockup"
+        className="experiment-parallax-image imagee"
+      ></img>
+      <img
+        src={props.imagef}
+        alt="graduation mockup"
+        className="experiment-parallax-image imagef"
+      ></img>
+    </div>
+  );
+}
+
+function Insights(props) {
+  return (
+    <div className="insights">
+      <p className="insights-text">{props.insight1}</p>
+      <p className="insights-text">{props.insight2}</p>
+      <p className="insights-text">{props.insight3}</p>
+      <p className="insights-text">{props.insight4}</p>
+      <p className="insights-text">{props.insight5}</p>
+      <p className="insights-text">{props.insight6}</p>
     </div>
   );
 }

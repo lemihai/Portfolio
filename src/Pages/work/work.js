@@ -1,8 +1,14 @@
-import example from "../../Images/grad.jpg";
 import "./work.css";
 import projectList from "../../Content/data.json";
 import { Link, Routes, Route } from "react-router-dom";
 import { Tilt } from "react-tilt";
+
+// Images
+
+import grad from "../../Images/grad.jpg";
+import graddesign from "../../Images/grad.png";
+import hci from "../../Images/p3.jpg";
+import ps2 from "../../Images/ps2.jpg";
 
 // Pages import for routing
 
@@ -47,6 +53,7 @@ function ProjectList() {
         name={project.project_name}
         description={project.description}
         pagelink={project.pagelink}
+        image={project.image}
       />
     ) : (
       ""
@@ -56,13 +63,14 @@ function ProjectList() {
   return <div className="work-projects-wrap">{projectsLS}</div>;
 }
 
-function Project({ name, description, pagelink }) {
+function Project({ name, description, pagelink, image }) {
+  console.log(image);
   return (
     <Link to={pagelink}>
       <div className="work-project">
         <img
           className="work-project-image"
-          src={example}
+          src={require(`../../Images/${image}.jpg`)}
           alt="project title image5"
         ></img>
         <h2 className="work-project-title">{name}</h2>

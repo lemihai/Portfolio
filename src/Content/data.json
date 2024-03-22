@@ -5,6 +5,7 @@
     "project_name": "The impact of AI in the process of empathy",
     "description": "Exploring the implications of GPT-3.5 and Midjourney in UX research",
     "pagelink": "grad",
+    "image": "grad",
     "project-content": {
       "About": {
         "title": "About",
@@ -60,8 +61,8 @@
         "title": "Phase 2",
         "text": "The phase two is marked by an experiment that will test the results of a traditional interview and an interview conducted with ChatGPT as the target group. Later, the level of empathy of the researchers is tested.",
         "methoda": "Experiment",
-        "intro": "Surveys",
-        "conclusion": "Surveys"
+        "intro": "“Why not just interview ChatGPT?” This question appeared in one of the interviews of the phase 1 and as a researcher myself, it intrigued me a lot. I couldn’t stop thinking about it because it was interesting. As bad as it sounds because we all know how biased GPT can be and trusting anything it generates requires some digging into sources and existing real literature, it’s actually promising. Initially, it seems like it solves a problem, dealing with users, but on a closer look nothing gets solved as we don’t know if we can trust the data. I explored this dilemma by observing the level of understanding of a problem that one researcher has when using ChatGPT compared to a traditional interview. With very little participants, the results were not conclusive or backed up by anything. ",
+        "conclusion": "While following multiple research papers and drawing inspiration from the articles I discovered during the initial stages of the project, I designed the experiment to have a control group, an experimental group that should have comparable results. I controlled for what my participants were going to interview, some of them had real people while others had an AI pretending to be a real person. "
       },
       "Experiment": {
         "title": "Experiment",
@@ -75,7 +76,12 @@
       },
       "Insights": {
         "title": "",
-        "text": ""
+        "insight1": "AI tools are mostly used in tasks that are related to cognitive and technical outsourcing. On multiple occasions, it has been seen in interviews and AI use cases how people have been using AI on tasks that are not hard to do, but tedious in time management. Tasks such as desk research, summarizing data, “Googling”, etc…",
+        "insight2": "AI tools are a starting point for a lot of projects. During the interviews, a lot of participants noted how AI tools are helping them as a starting point or even get unstuck. AI can generate hundreds of ideas and give plans and direction from which students can build. Multiple participants have been using it for protocols and research design, only to later edit it to fit their current projects and needs",
+        "insight3": "Overall, using ChatGPT to gather insights and data from the target group has been proven to gather around 46.3 more data points than with traditional interviews. This is an increase of 115% more data.",
+        "insight4": "Correlating the EXP3 to CTRL 3 shows an overwhelming advantage towards the EXP data output of 286% and 43 data points. This means that doing a one-on-one interview is less useful than performing a ChatGPT search in terms of data and almost all of the points existing in the interview could be correlated to GPT. Only 15 points were not touched by EXP.",
+        "insight5": "EXP data points and experiences show that even if most of the data present can be correlated in the real world, there are cases where findings have been far-fetched and not only hard to believe by the actual researchers but untraceable in any of the other real-life experiences",
+        "insight6": "EXP data points and experiences show that even if most of the data present can be correlated in the real world, there are cases where findings have been far-fetched and not only hard to believe by the actual researchers but untraceable in any of the other real-life experiences"
       },
       "Conclusion": {
         "title": "",
@@ -94,6 +100,7 @@
     "project_name": "Making Delft Gas-free",
     "description": "Communicating the energy transition to the people of Delft",
     "pagelink": "PS2",
+    "image": "ps2",
     "project-content": {
       "": {
         "title": "",
@@ -143,6 +150,7 @@
     "project_name": "Graduation Project",
     "description": "Designing a tool for researchers to communicate with their target group",
     "pagelink": "grad-design",
+    "image": "p3",
     "project-content": {
       "": {
         "title": "",
@@ -192,6 +200,7 @@
     "project_name": "HCI",
     "description": "Creating a portable DJ set concept using arduino",
     "pagelink": "HCI",
+    "image": "utd",
     "project-content": {
       "": {
         "title": "",
