@@ -415,7 +415,7 @@ picture takes half of the page and the text the other half*/
 .project-text {
   font-size: 2.2rem;
   color: #202020;
-  padding: 20vh 20vw 20rem 20vw;
+  padding: 10vh 20vw 10rem 20vw;
 }
 
 .project-text-wrap {
@@ -584,7 +584,7 @@ picture takes half of the page and the text the other half*/
   font-size: 2.2rem;
   grid-column: 2/6;
   grid-row: 3/3;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .experiment-parallax-image {
@@ -633,17 +633,25 @@ picture takes half of the page and the text the other half*/
 .insights {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 5rem;
-  margin: 10vh 10vw 10vh 10vw;
+  margin: 5vh 20vw 5vh 20vw;
 }
 
 .insights-text {
   padding: 3rem;
   font-size: 1.6rem;
-  /* background-color: #001a0e; */
+  background-color: #f7f7f7;
   color: #202020;
   border-radius: 1.6rem;
+  padding: 2.6rem;
+  box-shadow: 0px 20px 20px 0px #00000015;
+}
+
+.grad-project-heading-extra {
+  font-size: 8.2rem;
+  color: #202020;
+  padding: 0vh 20vw 0vh 20vw;
 }
 
 /* ********** PS 2 PAGE ********** */

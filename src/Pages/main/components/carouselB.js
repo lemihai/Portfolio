@@ -30,8 +30,6 @@ const defaultOptions = {
 export default function CarouselB() {
   return (
     <div className="carousel-wrapper">
-      <h1 className="carousel-intro-header">Check out my best projects</h1>
-
       {/* the swiper and it's options//coult potentially move them as a const */}
       <Swiper
         effect={"coverflow"}

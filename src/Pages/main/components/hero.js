@@ -1,8 +1,14 @@
 import hero from "../../../Images/hero/me.png";
 import "../main.css";
-import { useParallax } from "react-scroll-parallax";
+import gsap from "gsap";
+// import ScrollTrigger from "gsap/ScrollTrigger";
+// import { useLayoutEffect, useRef } from "react";
+
+// gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
+  // gsap.to(".hero-text-main", { y: -100, duration: 1 });
+
   return (
     <section className="hero-wrapper">
       <img src={hero} className="hero-image" alt="Portrait of Mihai" />

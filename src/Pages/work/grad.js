@@ -23,6 +23,10 @@ import gradExpe from "../../Images/grad/grad-expe.png";
 import gradExpf from "../../Images/grad/grad-expf.png";
 import gradExpg from "../../Images/grad/grad-expg.png";
 
+// IMG analysis
+
+import analysis from "../../Images/grad/gradanalysis.png";
+
 // import { Parallax, useParallax } from "react-scroll-parallax";
 
 export default function Grad() {
@@ -49,9 +53,9 @@ export default function Grad() {
   const surveys = project[0]["project-content"]["Surveys"]["text"];
   const interviews = project[0]["project-content"]["Interviews"]["text"];
   const aiuse = project[0]["project-content"]["AiUse"]["text"];
-  const surveysTitle = project[0]["project-content"]["Surveys"]["title"];
-  const interviewsTitle = project[0]["project-content"]["Interviews"]["title"];
-  const aiuseTitle = project[0]["project-content"]["AiUse"]["title"];
+  // const surveysTitle = project[0]["project-content"]["Surveys"]["title"];
+  // const interviewsTitle = project[0]["project-content"]["Interviews"]["title"];
+  // const aiuseTitle = project[0]["project-content"]["AiUse"]["title"];
 
   const phase1conclusion =
     project[0]["project-content"]["Phase 1"]["conclusion"];
@@ -63,10 +67,15 @@ export default function Grad() {
 
   const phase2intro = project[0]["project-content"]["Phase 2"]["intro"];
   const experiment = project[0]["project-content"]["Experiment"]["text"];
-  const experimentTitle = project[0]["project-content"]["Experiment"]["title"];
+  // const experimentTitle = project[0]["project-content"]["Experiment"]["title"];
 
   const phase2conclusion =
     project[0]["project-content"]["Phase 2"]["conclusion"];
+
+  // Analysis
+  const analysistexta = project[0]["project-content"]["Analysis"]["text-a"];
+  const conclusion = project[0]["project-content"]["Conclusion"]["text"];
+  // const analysistextc = project[0]["project-content"]["Analysis"]["text-phase2"];
 
   const insight1 = project[0]["project-content"]["Insights"]["insight1"];
   const insight2 = project[0]["project-content"]["Insights"]["insight2"];
@@ -149,8 +158,9 @@ export default function Grad() {
           imagef={gradExpf}
           imageg={gradExpg}
         />
-
         <ProjectText content={phase2conclusion} />
+        <HalfPage layout="left" content={analysistexta} image={analysis} />
+        <h3 className="grad-project-heading-extra">Insights</h3>
 
         <Insights
           insight1={insight1}
@@ -161,6 +171,7 @@ export default function Grad() {
           insight6={insight6}
         />
         {/* Ending section */}
+        <ProjectText content={conclusion} />
       </article>
     </div>
   );
