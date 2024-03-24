@@ -36,7 +36,7 @@ export default function CarouselB() {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
-        initialSlide={2}
+        initialSlide={1}
         scale={1}
         coverflowEffect={{
           rotate: 50,
@@ -50,7 +50,7 @@ export default function CarouselB() {
         className="mySwiper"
       >
         {/* swiper slide of the swiper carousel */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Link className="link-none" to="/pages/work/grad">
             <Tilt options={defaultOptions}>
               <div className="project-cards-wrap">
@@ -65,24 +65,28 @@ export default function CarouselB() {
               </div>
             </Tilt>{" "}
           </Link>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
+          {" "}
+          {/* ***** PS2 PROJECT ***** */}
           <Link className="link-none" to="/pages/work/grad">
             <Tilt options={defaultOptions}>
               <div className="project-cards-wrap">
                 <div className="project-wrap card-bottoma mrc"></div>{" "}
                 <div className="project-wrap card-bottomb ps3d"></div>{" "}
                 <div className="project-wrap card-front ps2">
-                  <p className="project-title">
-                    The impact of AI in the process of empathy
+                  <p className="project-title">Making Delft Gas - Free</p>
+                  <p className="project-description">
+                    communicating the energy transition
                   </p>
-                  <p className="project-description">university project</p>
                 </div>{" "}
               </div>
             </Tilt>{" "}
           </Link>
         </SwiperSlide>
         <SwiperSlide>
+          {" "}
+          {/* ***** GRAD PROJECT ***** */}
           <Link className="link-none" to="/pages/work/grad">
             <Tilt options={defaultOptions}>
               <div className="project-cards-wrap">
@@ -98,6 +102,24 @@ export default function CarouselB() {
           </Link>
         </SwiperSlide>
         <SwiperSlide>
+          {" "}
+          {/* ***** GRADDESIGN PROJECT ***** */}
+          <Link className="link-none" to="/pages/work/grad">
+            <Tilt options={defaultOptions}>
+              <div className="project-cards-wrap">
+                <div className="project-wrap card-bottoma mrc"></div>{" "}
+                <div className="project-wrap card-bottomb ps3d"></div>{" "}
+                <div className="project-wrap card-front ps2">
+                  <p className="project-title">Graduation Project</p>
+                  <p className="project-description">
+                    AI assistanc concept Design
+                  </p>
+                </div>{" "}
+              </div>
+            </Tilt>{" "}
+          </Link>
+        </SwiperSlide>
+        {/* <SwiperSlide>
           <Link className="link-none" to="/pages/work/grad">
             <Tilt options={defaultOptions}>
               <div className="project-cards-wrap">
@@ -112,23 +134,7 @@ export default function CarouselB() {
               </div>
             </Tilt>{" "}
           </Link>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Link className="link-none" to="/pages/work/grad">
-            <Tilt options={defaultOptions}>
-              <div className="project-cards-wrap">
-                <div className="project-wrap card-bottoma mrc"></div>{" "}
-                <div className="project-wrap card-bottomb ps3d"></div>{" "}
-                <div className="project-wrap card-front ps2">
-                  <p className="project-title">
-                    The impact of AI in the process of empathy
-                  </p>
-                  <p className="project-description">university project</p>
-                </div>{" "}
-              </div>
-            </Tilt>{" "}
-          </Link>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

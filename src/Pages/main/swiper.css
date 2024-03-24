@@ -132,3 +132,10 @@
   background-image: url("../../Images/grad/grad-experimenta.png");
   background-size: cover;
 }
+
+/* *****-- INACTIVE SLIDE --****** */
+
+.inactive {
+  opacity: 0.7;
+  filter: grayscale(100%);
+}

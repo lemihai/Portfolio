@@ -135,37 +135,43 @@
 /* **************** */
 
 .main-about {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 20rem;
-  row-gap: 2rem;
-  padding: 5vh 20vw;
-}
-
-.main-header {
-  font-size: 2.6rem;
-  grid-row: 1;
-}
-
-.main-header::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 0.2rem;
-  background-color: #fff;
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  font-weight: 400;
+  padding: 10vh 25vw 10vh 14vw;
+  color: #ffffff;
 }
 
 .main-text {
-  grid-row: 2;
-  font-size: 2.2rem;
-  transition: 0.3s all ease;
+  font-size: 4.2rem;
 }
 
-.main-text:hover {
-  /* TODO */
+.main-header {
+  font-size: 4.2rem;
+  margin-bottom: 4.2rem;
 }
+
+.main-highlight {
+  /* font-size: 5.2rem; */
+  font-weight: 700;
+
+  text-transform: uppercase;
+  color: #00ff73;
+  /* color: #00ff4c; */
+}
+
+.color-heighlight-a {
+  /* color: #00ffb3; */
+  /* color: #00ffdd; */
+}
+
+.color-heighlight-b {
+  /* color: #00ffb3; */
+  /* color: #00ffdd50; */
+}
+
+/* EXTRA */
 
 .highlighted-projects {
   width: 100%;
