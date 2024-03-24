@@ -1,0 +1,24 @@
+/* ************* MEDIA FOR SMALL LAPTOPS *********** */
+
+@media (max-width: 106em) {
+  /* ************* Hero seciton ************* */
+  .hero-wrapper {
+    padding: 0rem 10vw 6rem 10vw;
+  }
+
+  .hero-text-main {
+    font-size: 22.2rem !important;
+  }
+
+  .hero-text-secondary {
+    font-size: 4.2rem;
+  }
+
+  .hero-text-tertiary {
+    font-size: 6.2rem;
+  }
+
+  .hero-image {
+    height: 60%;
+  }
+}

@@ -14,8 +14,9 @@ export default function About() {
         solutions.
       </p>
       <p className="main-header">
-        Check out my <span className="main-highlight">best </span>{" "}
-        <span className="main-highlight color-heighlight-a">projects</span>:
+        Check out my{" "}
+        <span className="main-highlight color-heighlight-b">best </span>{" "}
+        <span className="main-highlight color-heighlight-b">projects</span>:
       </p>
     </div>
   );

@@ -69,7 +69,7 @@ export default function CarouselB() {
         <SwiperSlide>
           {" "}
           {/* ***** PS2 PROJECT ***** */}
-          <Link className="link-none" to="/pages/work/grad">
+          <Link className="link-none inactive" to="#">
             <Tilt options={defaultOptions}>
               <div className="project-cards-wrap">
                 <div className="project-wrap card-bottoma mrc"></div>{" "}
@@ -104,12 +104,12 @@ export default function CarouselB() {
         <SwiperSlide>
           {" "}
           {/* ***** GRADDESIGN PROJECT ***** */}
-          <Link className="link-none" to="/pages/work/grad">
+          <Link className="link-none inactive" to="#">
             <Tilt options={defaultOptions}>
               <div className="project-cards-wrap">
                 <div className="project-wrap card-bottoma mrc"></div>{" "}
                 <div className="project-wrap card-bottomb ps3d"></div>{" "}
-                <div className="project-wrap card-front ps2">
+                <div className="project-wrap card-front graddesign">
                   <p className="project-title">Graduation Project</p>
                   <p className="project-description">
                     AI assistanc concept Design

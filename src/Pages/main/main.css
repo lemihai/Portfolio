@@ -157,8 +157,9 @@
   font-weight: 700;
 
   text-transform: uppercase;
-  color: #00ff73;
+  /* color: #00ff73; */
   /* color: #00ff4c; */
+  color: #00ffb3;
 }
 
 .color-heighlight-a {
@@ -168,6 +169,8 @@
 
 .color-heighlight-b {
   /* color: #00ffb3; */
+  color: #00ff73;
+
   /* color: #00ffdd50; */
 }
 

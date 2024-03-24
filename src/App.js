@@ -24,6 +24,7 @@ import GradDesign from "./Pages/work/grad-design";
 
 // STYLES
 import "./gradient.scss";
+import "./Global/mediaQueries.css";
 
 export default function App() {
   return (

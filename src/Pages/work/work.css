@@ -108,6 +108,17 @@
   font-size: 1.6rem;
 }
 
+.inactive {
+  opacity: 0.7;
+  filter: grayscale(100%);
+  cursor: none;
+}
+
+.inactive a:hover,
+.inactive a:active {
+  scale: none;
+}
+
 /* ********** PS 2 PAGE ********** */
 /* **********  ********** **********  ********** */
 

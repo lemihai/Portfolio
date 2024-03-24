@@ -95,8 +95,9 @@
     "type": "proj",
     "project_name": "Making Delft Gas-free",
     "description": "Communicating the energy transition to the people of Delft",
-    "pagelink": "PS2",
+    "pagelink": "inactive-PS2",
     "image": "ps2",
+    "active": false,
     "project-content": {
       "": {
         "title": "",
@@ -141,62 +142,13 @@
     }
   },
   {
-    "id": 2,
+    "id": 3,
     "type": "proj",
     "project_name": "Graduation Project",
     "description": "Designing an AI tool for researchers to communicate with their target group",
-    "pagelink": "grad-design",
+    "pagelink": "ianctive-grad-design",
     "image": "p3",
-    "project-content": {
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      },
-      "": {
-        "title": "",
-        "text": ""
-      }
-    }
-  },
-  {
-    "id": 2,
-    "type": "proj",
-    "project_name": "HCI",
-    "description": "Creating a portable DJ set concept using arduino",
-    "pagelink": "HCI",
-    "image": "utd",
+    "active": false,
     "project-content": {
       "": {
         "title": "",

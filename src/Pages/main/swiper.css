@@ -133,9 +133,22 @@
   background-size: cover;
 }
 
+/* *****-- GRADDESIGN SLIDE --****** */
+
+.graddesign {
+  background-image: url("../../Images/graddesign.png");
+  background-size: cover;
+}
+
 /* *****-- INACTIVE SLIDE --****** */
 
 .inactive {
   opacity: 0.7;
   filter: grayscale(100%);
+  cursor: none;
+}
+
+.inactive:hover,
+.inactive:focus {
+  scale: 1;
 }

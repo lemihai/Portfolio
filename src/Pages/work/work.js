@@ -54,26 +54,31 @@ function ProjectList() {
         description={project.description}
         pagelink={project.pagelink}
         image={project.image}
+        active={project.active}
       />
     ) : (
       ""
     )
   );
 
-  return <div className="work-projects-wrap">{projectsLS}</div>;
+  return <div className={`work-projects-wrap`}>{projectsLS}</div>;
 }
 
-function Project({ name, description, pagelink, image }) {
-  console.log(image);
+function Project({ name, description, pagelink, image, active }) {
+  // console.log(image);
+
   return (
     <Link to={pagelink}>
-      <div className="work-project">
+      <div className={`work-project ${active === false ? "inactive" : ""}`}>
         <img
           className="work-project-image"
           src={require(`../../Images/${image}.jpg`)}
           alt="project title image5"
         ></img>
-        <h2 className="work-project-title">{name}</h2>
+        <h2 className="work-project-title">
+          {name}
+          {active === false ? " (COMING SOON)" : ""}
+        </h2>
         <p className="work-project-text">{description}</p>
       </div>
     </Link>
