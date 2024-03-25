@@ -224,7 +224,7 @@ function ProjectDetails({
       </div>
       <div className="project-header-challenge-wrap">
         <p className="project-details-challenge-text margin-right">{about}</p>
-        <p className="project-details-challenge">{challenge}</p>
+        <h3 className="project-details-challenge">{challenge}</h3>
         <p className="project-details-challenge-text margin-left">{solution}</p>
       </div>
     </header>
@@ -405,7 +405,7 @@ function ExperimentParallax(props) {
       <img
         src={props.imaged}
         alt="graduation mockup"
-        className="experiment-parallax-image imaged"
+        className="experiment-parallax-image imaged imaged-bis"
       ></img>
       <img
         src={props.imagee}

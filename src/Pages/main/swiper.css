@@ -149,6 +149,18 @@
 }
 
 .inactive:hover,
-.inactive:focus {
+.inactive:active {
+  scale: 1;
+}
+
+/* deactivating the animations of hovering over a card */
+
+.inactive:hover div div .card-bottoma {
+  transform: rotate(0deg) !important;
+  scale: 1;
+}
+
+.inactive:hover div div .card-bottomb {
+  transform: rotate(0deg) !important;
   scale: 1;
 }

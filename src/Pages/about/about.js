@@ -109,7 +109,7 @@ export default function About() {
             <div className="skill">Atlas.Ti</div>
             <div className="skill">Scrumwise</div>
           </div>
-          <h3 className="skills-title">Developing</h3>
+          <h3 className="skills-title">Development</h3>
           <div className="skills-section">
             <div className="skill">HTML/CSS</div>
             <div className="skill">SCSS</div>

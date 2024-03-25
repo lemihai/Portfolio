@@ -24,7 +24,10 @@ export default function About() {
   return (
     <div className="contact">
       <div className="contact-wrap">
-        <h1 class="contact-header">Hello there, send me a message</h1>
+        <h1 class="contact-header">
+          <span className="color-heighlight-a">Hello there </span>, send me a
+          message
+        </h1>
         <form className="contact-form" onSubmit={handleSubmit}>
           <label className="label">
             <input

@@ -1,7 +1,10 @@
 /* ************* MEDIA FOR SMALL LAPTOPS *********** */
 
+/* 1696PX */
 @media (max-width: 106em) {
-  /* ************* Hero seciton ************* */
+  /* ************* Main Page section ************* */
+  /* --------------------------------------------- */
+  /* ************* Hero section ************* */
   .hero-wrapper {
     padding: 0rem 10vw 6rem 10vw;
   }
@@ -20,5 +23,715 @@
 
   .hero-image {
     height: 60%;
+  }
+
+  /* ************* About me section --- Main page ************* */
+
+  .main-about {
+    padding: 10vh 35vw 10vh 15vw;
+  }
+
+  .main-text {
+    font-size: 4.2rem;
+  }
+
+  .main-header {
+    font-size: 4.2rem;
+  }
+
+  /* ************* Work Page section ************* */
+  /* --------------------------------------------- */
+
+  .work-project-title {
+    font-size: 3.2rem;
+  }
+
+  .work-project-text {
+    font-size: 2.2rem;
+  }
+
+  /* ************* About Page section ************* */
+  /* --------------------------------------------- */
+
+  .about {
+    gap: 0rem;
+  }
+
+  .about-text {
+    font-size: 2.2rem;
+  }
+
+  .img--grid-b {
+    height: 28vh;
+  }
+
+  .img--grid-c {
+    height: 28vh;
+    margin-top: 4rem;
+  }
+
+  .img--grid-d {
+    height: 32vh;
+    margin-bottom: 12rem;
+  }
+
+  .img--grid-e {
+    grid-area: 4 / 7 / 6 / 7;
+    align-self: center;
+    z-index: 1;
+  }
+
+  .img--grid-f {
+    grid-area: 3 / 6 / 5 / 8;
+    align-self: center;
+    margin-top: 12rem;
+  }
+
+  /* ************* Skills section ************* */
+
+  .skills-header {
+    padding: 6vh 6vw 5vh 10vw;
+    gap: 8rem;
+  }
+
+  .roles-header {
+    margin-bottom: 0rem;
+  }
+
+  .skills-title {
+    font-size: 6.2rem;
+  }
+
+  .skill {
+    font-size: 3.2rem;
+  }
+
+  /* ************* About Page section ************* */
+  /* --------------------------------------------- */
+
+  .contact-wrap {
+    margin-right: 0rem;
+    gap: 5vw;
+  }
+
+  .contact-form {
+    margin-top: 4.6rem;
+    width: 36vw;
+  }
+
+  /* ************* Grad Page section ************* */
+  /* --------------------------------------------- */
+  .project-header {
+    font-size: 16.2rem;
+    padding: 4rem 10rem 4rem 10vw;
+  }
+
+  .project-details-wrap-top {
+    padding: 2rem 20vw 2rem 20vw;
+  }
+
+  .project-details-text {
+    /* width: 13vw; */
+  }
+
+  .project-details-wrap:nth-child(4) .project-details-text {
+    width: 15vw;
+  }
+
+  /* ************* PROJECT DETAILS COMPONENT ************* */
+
+  .project-header-challenge-wrap {
+    height: 110vh;
+    justify-content: center;
+    gap: 8rem;
+  }
+
+  .project-details-challenge {
+    font-size: 5.2rem;
+  }
+
+  .project-heading-section {
+    font-size: 16.2rem;
+    margin: 0;
+    border: none;
+    /* padding: 5vh 0vw 5vh 0vw; */
+    background-color: #001a0e;
+    color: white;
+  }
+
+  /* ************* PROJECT SHOWCASE COMPONENT ************* */
+
+  .project-showcase {
+    padding: 10vh 20vw 30vh 18vw;
+    height: 110vh;
+  }
+
+  .project-showcase-text {
+    font-size: 3.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+  }
+
+  .project-showcase-text strong {
+    margin: 0rem;
+  }
+
+  /* ************* PROJECT TEXTIMAGE COMPONENT ************* */
+
+  .project-textimage-wrap {
+    height: 100vh;
+  }
+
+  .project-textimage-image {
+    height: 70vh;
+  }
+
+  /* ************* PROJECT TEXTVARIATION A COMPONENT ************* */
+
+  .project-text-wrap {
+    /* height: 100vh; */
+  }
+
+  .project-text-a {
+    font-size: 2.2rem;
+    width: 35vw;
+    margin-left: 5vw;
+  }
+
+  .project-text-aBis {
+    font-size: 4.2rem;
+    line-height: 1.3;
+  }
+
+  /* ************* PROJECT TEXT COMPONENT ************* */
+  .project-text {
+    font-size: 2.2rem;
+    color: #202020;
+    padding: 5vh 20vw 5vh 20vw;
+  }
+
+  .project-researchQuestions-image {
+    margin: 5vh 0vw 5vh 0vw;
+  }
+
+  /* ************* PROJECT SECTIONHEADER COMPONENT ************* */
+
+  .section-header {
+    height: 110vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .section-header-text:first-child {
+    font-size: 2.2rem;
+    margin-right: 26vw;
+  }
+
+  /* ************* PROJECT HALFPAGE COMPONENT ************* */
+
+  .project-page-split {
+    height: 90vh;
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  /* ************* PROJECT PARALLAXIMAGES COMPONENT ************* */
+  .parallax-images-grid {
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  .imaged {
+    grid-column: 1/3;
+    grid-row: 5/5;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .imagec {
+    grid-column: 6/7;
+    grid-row: 3/6;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .quote {
+    font-size: 10.2rem;
+    padding: 10vh 13vw 20vh 13vw;
+  }
+  /* ************* PROJECT EXPERIMENTPARALLAX COMPONENT ************* */
+
+  .imagef {
+    grid-column: 5/7;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .imaged-bis {
+    grid-column: 1/3;
+    grid-row: 4/6;
+    align-self: center;
+    justify-self: center;
+  }
+
+  /* ************* PROJECT INSIGHTS COMPONENT ************* */
+
+  .project .project-text:last-child {
+    margin-bottom: 20rem;
+  }
+
+  /* ************* EXTRA COMPONENT ************* */
+  .split-small {
+    height: 60vh;
+  }
+}
+
+/* ************* MEDIA FOR SMALL LAPTOPS *********** */
+
+/* 1,536PX */
+@media (max-width: 96em) {
+  /* ************* Main Page section ************* */
+  /* --------------------------------------------- */
+  /* ************* Hero section ************* */
+  .hero-wrapper {
+    padding: 0rem 10vw 6rem 10vw;
+  }
+
+  .hero-text-main {
+    font-size: 20.2rem !important;
+  }
+
+  .hero-text-secondary {
+    font-size: 4.2rem;
+  }
+
+  .hero-text-tertiary {
+    font-size: 6.2rem;
+  }
+
+  .hero-image {
+    height: 50%;
+  }
+
+  /* ************* About me section --- Main page ************* */
+
+  .main-about {
+    padding: 8vh 30vw 5vh 15vw;
+  }
+
+  .main-text {
+    font-size: 3.2rem;
+  }
+
+  .main-header {
+    font-size: 3.2rem;
+  }
+
+  .work-text {
+    font-size: 2.2rem;
+  }
+
+  /* ************* Skills section ************* */
+
+  .project-details-challenge {
+    font-size: 5.2rem;
+  }
+
+  .project-details-challenge-text {
+  }
+
+  .margin-right {
+    margin-right: 20vw;
+  }
+
+  .margin-left {
+    margin-left: 20vw;
+  }
+
+  .skills-header {
+    padding: 6vh 10vw 5vh 10vw;
+    gap: 8rem;
+  }
+
+  .roles-header {
+    margin-bottom: 0rem;
+  }
+
+  .skills-title {
+    font-size: 4.2rem;
+  }
+
+  .skill {
+    font-size: 3rem;
+    padding: 1.4rem;
+  }
+
+  .split-small {
+    height: 50vh;
+  }
+
+  .project-researchQuestions-image {
+    width: 100vw;
+  }
+}
+
+/* 1,440 */
+@media (max-width: 90em) {
+  .main-about p {
+    font-size: 3.2rem;
+  }
+
+  .skills-header {
+    padding: 6vh 5vw 5vh 5vw;
+    gap: 10rem;
+  }
+
+  .role {
+    font-size: 3.2rem;
+  }
+
+  .project-header {
+    font-size: 14.2rem;
+    padding: 10vh 10vw 10vh 10vw;
+  }
+
+  .project-header-challenge-wrap p {
+    font-size: 2.2rem !important;
+  }
+
+  .project-details-challenge {
+    font-size: 4.2rem;
+  }
+  .project-heading-section {
+    font-size: 14.2rem;
+  }
+
+  .project-textimage-a {
+    font-size: 1.8rem;
+  }
+
+  .project-text {
+    font-size: 1.8rem;
+  }
+
+  .project-text-a {
+    font-size: 1.8rem;
+  }
+
+  .project-text-aBis {
+    font-size: 3.2rem;
+  }
+
+  .project-page-split-text {
+    font-size: 1.8rem;
+  }
+
+  .parallax-images-grid .parallax-text {
+    font-size: 1.8rem;
+  }
+
+  .experiment-parallax-text {
+    font-size: 1.8rem;
+  }
+
+  .project-showcase-text {
+    font-size: 2.2rem;
+  }
+
+  .project-showcase-text strong {
+    margin: 0rem;
+  }
+
+  .project-showcase-text-highlight {
+    font-size: 4.2rem;
+  }
+
+  .project-showcase-text:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+
+  .project-showcase-text:nth-child(2) {
+    grid-column: 3/5;
+    grid-row: 1/3;
+  }
+
+  .project-showcase-text:nth-child(4) {
+    grid-column: 2/4;
+    grid-row: 3/5;
+  }
+
+  .project-researchQuestions-image {
+    width: 100%;
+    padding: 1vh 15vw 1vh 15vw;
+  }
+
+  .parallax-text {
+    font-size: 2.2rem;
+    grid-column: 1/7;
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  .parallax-images-grid {
+    grid-template-rows: 1fr 0.1fr 1fr 0.1fr 0.5fr;
+  }
+
+  .parallax-images-grid .imagec {
+    grid-column: 6/7;
+    grid-row: 4/6;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .parallax-images-grid .imaged {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    align-self: center;
+    margin-left: 3vw;
+    justify-self: center;
+  }
+
+  .quote {
+    font-size: 8.2rem;
+    padding: 10vh 10vw 20vh 10vw;
+  }
+
+  .experiment-parallax-text {
+    grid-column: 1/7;
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  .insights {
+    margin: 5vh 10vw 10vh 10vw;
+  }
+
+  .project-header-challenge-wrap {
+    padding: 10vh 10vw 10vh 10vw;
+  }
+
+  .project-showcase {
+    padding: 10vh 25vw 30vh 21vw;
+  }
+
+  .project-textimage-wrap {
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  .project-text-wrap {
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  .project-text-a {
+    width: 45vw;
+  }
+
+  .project-text {
+    padding: 5vh 15vw 5vh 15vw;
+  }
+
+  .parallax-text {
+    padding: 0vh 5vw 0vh 5vw;
+  }
+
+  .skill {
+    font-size: 2.2rem;
+  }
+
+  .work-project-title {
+    font-size: 2.8rem;
+  }
+
+  .work-project-text {
+    font-size: 1.8rem;
+  }
+}
+
+/* 1312 */
+@media (max-width: 82em) {
+  .carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-details-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+
+  .project-details-text {
+    font-size: 1.8rem;
+  }
+
+  .swiper {
+    width: 100%;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .swiper-wrapper {
+    /* gap: 10vw; */
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .swiper-pagination {
+  }
+
+  .swiper-slide-prev {
+  }
+
+  .swiper-slide {
+    height: 80vh;
+  }
+
+  .project-header {
+    font-size: 12.2rem;
+  }
+}
+
+/* 1088 */
+@media (max-width: 68em) {
+  .hero-wrapper {
+    padding-bottom: -10rem;
+  }
+
+  .hero-text-main {
+    font-size: 14.2rem !important;
+  }
+
+  .hero-text-secondary {
+    font-size: 3.2rem;
+  }
+
+  .hero-text-tertiary {
+    font-size: 4.2rem;
+  }
+
+  .hero-image {
+    height: 40%;
+  }
+
+  .main-about {
+    padding: 0vh 20vw 5vh 20vw;
+    font-size: 2.2rem;
+  }
+
+  .main-about p {
+    font-size: 3.2rem;
+  }
+
+  .carousel-wrapper {
+    margin-bottom: 20vh;
+  }
+
+  .work {
+    margin-bottom: 10vh;
+  }
+  .work-text {
+    font-size: 1.8rem;
+  }
+
+  .work-header {
+    font-size: 3.2rem;
+    padding: 15vh 0vw 5vh 0vw;
+  }
+
+  .image-wrap {
+    display: grid;
+    grid-template-rows: 0.5fr 0.3fr 0.6fr 0.3fr 0.5fr;
+  }
+
+  .about-text {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    grid-area: 2 / 1 / 5 / 9;
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  .img--grid-a {
+    grid-area: 1 / 1 / 3 / 1;
+    height: 20vh;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img--grid-d {
+    grid-area: 4 / 1 / 7 / 4;
+    height: 32vh;
+  }
+
+  .img--grid-f {
+    grid-area: 4 / 5 / 5 / 8;
+    height: 20vh;
+  }
+
+  .skills-header {
+    padding: 3rem 0rem 3rem 3rem;
+    gap: 5rem;
+  }
+
+  .skills-wrap {
+    padding: 0vh 0vw 0vh 0vw;
+    margin-top: -20vh;
+  }
+
+  .skill {
+    padding: 1rem;
+  }
+
+  .roles-header {
+    gap: 10vw;
+  }
+
+  .role {
+    font-size: 2.2rem;
+  }
+
+  .work-project-title {
+    font-size: 2.2rem;
+  }
+
+  .work-project-text {
+    width: 70%;
+  }
+
+  .contact-wrap {
+    padding: 0vh 10vw 0vh 10vw;
+  }
+
+  .contact-header {
+    font-size: 6.2rem;
+    width: 50vw;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-top: 3vh;
+  }
+
+  /* Grad */
+
+  .project-header {
+    font-size: 12.2rem;
+    /* padding: 4rem 10rem 4rem 10vw; */
+  }
+
+  .project-details-wrap-top {
+    padding: 2rem 15vw 2rem 15vw;
+  }
+
+  .project-details-wrap:last-child .project-details-text {
+    width: 20vw;
+  }
+
+  .project-heading-section {
+    font-size: 10.2rem;
+  }
+
+  .project-showcase-text {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

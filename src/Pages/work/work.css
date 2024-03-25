@@ -20,7 +20,7 @@
 }
 
 .work-title {
-  font-size: 4rem;
+  font-size: 4.2rem;
 }
 
 .work-text {
@@ -72,17 +72,27 @@
   gap: 3rem;
 }
 
-.work-projects-wrap a:link,
-.work-projects-wrap a:visited {
+.work-projects-wrap a:link {
+  text-decoration: none;
+}
+
+.work-project {
+  transition: 0.3s all ease;
+  text-decoration: none;
+}
+
+.work-project:link,
+.work-project:visited {
   text-decoration: none;
   transition: 0.3s all ease;
 }
 
-.work-projects-wrap a:hover,
-.work-projects-wrap a:active {
+.work-project:hover,
+.work-project:active {
   background-color: #0c573e;
   padding: 1.6rem;
   scale: 1.04;
+  transition: 0.3s all ease;
 }
 
 .work-project {
@@ -105,7 +115,7 @@
 
 .work-project-text {
   grid-column: 2;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
 }
 
 .inactive {
@@ -114,9 +124,18 @@
   cursor: none;
 }
 
-.inactive a:hover,
-.inactive a:active {
+.inactive:link,
+.inactive:visited {
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.inactive:hover,
+.inactive:active {
   scale: none;
+  transition: 0.3s all ease;
+  padding: 0rem;
+  background-color: #0c573e00;
 }
 
 /* ********** PS 2 PAGE ********** */
@@ -346,7 +365,7 @@
 }
 
 .strong-different-color-a {
-  color: #047e0a;
+  color: #047e3b;
 }
 
 .strong-different-color-b {
@@ -428,6 +447,8 @@ picture takes half of the page and the text the other half*/
   color: #202020;
   padding: 10vh 20vw 10rem 20vw;
 }
+
+/* PROJECT TEXT BLOCK A */
 
 .project-text-wrap {
   display: flex;
@@ -516,7 +537,7 @@ picture takes half of the page and the text the other half*/
 .parallax-text {
   font-size: 2.2rem;
   grid-column: 2/6;
-  font-weight: 300;
+  font-weight: 200;
   grid-row: 3/4;
   z-index: 3;
   color: #e0e0e0;
@@ -531,7 +552,7 @@ picture takes half of the page and the text the other half*/
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -12vh;
+  /* margin-top: -12vh; */
   padding: 0vh 20vw 0vh 20vw;
 }
 
@@ -625,6 +646,10 @@ picture takes half of the page and the text the other half*/
   grid-row: 6/6;
   width: 30rem;
   height: auto;
+}
+
+/* ADDED THIS SINCE IT DOESN'T REACT TO N'TH CHILD */
+.imaged-bis {
 }
 
 .imagee {

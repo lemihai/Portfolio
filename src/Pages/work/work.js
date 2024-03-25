@@ -26,7 +26,7 @@ export default function Work() {
       <div className="work-header">
         <h1 className="work-title">Check out my work</h1>
         <p className="work-text">
-          I have design, reseach and programming projects
+          Most of my work consists of UX Design and UX research projects.
         </p>
       </div>
       <div className="work-wrap">
