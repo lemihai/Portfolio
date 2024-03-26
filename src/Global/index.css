@@ -101,7 +101,7 @@ nav {
 
   width: 100vw;
   height: auto;
-  padding: 1rem 8.4rem;
+  padding: 1rem 8.2rem;
 
   /* display properties for the navigation bar*/
   display: flex;
@@ -109,7 +109,7 @@ nav {
   justify-content: space-between;
 
   /* font-sizes of the navigation bar */
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   z-index: 100;
   /* color: #fff; */
@@ -121,6 +121,7 @@ nav {
   height: 2.4rem;
   width: 2.4rem;
   mix-blend-mode: normal;
+  /* z-index: 99999; */
 }
 
 nav a:link,
@@ -143,15 +144,16 @@ nav a:active {
 }
 
 .nav-btn {
+  text-transform: uppercase;
 }
 
 .nav-btn:link,
 .nav-btn:visited {
   text-decoration: none;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   padding: 1.2rem;
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -167,6 +169,25 @@ nav a:active {
   scale: 1.1;
   background-color: #0c573e;
   transition: 0.3s all ease;
+}
+
+.mobile-nav-btn {
+  background: none;
+  border: none;
+  height: 3.2rem;
+  width: 3.2rem;
+  display: none;
+  /* mix-blend-mode: difference; */
+}
+
+.mobile-nav-btn svg {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #fff;
+}
+
+.icon-menu[name="close"] {
+  display: none;
 }
 
 /* FOOTER */

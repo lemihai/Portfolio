@@ -850,6 +850,65 @@
   .insights {
     margin: 5vh 5vw 10vh 5vw;
   }
+
+  /* ***************** MOBILE NAV **************** */
+
+  .mobile-nav-btn {
+    display: block;
+    /* mix-blend-mode: difference; */
+    z-index: 9999;
+  }
+
+  nav {
+    position: relative;
+    padding: 3rem 4.2rem 0rem 4.2rem;
+    mix-blend-mode: normal;
+  }
+
+  .nav-flex {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 15vh 10vw 15vh 10vw;
+    background-color: #001a0e;
+    transform: translateX(100%);
+
+    transition: all 0.3s ease-in;
+
+    gap: 7vw;
+
+    opacity: 0;
+    z-index: 10;
+
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .nav-flex {
+    opacity: 1;
+    transform: translateX(0%);
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-btn {
+    font-size: 10vw !important;
+  }
+
+  .nav-open .icon-menu[name="close"] {
+    display: block;
+    transition: all 0.3s ease-in;
+  }
+
+  .nav-open .icon-menu[name="menu"] {
+    display: none;
+    transition: all 0.3s ease-in;
+  }
 }
 
 /* 512 */
@@ -857,6 +916,7 @@
   .hero-wrapper {
     height: 100vh;
   }
+
   .hero-text-main {
     font-size: 15vw !important;
     padding-left: 0 !important;
