@@ -52,6 +52,7 @@ export default function App() {
             <Nav />
 
             <Routes>
+              tggh
               <Route path="/" element={<Main />} />
               <Route path="/pages/main" element={<Main />} />
               <Route path="/pages/work/*" element={<Work />} />
