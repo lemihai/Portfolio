@@ -1,16 +1,11 @@
 // IMPORT ROUTER
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  BrowserRouter,
-} from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import { ParallaxProvider } from "react-scroll-parallax";
 
 // SMOOTHSCROLL IMPORT
 
-import SmoothScroll from "./Global/SmoothScroll";
+// import SmoothScroll from "./Global/SmoothScroll";
 
 // COMPONENTS IMPORT
 
@@ -99,5 +94,3 @@ function GooFilter() {
     </svg>
   );
 }
-
-function ToggleMode() {}

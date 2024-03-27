@@ -1,24 +1,24 @@
 import "./work.css";
 import projectList from "../../Content/data.json";
-import { Link, Routes, Route } from "react-router-dom";
-import { Tilt } from "react-tilt";
+import { Link } from "react-router-dom";
+// import { Tilt } from "react-tilt";
 
 // Images
 
-import grad from "../../Images/grad.webp";
-import graddesign from "../../Images/graddesign.webp";
-import hci from "../../Images/grad.webp";
-import ps2 from "../../Images/grad.webp";
+// import grad from "../../Images/grad.webp";
+// import graddesign from "../../Images/graddesign.webp";
+// import hci from "../../Images/grad.webp";
+// import ps2 from "../../Images/grad.webp";
 
 // Pages import for routing
 
-import Ps2 from "./ps2";
-import Grad from "./grad";
-import GradDesign from "./grad-design";
+// import Ps2 from "./ps2";
+// import Grad from "./grad";
+// import GradDesign from "./grad-design";
 
-const defaultOptions = {
-  easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
-};
+// const defaultOptions = {
+//   easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
+// };
 
 export default function Work() {
   return (
@@ -85,10 +85,10 @@ function Project({ name, description, pagelink, image, active }) {
   );
 }
 
-function ButtonFilterProject({ text }) {
-  return (
-    <Tilt options={defaultOptions}>
-      <button className="work-button">{text}</button>
-    </Tilt>
-  );
-}
+// function ButtonFilterProject({ text }) {
+//   return (
+//     <Tilt options={defaultOptions}>
+//       <button className="work-button">{text}</button>
+//     </Tilt>
+//   );
+// }

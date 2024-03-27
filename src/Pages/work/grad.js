@@ -9,7 +9,7 @@ import gradinterviewc from "../../Images/grad/gra-ph1a (5).webp";
 import gradinterviewd from "../../Images/grad/gra-ph1a (7).webp";
 import gradresearch from "../../Images/grad/grad-deskresearch.webp";
 import gradresearchques from "../../Images/grad/grad-researchquestions.png";
-import gradexperimenta from "../../Images/grad/grad-experimenta.webp";
+// import gradexperimenta from "../../Images/grad/grad-experimenta.webp";
 import gradsurvey from "../../Images/grad/survey.png";
 import usesofAI from "../../Images/grad/usesofai.webp";
 
