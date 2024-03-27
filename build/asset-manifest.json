@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fda9b33e.css",
+    "main.css": "/static/css/main.de045197.css",
     "main.js": "/static/js/main.0c1b3d78.js",
     "static/media/grad-deskresearch.webp": "/static/media/grad-deskresearch.5d412878b94d9b30ce98.webp",
     "static/media/ps2.webp": "/static/media/ps2.90bc6e5854ba2cc140b3.webp",
@@ -36,11 +36,11 @@
     "static/media/grad-expf.webp": "/static/media/grad-expf.da891320478244753e76.webp",
     "static/media/me (1) (1).webp": "/static/media/me (1) (1).639631fd10ccd1334e38.webp",
     "index.html": "/index.html",
-    "main.fda9b33e.css.map": "/static/css/main.fda9b33e.css.map",
+    "main.de045197.css.map": "/static/css/main.de045197.css.map",
     "main.0c1b3d78.js.map": "/static/js/main.0c1b3d78.js.map"
   },
   "entrypoints": [
-    "static/css/main.fda9b33e.css",
+    "static/css/main.de045197.css",
     "static/js/main.0c1b3d78.js"
   ]
 }

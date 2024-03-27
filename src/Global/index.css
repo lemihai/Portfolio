@@ -233,3 +233,10 @@ a:active {
 }
 
 /* SCROLL PAGE HEIGHT */
+
+/* LINKS */
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
