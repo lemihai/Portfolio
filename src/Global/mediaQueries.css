@@ -1143,6 +1143,8 @@
     height: 20vh;
     width: 30%;
     gap: 1rem;
+    overflow-wrap: break-word !important;
+    word-break: break-all;
   }
 
   .project-showcase-text:nth-child(1) {
