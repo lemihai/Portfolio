@@ -38,44 +38,44 @@ export default function App() {
 
     // SOLVED
 
-    // {/* <ParallaxProvider> */}
-    <div className="body background-gradient">
-      <GooFilter />
-      <div className="gradient-bg">
-        <div className="gradients-container">
-          <div className="g1"></div>
-          <div className="g2"></div>
-          <div className="g3"></div>
-          <div className="g4"></div>
-          <div className="g5"></div>
-          <div className="interactive"></div>
+    <ParallaxProvider>
+      <div className="body background-gradient">
+        <GooFilter />
+        <div className="gradient-bg">
+          <div className="gradients-container">
+            <div className="g1"></div>
+            <div className="g2"></div>
+            <div className="g3"></div>
+            <div className="g4"></div>
+            <div className="g5"></div>
+            <div className="interactive"></div>
+          </div>
         </div>
-      </div>
-      <main className="main-page">
-        {/* <SmoothScroll> */}
-        <BrowserRouter>
-          <Nav />
+        <main className="main-page">
+          {/* <SmoothScroll> */}
+          <BrowserRouter>
+            <Nav />
 
-          <Routes>
-            tggh
-            <Route path="/" element={<Main />} />
-            <Route path="/pages/main" element={<Main />} />
-            <Route path="/pages/work/*" element={<Work />} />
-            <Route path="/pages/about" element={<About />} />
-            <Route path="/pages/contact" element={<Contact />} />
-            <Route path="/pages/work/ps2" element={<Ps2 />}></Route>
-            <Route path="/pages/work/grad" element={<Grad />}></Route>
-            <Route
-              path="/pages/work/grad-design"
-              element={<GradDesign />}
-            ></Route>
-          </Routes>
-          <Footer />
-        </BrowserRouter>
-        {/* </SmoothScroll> */}
-      </main>
-    </div>
-    // {/* </ParallaxProvider> */}
+            <Routes>
+              tggh
+              <Route path="/" element={<Main />} />
+              <Route path="/pages/main" element={<Main />} />
+              <Route path="/pages/work/*" element={<Work />} />
+              <Route path="/pages/about" element={<About />} />
+              <Route path="/pages/contact" element={<Contact />} />
+              <Route path="/pages/work/ps2" element={<Ps2 />}></Route>
+              <Route path="/pages/work/grad" element={<Grad />}></Route>
+              <Route
+                path="/pages/work/grad-design"
+                element={<GradDesign />}
+              ></Route>
+            </Routes>
+            <Footer />
+          </BrowserRouter>
+          {/* </SmoothScroll> */}
+        </main>
+      </div>
+    </ParallaxProvider>
   );
 }
 
