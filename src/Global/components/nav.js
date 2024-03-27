@@ -24,30 +24,30 @@ export default function Nav() {
       {/* conditionally render with ternary operator the nav open */}
       <div className="nav-flex ">
         <div className="nav-link">
+          <Link to="/pages/main">
+            <Tilt>
+              <div className="nav-btn">home</div>
+            </Tilt>
+          </Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/pages/work">
+            <Tilt>
+              <div className="nav-btn">work</div>
+            </Tilt>
+          </Link>
+        </div>
+        <div className="nav-link">
           <Tilt>
-            <Link className="nav-btn" to="/pages/main">
-              home
+            <Link to="/pages/about">
+              <div className="nav-btn">about</div>
             </Link>
           </Tilt>
         </div>
         <div className="nav-link">
           <Tilt>
-            <Link className="nav-btn" to="/pages/work">
-              work
-            </Link>
-          </Tilt>
-        </div>
-        <div className="nav-link">
-          <Tilt>
-            <Link className="nav-btn" to="/pages/about">
-              about
-            </Link>
-          </Tilt>
-        </div>
-        <div className="nav-link">
-          <Tilt>
-            <Link className="nav-btn" to="/pages/contact">
-              contact
+            <Link to="/pages/contact">
+              <div className="nav-btn">contact</div>
             </Link>
           </Tilt>
         </div>
