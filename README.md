@@ -1,6 +1,6 @@
 # About
 
-My professional portfolio designed and coded by me
+My professional portfolio, designed and coded by myself.
 
 # Libraries Used
 
@@ -9,3 +9,6 @@ My professional portfolio designed and coded by me
 - React Router
 - react-scroll-parallax
 - email.js
+- react icons
+- Ionicons
+- Gsap / GsapScroll
