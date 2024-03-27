@@ -5,10 +5,10 @@ import { Tilt } from "react-tilt";
 
 // Images
 
-import grad from "../../Images/grad.jpg";
-import graddesign from "../../Images/grad.png";
-import hci from "../../Images/p3.jpg";
-import ps2 from "../../Images/ps2.jpg";
+import grad from "../../Images/grad.webp";
+import graddesign from "../../Images/graddesign.webp";
+import hci from "../../Images/grad.webp";
+import ps2 from "../../Images/grad.webp";
 
 // Pages import for routing
 
@@ -72,7 +72,7 @@ function Project({ name, description, pagelink, image, active }) {
       <div className={`work-project ${active === false ? "inactive" : ""}`}>
         <img
           className="work-project-image"
-          src={require(`../../Images/${image}.jpg`)}
+          src={require(`../../Images/${image}.webp`)}
           alt="project title image5"
         ></img>
         <h2 className="work-project-title">

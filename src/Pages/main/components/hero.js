@@ -1,4 +1,4 @@
-import hero from "../../../Images/hero/me.png";
+import hero from "../../../Images/hero/me.webp";
 import "../main.css";
 import gsap from "gsap";
 // import ScrollTrigger from "gsap/ScrollTrigger";

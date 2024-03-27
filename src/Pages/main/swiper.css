@@ -99,18 +99,18 @@
 /* *****-- PS2 SLIDE --****** */
 
 .ps2 {
-  background-image: url("../../Images/ps2.jpg");
+  background-image: url("../../Images/ps2.webp");
   background-size: cover;
   /* z-index: 3; */
 }
 
 .ps3d {
-  background-image: url("../../Images/sp3d.png");
+  background-image: url("../../Images/grad.webp");
   background-size: cover;
   /* z-index: 3; */
 }
 .mrc {
-  background-image: url("../../Images/mrc.png");
+  background-image: url("../../Images/grad.webp");
   background-size: cover;
   /* z-index: 3; */
 }
@@ -118,25 +118,25 @@
 /* *****-- Grad SLIDE --****** */
 
 .grad {
-  background-image: url("../../Images/grad.jpg");
+  background-image: url("../../Images/grad.webp");
   background-size: cover;
   /* z-index: 3; */
 }
 
 .grad-main-pica {
-  background-image: url("../../Images/grad/gra-ph1a\ \(5\).jpg");
+  background-image: url("../../Images/grad/gra-ph1a\ \(5\).webp");
   background-size: cover;
 }
 
 .grad-main-picb {
-  background-image: url("../../Images/grad/grad-experimenta.png");
+  background-image: url("../../Images/grad/grad-experimenta.webp");
   background-size: cover;
 }
 
 /* *****-- GRADDESIGN SLIDE --****** */
 
 .graddesign {
-  background-image: url("../../Images/graddesign.png");
+  background-image: url("../../Images/graddesignCover.webp");
   background-size: cover;
 }
 
@@ -157,10 +157,10 @@
 
 .inactive:hover div div .card-bottoma {
   transform: rotate(0deg) !important;
-  scale: 1;
+  scale: 1 !important;
 }
 
 .inactive:hover div div .card-bottomb {
   transform: rotate(0deg) !important;
-  scale: 1;
+  scale: 1 !important;
 }

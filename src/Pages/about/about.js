@@ -1,10 +1,10 @@
-import me from "../../Images/about/me (1).png";
-import mea from "../../Images/about/me-collage.png";
-import meb from "../../Images/about/me (3).jpg";
-import mec from "../../Images/about/me (4).jpg";
-import med from "../../Images/about/me (5).jpg";
-import mee from "../../Images/about/me (1).jpg";
-import mef from "../../Images/about/me (8).jpg";
+import me from "../../Images/about/me (1) (1).webp";
+import mea from "../../Images/about/me-collage.webp";
+import meb from "../../Images/about/me (3).webp";
+import mec from "../../Images/about/me (4).webp";
+import med from "../../Images/about/me (5).webp";
+import mee from "../../Images/about/me (1).webp";
+import mef from "../../Images/about/me (8).webp";
 import "./about.css";
 import { useParallax } from "react-scroll-parallax";
 

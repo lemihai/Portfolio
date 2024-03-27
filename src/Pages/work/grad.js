@@ -2,30 +2,30 @@ import "./work.css";
 import project from "../../Content/data.json";
 
 // IMPORT IMAGES
-import gradimage from "../../Images/gradresearch.png";
-import gradinterviewa from "../../Images/grad/gra-ph1a (2).jpg";
-import gradinterviewb from "../../Images/grad/gra-ph1a (3).jpg";
-import gradinterviewc from "../../Images/grad/gra-ph1a (5).jpg";
-import gradinterviewd from "../../Images/grad/gra-ph1a (7).jpg";
-import gradresearch from "../../Images/grad/grad-deskresearch.png";
+import gradimage from "../../Images//gradresearch.webp";
+import gradinterviewa from "../../Images/grad/gra-ph1a (2).webp";
+import gradinterviewb from "../../Images/grad/gra-ph1a (3).webp";
+import gradinterviewc from "../../Images/grad/gra-ph1a (5).webp";
+import gradinterviewd from "../../Images/grad/gra-ph1a (7).webp";
+import gradresearch from "../../Images/grad/grad-deskresearch.webp";
 import gradresearchques from "../../Images/grad/grad-researchquestions.png";
-import gradexperimenta from "../../Images/grad/grad-experimenta.png";
+import gradexperimenta from "../../Images/grad/grad-experimenta.webp";
 import gradsurvey from "../../Images/grad/survey.png";
-import usesofAI from "../../Images/grad/usesofai.png";
+import usesofAI from "../../Images/grad/usesofai.webp";
 
 // EXP Parallax
 
-import gradExpa from "../../Images/grad/grad-expa.png";
-import gradExpb from "../../Images/grad/grad-expb.png";
-import gradExpc from "../../Images/grad/grad-expc.png";
-import gradExpd from "../../Images/grad/grad-expd.png";
-import gradExpe from "../../Images/grad/grad-expe.png";
-import gradExpf from "../../Images/grad/grad-expf.png";
-import gradExpg from "../../Images/grad/grad-expg.png";
+import gradExpa from "../../Images/grad/grad-expa.webp";
+import gradExpb from "../../Images/grad/grad-expb.webp";
+import gradExpc from "../../Images/grad/grad-expc.webp";
+import gradExpd from "../../Images/grad/grad-expd.webp";
+import gradExpe from "../../Images/grad/grad-expe.webp";
+import gradExpf from "../../Images/grad/grad-expf.webp";
+import gradExpg from "../../Images/grad/grad-expg.webp";
 
 // IMG analysis
 
-import analysis from "../../Images/grad/gradanalysis.png";
+import analysis from "../../Images/grad/gradanalysis.webp";
 
 // import { Parallax, useParallax } from "react-scroll-parallax";
 

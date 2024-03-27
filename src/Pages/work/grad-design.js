@@ -1,5 +1,5 @@
 import "./work.css";
-import gradDesign from "../../Images/grad.jpg";
+import gradDesign from "../../Images/grad.webp";
 import { Parallax, useParallax } from "react-scroll-parallax";
 
 export default function Ps2() {
