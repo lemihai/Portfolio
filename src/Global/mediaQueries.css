@@ -819,6 +819,11 @@
   html {
     font-size: 50%;
   }
+
+  body {
+    position: relative;
+  }
+
   .project-textimage-wrap {
     height: 80vh;
   }
@@ -855,12 +860,22 @@
 
   .mobile-nav-btn {
     display: block;
-    /* mix-blend-mode: difference; */
     z-index: 9999;
+    position: absolute;
+    top: 3vh;
+    right: 6vw;
+  }
+
+  .mobile-nav-btn svg {
+    color: #045a32;
+  }
+
+  .mobile-nav-btn svg path {
+    /* color: #001a0e; */
   }
 
   nav {
-    position: relative;
+    /* position: relative; */
     padding: 3rem 4.2rem 0rem 4.2rem;
     mix-blend-mode: normal;
   }
@@ -877,6 +892,8 @@
     padding: 15vh 10vw 15vh 10vw;
     background-color: #001a0e;
     transform: translateX(100%);
+    /* mix-blend-mode: difference; */
+    /* mix-blend-mode: normal; */
 
     transition: all 0.3s ease-in;
 
@@ -903,11 +920,14 @@
   .nav-open .icon-menu[name="close"] {
     display: block;
     transition: all 0.3s ease-in;
+    color: #fff;
+    /* mix-blend-mode: exclusion !important; */
   }
 
   .nav-open .icon-menu[name="menu"] {
     display: none;
     transition: all 0.3s ease-in;
+    /* mix-blend-mode: exclusion !important; */
   }
 }
 

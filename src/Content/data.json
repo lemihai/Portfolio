@@ -9,7 +9,7 @@
     "project-content": {
       "About": {
         "title": "About",
-        "text": "With the new development of the AI tools, more and more young researchers are starting to use them in various parts of their process. But they do not have the experience to know what is right and what is not in a process thus leaving them vulnerable to the biases of such tools.  "
+        "text": "With the new development of AI tools, more and more young researchers are starting to use them in various parts of their process. But they do not have the experience to know what is right and what is not in a process thus leaving them vulnerable to the biases of such tools."
       },
       "Challenge": {
         "title": "Challenge",
@@ -17,16 +17,16 @@
       },
       "Solution": {
         "title": "Solution",
-        "text": "To tackle ths challenge I conducted a two phased research with the first part being focused on an explorative approach on the usage of AI in research. The 2nd phase was focused on an experiment that explored levels of empathy in UX researchers that used AI tools compared to traditional methods."
+        "text": "To tackle this challenge I conducted a two-phased research with the first part being focused on an explorative approach to the usage of AI in research. The 2nd phase was focused on an experiment that explored levels of empathy in UX researchers who used AI tools compared to traditional methods."
       },
       "Desk research": {
         "title": "Desk research",
-        "text": "The first step in my research project was to explore the existing literature on the subject. To organize the pool of articles, podcasts, research papers, I created a system where I would select the most interesting materials and summarize them and  use them as references or inspiration. I chose to conduct desk research because it’s important to explore the existing literature before starting a complex project. First of all to identify leads, then to understand what was already in the field."
+        "text": "The first step in my research project was to explore the existing literature on the subject. To organize the pool of articles, podcasts, and research papers, I created a system where I would select the most interesting materials and summarize them and use them as references or inspiration. I chose to conduct desk research because it’s important to explore the existing literature before starting a complex project. First of all to identify leads, then to understand what was already in the field."
       },
       "Focus": {
         "title": "Focus",
-        "text": "While conducting the desk research I came to the conclusion that my topic was not explored almoust at all. While tens of research papers were posted everyday focused on AI technology in multiple fields, there was very little information talking about both empathy and AI in the same place. Thus the more practical goal of my research:",
-        "focus": "Explore and identify the specific use cases in which young UX researchers are using Ai tools and define their reasons, goals, approaches. Then, compare how much empathy they have with their target group when using AI compared to traditional research methods"
+        "text": "While conducting the desk research I concluded that my topic was not explored almost at all. While tens of research papers were posted every day focused on AI technology in multiple fields, there was very little information talking about both empathy and AI in the same place. Thus the more practical goal of my research:",
+        "focus": "Explore and identify the specific use cases in which young UX researchers are using AI tools and define their reasons, goals, and approaches. Then, compare how much empathy they have with their target group when using AI compared to traditional research methods"
       },
       "RQ": {
         "title": "",
@@ -36,13 +36,13 @@
       },
       "Phase 1": {
         "title": "Phase 1",
-        "text": "The phase 1 of the research is about the ways in which researchers are using AI tools in their process. I am looking for interesting leads, novel use cases, their successful and not so  successful experiences with these new technologies",
+        "text": "Phase 1 of the research is about the ways in which researchers are using AI tools in their process. I am looking for interesting leads, novel use cases, and their successful and not-so-successful experiences with these new technologies",
         "methoda": "Interviews",
         "methodb": "Surveys",
         "methodc": "Content Analysis",
         "intro": "Finding out information using one research method is not enough when doing qualitative research. By performing 3 methods at the same time, the insights have a stronger backbone since they come from a triangulation process rich in raw data sources.",
         "targetgroup": "The target group consists mostly of UX design students of the UXD course that I am also part of. The focus is placed on each of the 3 years of the programme and in some cases, professional UX Designers have been included in the study and even teachers. As the research group is focused on raising awareness inside of the course, the target group fits the context of my project.",
-        "conclusion": "The research gave very interesting results and since the topic was new to the public, all new results were useful. This process broadened my curiosity towards the depths of my results. I became very intrigued by the fact that there were researchers that used GPT as a target group. Basically they were interviewing ChatGPT which raised so many questions. More on this in the next phase. "
+        "conclusion": "The research gave very interesting results and since the topic was new to the public, all new results were useful. This process broadened my curiosity towards the depths of my results. I became very intrigued by the fact that there were researchers who used GPT as a target group. Basically, they were interviewing ChatGPT which raised so many questions. More on this in the next phase."
       },
       "Interviews": {
         "title": "Interviews",
@@ -59,10 +59,10 @@
       },
       "Phase 2": {
         "title": "Phase 2",
-        "text": "The phase two is marked by an experiment that will test the results of a traditional interview and an interview conducted with ChatGPT as the target group. Later, the level of empathy of the researchers is tested.",
+        "text": "Phase two is marked by an experiment that will test the results of a traditional interview and an interview conducted with ChatGPT as the target group. Later, the level of empathy of the researchers is tested.",
         "methoda": "Experiment",
-        "intro": "“Why not just interview ChatGPT?” This question appeared in one of the interviews of the phase 1 and as a researcher myself, it intrigued me a lot. I couldn’t stop thinking about it because it was interesting. As bad as it sounds because we all know how biased GPT can be and trusting anything it generates requires some digging into sources and existing real literature, it’s actually promising. Initially, it seems like it solves a problem, dealing with users, but on a closer look nothing gets solved as we don’t know if we can trust the data. I explored this dilemma by observing the level of understanding of a problem that one researcher has when using ChatGPT compared to a traditional interview. With very little participants, the results were not conclusive or backed up by anything. ",
-        "conclusion": "While following multiple research papers and drawing inspiration from the articles I discovered during the initial stages of the project, I designed the experiment to have a control group, an experimental group that should have comparable results. I controlled for what my participants were going to interview, some of them had real people while others had an AI pretending to be a real person. "
+        "intro": "“Why not just interview ChatGPT?” This question appeared in one of the interviews of phase 1 and as a researcher myself, it intrigued me a lot. I couldn’t stop thinking about it because it was interesting. As bad as it sounds because we all know how biased GPT can be and trusting anything it generates requires some digging into sources and existing real literature, it’s actually promising. Initially, it seems like it solves a problem, dealing with users, but on a closer look, nothing gets solved as we don’t know if we can trust the data. I explored this dilemma by observing the level of understanding of a problem that one researcher has when using ChatGPT compared to a traditional interview. With very few participants, the results were not conclusive or backed up by anything.",
+        "conclusion": "While following multiple research papers and drawing inspiration from the articles I discovered during the initial stages of the project, I designed the experiment to have a control group, an experimental group that should have comparable results. I controlled what my participants were going to interview, some of them had real people while others had an AI pretending to be a real person."
       },
       "Experiment": {
         "title": "Experiment",
@@ -85,7 +85,7 @@
       },
       "Conclusion": {
         "title": "",
-        "text": "With my research, I contributed to the literature of AI research and I also contributed to the client by completing the challenge presented to me. My research offered the clients an introductory overview into my topic to have basis for future research papers. Moreover, the materials and raw data can be reused in numbers of ways with different focuses and the 2nd phase can be continued with more participants. Overall the clients were very happy with the results. ",
+        "text": "With my research, I contributed to the literature of AI research and I also contributed to the client by completing the challenge presented to me. My research offered the clients an introductory overview of my topic to have a basis for future research papers. Moreover, the materials and raw data can be reused in a number of ways with different focuses and the 2nd phase can be continued with more participants. Overall the clients were very happy with the results.",
         "text-bias": ""
       }
     }

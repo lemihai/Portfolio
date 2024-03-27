@@ -112,7 +112,7 @@ export default function CarouselB() {
                 <div className="project-wrap card-front graddesign">
                   <p className="project-title">Graduation Project</p>
                   <p className="project-description">
-                    AI assistanc concept Design
+                    AI assistant concept Design
                   </p>
                 </div>{" "}
               </div>
