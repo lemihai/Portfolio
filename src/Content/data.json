@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "type": "proj",
+    "project_name": "The impact of AI in the process of empathy",
+    "description": "Exploring the implications of GPT-3.5 and Midjourney in UX research",
+    "pagelink": "grad",
+    "image": "grad",
+    "project-content": {
+      "About": {
+        "title": "About",
+        "text": "With the new development of AI tools, more and more young researchers are starting to use them in various parts of their process. But they do not have the experience to know what is right and what is not in a process thus leaving them vulnerable to the biases of such tools."
+      },
+      "Challenge": {
+        "title": "Challenge",
+        "text": "Map out the first impacts that AI tools such as GPT 3.5 and Midjourney have on the process of empathy development in UX designers"
+      },
+      "Solution": {
+        "title": "Solution",
+        "text": "To tackle this challenge I conducted a two-phased research with the first part being focused on an explorative approach to the usage of AI in research. The 2nd phase was focused on an experiment that explored levels of empathy in UX researchers who used AI tools compared to traditional methods."
+      },
+      "Desk research": {
+        "title": "Desk research",
+        "text": "The first step in my research project was to explore the existing literature on the subject. To organize the pool of articles, podcasts, and research papers, I created a system where I would select the most interesting materials and summarize them and use them as references or inspiration. I chose to conduct desk research because it’s important to explore the existing literature before starting a complex project. First of all to identify leads, then to understand what was already in the field."
+      },
+      "Focus": {
+        "title": "Focus",
+        "text": "While conducting the desk research I concluded that my topic was not explored almost at all. While tens of research papers were posted every day focused on AI technology in multiple fields, there was very little information talking about both empathy and AI in the same place. Thus the more practical goal of my research:",
+        "focus": "Explore and identify the specific use cases in which young UX researchers are using AI tools and define their reasons, goals, and approaches. Then, compare how much empathy they have with their target group when using AI compared to traditional research methods"
+      },
+      "RQ": {
+        "title": "",
+        "text": "After the desk research gave me a couple of directions and ideas about the project, I created two research questions that tackle two aspects of my goal",
+        "rq1": "What are the active AI tools such as LLMs or Generative engines are used in the process of developing empathy with target groups for UX students?",
+        "rq2": "What is the level of understanding of the context of a target group when conducting AI-assisted research compared to a traditional research method in the context of Human-centered design?"
+      },
+      "Phase 1": {
+        "title": "Phase 1",
+        "text": "Phase 1 of the research is about the ways in which researchers are using AI tools in their process. I am looking for interesting leads, novel use cases, and their successful and not-so-successful experiences with these new technologies",
+        "methoda": "Interviews",
+        "methodb": "Surveys",
+        "methodc": "Content Analysis",
+        "intro": "Finding out information using one research method is not enough when doing qualitative research. By performing 3 methods at the same time, the insights have a stronger backbone since they come from a triangulation process rich in raw data sources.",
+        "targetgroup": "The target group consists mostly of UX design students of the UXD course that I am also part of. The focus is placed on each of the 3 years of the programme and in some cases, professional UX Designers have been included in the study and even teachers. As the research group is focused on raising awareness inside of the course, the target group fits the context of my project.",
+        "conclusion": "The research gave very interesting results and since the topic was new to the public, all new results were useful. This process broadened my curiosity towards the depths of my results. I became very intrigued by the fact that there were researchers who used GPT as a target group. Basically, they were interviewing ChatGPT which raised so many questions. More on this in the next phase."
+      },
+      "Interviews": {
+        "title": "Interviews",
+        "text": "I chose the semi-structured interview to gain an understanding of how the participants are using the AI tools and their opinions and take on those tools. The technique gives me the freedom also to ask follow-up questions and have a free conversation by deviating from the main protocol in case I find something interesting in the interview. I will also look for missing pieces in the practice like where AI can be used further and where it's not already used. Also, by listening to the needs of the researchers and getting more insights about their desires, wants and pain points, I can find out what can AI solve in the empathizing process.",
+        "texta": ""
+      },
+      "Surveys": {
+        "title": "Surveys",
+        "text": "In this research, surveys will help me map out the use of artificial intelligence in the field of gaining empathy or research. The surveys are going to be sent to the target group and try to collect quantitative data on AI uses "
+      },
+      "AiUse": {
+        "title": "Ai Use",
+        "text": "The research technique of uses of AI is an edited version of content analysis adapted to transcripts of ChatGPT conversations. Here, I am reading through the outputs of the AI tools used by the participants gathered in the interviews and surveys and analyzing the data. At the end of each of the research methods, I asked people if they were willing to share information with me and whoever felt comfortable doing so, they did. Some people shared GPT conversations, some people shared images generated, poems, heatmaps, entire analysis processes, and multiple other things"
+      },
+      "Phase 2": {
+        "title": "Phase 2",
+        "text": "Phase two is marked by an experiment that will test the results of a traditional interview and an interview conducted with ChatGPT as the target group. Later, the level of empathy of the researchers is tested.",
+        "methoda": "Experiment",
+        "intro": "“Why not just interview ChatGPT?” This question appeared in one of the interviews of phase 1 and as a researcher myself, it intrigued me a lot. I couldn’t stop thinking about it because it was interesting. As bad as it sounds because we all know how biased GPT can be and trusting anything it generates requires some digging into sources and existing real literature, it’s actually promising. Initially, it seems like it solves a problem, dealing with users, but on a closer look, nothing gets solved as we don’t know if we can trust the data. I explored this dilemma by observing the level of understanding of a problem that one researcher has when using ChatGPT compared to a traditional interview. With very few participants, the results were not conclusive or backed up by anything.",
+        "conclusion": "While following multiple research papers and drawing inspiration from the articles I discovered during the initial stages of the project, I designed the experiment to have a control group, an experimental group that should have comparable results. I controlled what my participants were going to interview, some of them had real people while others had an AI pretending to be a real person."
+      },
+      "Experiment": {
+        "title": "Experiment",
+        "text": "Research method 5, the experiment, is an experiment in which I simulate a research process conducted with and without AI. With a more scientific approach, I am comparing the behaviours and level of empathy of researchers who have used AI and researchers who have used a real target group for the same research method (a controlled interview). "
+      },
+      "Analysis": {
+        "title": "Analysis",
+        "text-a": "For the data analysis of the 1st phase of research, I coded the interviews of the RM2 (semi-structured interviews) and proceeded to analyze the co-occurrence of the codes and their frequency of appearance. Moreover, I proceeded to create data cards for each of the interviews. For RM3 (survey) I analyzed the results and validated them with the coding results of RM2. Moreover, I also drew a conclusion based on the answers of the participants. For RM4 (Uses of AI Analysis) I read the GPt conversations and I looked through the questions they were asking and the answers. I proceeded to validate the RM2 results with RM4.",
+        "text-b": "I chose the method of coding interviews and analyzing the codes because this gave me a higher chance to identify patterns than if I did data cards, as the already created data cards are high in number and clustering and trying to identify patterns would have taken too much time.",
+        "text-phase2": "For the data analysis of the 2nd technique, I created data cards from the CTRL group, the interview made by the researcher, and concluded how many of the questions from the protocol have been answered. Moreover, I analyzed the interviews and watched the recordings to gather data on body language and the data gathered from participants. These observations were noted in a separate section from the data cards from the interviews. On the other hand, I read the GPT conversations and took out data cards from them to answer the questions from the protocol and further follow-up questions. "
+      },
+      "Insights": {
+        "title": "",
+        "insight1": "AI tools are mostly used in tasks that are related to cognitive and technical outsourcing. On multiple occasions, it has been seen in interviews and AI use cases how people have been using AI on tasks that are not hard to do, but tedious in time management. Tasks such as desk research, summarizing data, “Googling”, etc…",
+        "insight2": "AI tools are a starting point for a lot of projects. During the interviews, a lot of participants noted how AI tools are helping them as a starting point or even get unstuck. AI can generate hundreds of ideas and give plans and direction from which students can build. Multiple participants have been using it for protocols and research design, only to later edit it to fit their current projects and needs",
+        "insight3": "Overall, using ChatGPT to gather insights and data from the target group has been proven to gather around 46.3 more data points than with traditional interviews. This is an increase of 115% more data.",
+        "insight4": "Correlating the EXP3 to CTRL 3 shows an overwhelming advantage towards the EXP data output of 286% and 43 data points. This means that doing a one-on-one interview is less useful than performing a ChatGPT search in terms of data and almost all of the points existing in the interview could be correlated to GPT. Only 15 points were not touched by EXP.",
+        "insight5": "EXP data points and experiences show that even if most of the data present can be correlated in the real world, there are cases where findings have been far-fetched and not only hard to believe by the actual researchers but untraceable in any of the other real-life experiences",
+        "insight6": "EXP data points and experiences show that even if most of the data present can be correlated in the real world, there are cases where findings have been far-fetched and not only hard to believe by the actual researchers but untraceable in any of the other real-life experiences"
+      },
+      "Conclusion": {
+        "title": "",
+        "text": "With my research, I contributed to the literature of AI research and I also contributed to the client by completing the challenge presented to me. My research offered the clients an introductory overview of my topic to have a basis for future research papers. Moreover, the materials and raw data can be reused in a number of ways with different focuses and the 2nd phase can be continued with more participants. Overall the clients were very happy with the results.",
+        "text-bias": ""
+      }
+    }
+  },
+  {
+    "id": 2,
+    "type": "proj",
+    "project_name": "Making Delft Gas-free",
+    "description": "Communicating the energy transition to the people of Delft",
+    "pagelink": "inactive-PS2",
+    "image": "ps2",
+    "active": false,
+    "project-content": {
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      }
+    }
+  },
+  {
+    "id": 3,
+    "type": "proj",
+    "project_name": "Graduation Project",
+    "description": "Designing an AI tool for researchers to communicate with their target group",
+    "pagelink": "ianctive-grad-design",
+    "image": "graddesignCover",
+    "active": false,
+    "project-content": {
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      },
+      "": {
+        "title": "",
+        "text": ""
+      }
+    }
+  }
+]

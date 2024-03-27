@@ -1,0 +1,185 @@
+.main-page {
+  overflow: hidden;
+}
+
+.link-none {
+  text-decoration: none;
+}
+
+/* **************** */
+/* HERO SECTION */
+/* **************** */
+
+.hero-wrapper {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 12.8rem 6rem 12.8rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.hero-text h1 {
+  /* font-size: 6.2rem; */
+  font-weight: 800;
+  /* color: #ffffff; */
+  text-transform: uppercase;
+  margin-bottom: 4.2rem;
+  padding-left: 3.4rem;
+  mix-blend-mode: exclusion;
+}
+
+.hero-text-main {
+  position: absolute;
+  transform: translateY(-50%);
+  font-size: 28.2rem !important;
+}
+
+.hero-text-secondary {
+  font-size: 4.2rem;
+  color: #ffffff40;
+  position: absolute;
+  transform: translate(30vw, -50vh);
+}
+
+.hero-text-tertiary {
+  font-size: 8.2rem;
+  position: absolute;
+  transform: translate(-30vw, -30vh);
+  color: #ffffff80;
+}
+
+.hero-image {
+  height: 60%;
+}
+
+/* **************** */
+/* CAROUSEL SECTION */
+/* **************** */
+
+.carousel-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-intro-header {
+  font-size: 8.2rem;
+
+  margin: 8rem;
+}
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+  margin: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 40rem;
+  padding: 3.6rem;
+}
+
+.swiper-slide div {
+  width: 100%;
+  transition: 0.2s all ease;
+}
+
+.project-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 3.6rem;
+  height: 40rem;
+  width: 100%;
+  color: #fff;
+}
+
+.project-title {
+  font-size: 6.2rem;
+  font-weight: 700;
+  font-size: 6.2rem;
+}
+
+.ps2 {
+  background-image: url("../../Images/grad.webp");
+  background-size: cover;
+  z-index: 3;
+}
+
+/* **************** */
+/* ABOUT ME SECTION */
+/* **************** */
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  font-weight: 400;
+  padding: 10vh 25vw 10vh 14vw;
+  color: #ffffff;
+}
+
+.main-text {
+  font-size: 4.2rem;
+}
+
+.main-header {
+  font-size: 4.2rem;
+  margin-bottom: 4.2rem;
+}
+
+.main-highlight {
+  /* font-size: 5.2rem; */
+  font-weight: 700;
+
+  text-transform: uppercase;
+  /* color: #00ff73; */
+  /* color: #00ff4c; */
+  color: #00ffb3;
+}
+
+.color-heighlight-a {
+  /* color: #00ffb3; */
+  /* color: #00ffdd; */
+}
+
+.color-heighlight-b {
+  /* color: #00ffb3; */
+  color: #00ff73;
+
+  /* color: #00ffdd50; */
+}
+
+/* EXTRA */
+
+.highlighted-projects {
+  width: 100%;
+  padding: 10vh 12.8rem 6rem 12.8rem;
+  text-align: center;
+  font-size: 6.2rem;
+  opacity: 0.8;
+}

@@ -1,0 +1,235 @@
+/* 
+
+--- 01 Typography System ---
+
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- font weights: 
+
+Default: 400 
+
+- line height: 1
+
+
+
+--- 02 Color System ---
+
+primary: 
+
+tints: 
+
+shades:
+
+accents:
+
+greys:
+
+--- 03 Shadows ---
+
+--- 04 Border-radius ---
+
+--- 05 Whitespace ---
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+Section: 
+
+--- 06 Layout ---
+
+-nav
+-hero
+-carousel
+-more work button
+-what do I offer (cards / bubbles)
+-some ideas about me
+-footer (contact)
+
+---Floating button that will switch to coding. 
+
+*/
+
+/* Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  /* transition: 0.3s all ease; */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #dfdfdf;
+  line-height: 1.5;
+}
+
+.body {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Sections */
+
+/* MAIN */
+
+main {
+  z-index: 1;
+}
+
+/* NAV */
+
+nav {
+  position: fixed;
+
+  width: 100vw;
+  height: auto;
+  padding: 1rem 8.2rem;
+
+  /* display properties for the navigation bar*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* font-sizes of the navigation bar */
+  font-size: 1.8rem;
+  font-weight: 600;
+  z-index: 100;
+  /* color: #fff; */
+  /* This line of code makes the whole anvbar exclusion */
+  mix-blend-mode: exclusion;
+}
+
+.logo {
+  height: 2.4rem;
+  width: 2.4rem;
+  mix-blend-mode: normal;
+  /* z-index: 99999; */
+}
+
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+nav a:hover,
+nav a:active {
+  scale: 1.2;
+  color: none;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.nav-btn {
+  text-transform: uppercase;
+}
+
+.nav-btn:link,
+.nav-btn:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: #fff; */
+  background-color: #08572f00;
+  border: none;
+  transition: 0.3s all ease;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+  scale: 1.1;
+  background-color: #0c573e;
+  transition: 0.3s all ease;
+}
+
+.mobile-nav-btn {
+  background: none;
+  border: none;
+  height: 3.2rem;
+  width: 3.2rem;
+  display: none;
+  /* mix-blend-mode: difference; */
+}
+
+.mobile-nav-btn svg {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #fff;
+}
+
+.icon-menu[name="close"] {
+  display: none;
+}
+
+/* FOOTER */
+footer {
+  width: 100vw;
+  height: 30vh;
+  /* background-color: #e100ff4d; */
+
+  padding: 0rem 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a:link,
+a:visited {
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  height: 6rem;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #08572f00;
+  border: none;
+  transition: 0.3s all ease;
+}
+
+footer a:hover,
+a:active {
+  scale: 1.1;
+  background-color: #0c573e;
+  transition: 0.3s all ease;
+}
+
+.footer-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 1.6rem;
+}
+
+/* SCROLL PAGE HEIGHT */
