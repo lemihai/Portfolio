@@ -1,6 +1,6 @@
 # About
 
-My professional portfolio, designed and coded by myself.
+My professional portfolio, designed and coded by me.
 
 # Libraries Used
 
